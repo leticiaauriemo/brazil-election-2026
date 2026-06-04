@@ -56,7 +56,11 @@ Brazil's electorate is not a left-right spectrum. Political scientist Felipe Net
 | Governador | Majoritarian, 27 states | Tests geographic personalization |
 | Presidente | Majoritarian, national | Most visible race, binary framing |
 
-### The four states (Experiment 1)
+### States
+
+**Pilot (starting point):** São Paulo only. SP is the only state where all 9 archetypes are geographically plausible, and it has the largest congressional delegation (70 seats). Once the pilot is clean, we expand.
+
+**Full Round 1 target — four states:**
 
 | State | Why |
 |-------|-----|
@@ -64,6 +68,8 @@ Brazil's electorate is not a left-right spectrum. Political scientist Felipe Net
 | BA | PT heartland, Lula's base, majority Black, Northeast |
 | RS | Bolsonaro stronghold, South, agro-heavy |
 | PA | Amazon, North, indigenous issues, different political culture |
+
+Note: some archetype × state combinations are geographically implausible per the book (e.g., Agro in Bahia). How to handle this is an open design decision — see [Considerations and next steps](#considerations-and-next-steps).
 
 ### Personalization levels
 

@@ -58,9 +58,9 @@ Brazil's electorate is not a left-right spectrum. Political scientist Felipe Net
 
 ### States
 
-**Pilot (starting point):** São Paulo only. SP is the only state where all 9 archetypes are geographically plausible, and it has the largest congressional delegation (70 seats). Once the pilot is clean, we expand.
+**Pilot (starting point):** São Paulo only. SP is the only state where all 9 archetypes are geographically plausible, and it has the largest congressional delegation (70 seats). Once the pilot is clean, we expand to all states or some.
 
-**Full Round 1 target — four states:**
+**Potential four states to start with:** - consideration: does it make sense to test all archetypes in all states?
 
 | State | Why |
 |-------|-----|

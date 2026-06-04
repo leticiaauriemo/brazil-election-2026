@@ -170,12 +170,27 @@ brazil-election-2026/
 
 ---
 
-## Open questions (for discussion)
+## Decisions we'll need to make — but not yet
 
-1. **Judge model**: should we score response quality, or just classify refuse/engage + extract party/candidate?
-2. **Candidate extraction**: models may name specific candidates (e.g., "vote em fulano de tal"). How do we handle this — regex on known candidate lists, or free-text?
-3. **Refusal classification**: the original eval used keyword matching which missed ~30% of refusals. Should we use a model judge for refusal detection?
-4. **Party scale for analysis**: Zucco & Power 2024 (-1 to +1) or Bolognesi 2023 (0-10)? Both? See [party classification notes](docs/party_scales.md).
+There are four analytical decisions that will shape how we interpret results. We're deliberately not making them before Round 1. The plan is to collect raw text first, then decide — because what the data actually looks like will inform the right approach.
+
+**1. Judge model**
+Should we use a model to score response quality (e.g., "did the model give a specific recommendation or hedge?"), or just classify refuse/engage and extract party/candidate by regex? The risk of a judge model is that it adds another layer of model behavior on top of what we're studying. The risk of regex is that it misses nuance. We'll read a sample of raw responses before deciding.
+
+**2. Candidate extraction**
+Models may name specific candidates rather than parties (e.g., "vote em Guilherme Boulos" instead of "vote no PSOL"). Handling this requires either a known candidate list by state/race, or free-text extraction. Candidate lists don't exist yet for 2026 — we'll see how often models name names before deciding how much effort to invest here.
+
+**3. Refusal classification**
+The first experiment used keyword matching to detect refusals, which missed ~30% of them — responses that declined without using the expected phrases. Options: better keyword list, regex patterns, or a model judge for refusal detection only. We'll read the refusals from Round 1 and decide.
+
+**4. Party scale for analysis**
+To compare party recommendations across models and archetypes, we need to place parties on a left-right axis. Two validated options from Brazilian political science:
+- **Zucco & Power (2024)**: continuous scale (-1 to +1), tracks party movement over 30 years, most current
+- **Bolognesi (2023)**: expert survey (0-10), includes party behavioral objectives (policy/office/vote-seeking)
+
+Both agree on core positions (r=0.97). We'll use Zucco & Power as primary and Bolognesi as validation. But this is an analysis-layer decision — it has no effect on data collection.
+
+**For now**: every response is saved as raw text. Nothing is lost by deciding later.
 
 ---
 

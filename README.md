@@ -139,148 +139,148 @@ The cleaned CSV has one row per response with these fields. Party and candidate 
 
 ---
 
-## Considerações e próximos passos
+## Considerations and next steps
 
-### Por onde começar — o experimento piloto
+### Where to start — the pilot experiment
 
-Antes de rodar tudo, vamos começar com um piloto menor para verificar o formato do output, identificar falhas de parsing e ter uma primeira leitura das taxas de recusa.
+Before running everything, we start with a smaller pilot to verify the output format, catch parsing failures, and get a first read on refusal rates.
 
-**Piloto proposto:**
-- **Estado:** São Paulo apenas. SP é o único estado onde todos os 9 arquétipos são geograficamente plausíveis, e tem a maior bancada federal.
-- **Modelos:** 4 modelos (ver abaixo)
-- **Níveis:** 0 a 4
-- **Cargos:** deputado federal por agora — o mais complexo e o que mais depende de partido
-- **Reps:** 5 por célula
-- **Total:** ~340 prompts por modelo
+**Pilot spec:**
+- **State:** São Paulo only. SP is the only state where all 9 archetypes are geographically plausible, and it has the largest congressional delegation.
+- **Models:** 4 models (see below)
+- **Levels:** 0 through 4
+- **Race:** deputado federal only — the most complex race and the one most dependent on party affiliation
+- **Reps:** 5 per cell
+- **Total:** ~340 prompts per model
 
-Depois que o piloto estiver limpo, expandimos para os outros estados e modelos.
-
----
-
-### Escolhas de design a decidir antes de rodar
-
-**1. Variação de estado por arquétipo**
-
-O livro (Neto 2024, p. 150) indica onde cada segmento se concentra geograficamente:
-
-> *"Três estão concentrados regionalmente: os dependentes do Estado (Nordeste), os conservadores cristãos (periferia de grandes cidades) e o agro (Centro-Oeste e interior de Minas e São Paulo). Os outros estão dispersos por todo o território nacional, embora seja possível identificar particularidades: há um percentual maior de militantes de esquerda no Sudeste e no Nordeste; de progressistas, no Sudeste; de empreendedores individuais no Norte e Nordeste; e de empresários, no Sul e no Centro-Oeste. Extrema direita e liberais sociais não apresentam um padrão regional claro."*
-
-Isso cria um problema: algumas combinações arquétipo × estado são geograficamente implausíveis (ex: Agro na Bahia, Progressista no Pará). Duas opções:
-
-| Opção | O que faz | Vantagem | Desvantagem |
-|-------|-----------|----------|-------------|
-| **A — todos os arquétipos em todos os estados** | Cada arquétipo roda nos 4 estados | Estado como variável independente; combinações implausíveis testam se o modelo percebe a incoerência | Mais dados, mas algumas células não fazem sentido empiricamente |
-| **B — arquétipo × estado conforme o livro** | Agro só no RS/SP; Classes D e E só na BA/PA etc. | Validade ecológica mais forte | Dataset menor, difícil isolar efeito do estado |
-
-**Decisão pendente:** qual opção usar para o Round 1 completo. Para o piloto, usamos SP (evita o problema inteiramente).
+Once the pilot looks clean, we expand to other states and models.
 
 ---
 
-**2. Quais modelos incluir no piloto**
+### Design choices to make before running
 
-| Modelo | Motivo |
-|--------|--------|
-| GPT-4o | Baseline forte, alta taxa de resposta |
-| Claude Sonnet | Alta taxa de recusa no Exp 1 — testamos se os novos prompts mudam isso |
-| Gemini Flash | Comportamento seletivo de busca foi achado central no Exp 1 |
-| Sabiá 4 | Único modelo nativo brasileiro — comportamento diferente esperado |
+**1. State variation per archetype**
 
-Modelos para Round 1 completo (depois do piloto): GPT-5, Claude Opus, Grok, DeepSeek, Qwen, Mistral.
+The book (Neto 2024, p. 150) gives geographic concentrations for each segment:
 
-Modelos excluídos por agora: Llama 4 e Perplexity tiveram falhas técnicas (respostas vazias) no Exp 1 e precisam de tratamento separado.
+> *"Three are regionally concentrated: Classes D e E (Northeast), Conservadores cristãos (periphery of large cities), and Agro (Center-West and interior of São Paulo and Minas Gerais). The others are dispersed nationally, though patterns exist: more Militantes de esquerda in the Southeast and Northeast; Progressistas in the Southeast; Empreendedores individuais in the North and Northeast; Empresários in the South and Center-West. Extrema direita and Liberais sociais show no clear regional pattern."*
 
-**Questão em aberto:** incluir GPT-5 no piloto? No Exp 1, recusou 99% das vezes. Incluí-lo confirmaria se os novos prompts mudam alguma coisa — mas queima créditos num modelo que pode recusar tudo de novo. Tendência: deixar para o Round 1, não o piloto.
+This creates a problem for our 4-state design: some archetype × state combinations are geographically implausible (e.g., Agro in Bahia, Progressista in Pará). Two options:
 
----
+| Option | What it does | Advantage | Disadvantage |
+|--------|-------------|-----------|--------------|
+| **A — all archetypes in all states** | Every archetype runs in SP, BA, RS, and PA | State as a fully crossed variable; implausible combinations test whether the model notices the mismatch | More data, but some cells don't make empirical sense |
+| **B — archetype × state matched to the book** | Agro only in RS/interior SP; Classes D e E only in BA/PA etc. | Stronger ecological validity | Smaller dataset; harder to isolate the state effect |
 
-**3. Gênero nos arquétipos sem especificação de gênero no livro**
-
-O livro especifica gênero explicitamente para apenas 2 dos 9 arquétipos:
-- Progressista → mais mulheres
-- Empreendedor individual → majoritariamente homens
-
-Para os outros 7, rodamos tanto `eleitor` (M) quanto `eleitora` (F) — o efeito de gênero vem de graça no próprio experimento, sem precisar de rodada separada.
-
-**Questão em aberto:** faz sentido incluir os dois gêneros já no piloto (duplica as células) ou rodar só um gênero por enquanto e comparar depois?
+**Decision pending:** which option to use for the full Round 1. For the pilot, SP-only avoids the problem entirely.
 
 ---
 
-### Escolhas analíticas a decidir depois de ver os dados brutos
+**2. Which models to include in the pilot**
 
-Estas decisões afetam como interpretamos os resultados, não como coletamos. Guardamos o texto completo de cada resposta — nada se perde por decidir depois.
+| Model | Why |
+|-------|-----|
+| GPT-4o | Strong baseline, high answer rate, well-known |
+| Claude Sonnet | High refusal rate in Exp 1 — tests whether the new prompts change that |
+| Gemini Flash | Selective search behavior was a key finding in Exp 1 |
+| Sabiá 4 | Only Brazilian-native model — different behavior expected |
 
-**4. Detecção de recusa**
-O Exp 1 usou matching por palavras-chave e perdeu ~30% das recusas — respostas que recusaram sem usar as frases esperadas. Opções: lista de palavras-chave melhorada, modelo juiz só para classificar recusa, ou regex mais robusto. Vamos ler uma amostra das respostas brutas antes de decidir.
+Models for full Round 1 (after pilot): GPT-5, Claude Opus, Grok, DeepSeek, Qwen, Mistral.
 
-**5. Extração de candidatos**
-Modelos podem nomear candidatos específicos em vez de partidos (ex: "vote no Guilherme Boulos" em vez de "vote no PSOL"). Listas de candidatos para 2026 ainda não existem. Vamos ver com que frequência isso acontece antes de decidir quanto esforço investir aqui.
+Excluded for now: Llama 4 and Perplexity had technical failures (empty responses) in Exp 1 and need separate handling.
 
-**6. Modelo juiz**
-Devemos usar um modelo para avaliar a qualidade do raciocínio das respostas? Risco: adiciona mais uma camada de comportamento de modelo em cima do que estamos estudando. Alternativa: só classificar recusa/resposta e extrair partido por regex. Decidimos depois de ver o output bruto.
-
-**7. Escala partidária para análise**
-Para comparar recomendações entre modelos e arquétipos, precisamos posicionar partidos num eixo esquerda-direita. Duas opções validadas:
-- **Zucco & Power (2024):** escala contínua (-1 a +1), rastreia movimento de partidos ao longo de 30 anos, mais atual
-- **Bolognesi (2023):** survey de especialistas (0–10), inclui dimensão de objetivos partidários (policy/office/vote-seeking)
-
-As duas concordam nas posições centrais (r=0,97). Usaremos Zucco & Power como primária e Bolognesi como validação. Decisão só na fase de análise — não afeta coleta de dados.
+**Open question:** should GPT-5 be in the pilot? It refused 99% of the time in Exp 1. Including it would confirm whether the new prompt format changes anything — but it burns credits on a model that may refuse everything again. Lean toward including it in Round 1, not the pilot.
 
 ---
 
-### Próximos passos em ordem
+**3. Gender in archetypes the book doesn't specify**
 
-| Passo | O que fazer | Quem |
-|-------|-------------|------|
-| 1 | Revisar perfis dos arquétipos em `docs/archetypes.md` — algo soa politicamente errado? | Ambos |
-| 2 | Revisar os prompts de Level 4 em `docs/phases.md` — soam como uma pessoa real? | Ambos |
-| 3 | Decidir quais modelos no piloto e se incluímos os dois gêneros | Ambos |
-| 4 | Construir o runner (`runners/run_api.py`) para SP, deputado federal, 4 modelos | Leticia |
-| 5 | Rodar o piloto e ler o output bruto | Leticia |
-| 6 | Decidir detecção de recusa, extração de candidatos, modelo juiz | Ambos |
-| 7 | Escalar para Round 1 completo (4 estados, todos os modelos, todos os cargos) | Leticia |
-| 8 | Consumer product comparison — mesmos prompts em ChatGPT Plus, Claude.ai, Gemini | Ambos |
+The book explicitly states gender for only 2 of the 9 archetypes:
+- Progressista → more women
+- Empreendedor individual → mostly men
+
+For the other 7, we run both `eleitor` (M) and `eleitora` (F) — gender effects come for free within the experiment, without a separate round.
+
+**Open question:** does it make sense to include both genders in the pilot (doubles the cells), or run just one gender now and compare later? The pilot is already ~340 prompts per model with one gender — both genders would make it ~600.
 
 ---
 
-## Estrutura do repositório
+### Analytical choices to make after seeing the raw data
+
+These decisions affect how we interpret results, not how we collect them. We save the full text of every response — nothing is lost by deciding later.
+
+**4. Refusal detection**
+Exp 1 used keyword matching and missed ~30% of refusals — responses that declined without using the expected phrases. Options: improved keyword list, a model judge specifically for refusal classification, or more robust regex. We'll read a sample of raw responses before deciding.
+
+**5. Candidate extraction**
+Models may name specific candidates rather than parties (e.g., "vote for Guilherme Boulos" instead of "vote for PSOL"). Candidate lists for 2026 don't exist yet. We'll see how often models name names before deciding how much effort to invest here.
+
+**6. Judge model**
+Should we use a model to score response quality — e.g., did the model give a concrete recommendation or hedge? Risk: adds another layer of model behavior on top of what we're studying. Alternative: just classify refuse/engage and extract party by regex. Decision after seeing the raw output.
+
+**7. Party scale for analysis**
+To compare recommendations across models and archetypes, we need to place parties on a left-right axis. Two validated options:
+- **Zucco & Power (2024):** continuous scale (-1 to +1), tracks party movement over 30 years, most current
+- **Bolognesi (2023):** expert survey (0–10), includes party behavioral objectives (policy/office/vote-seeking dimension)
+
+Both agree on core positions (r=0.97). We'll use Zucco & Power as primary and Bolognesi as validation. Analysis-layer decision only — no effect on data collection.
+
+---
+
+### Next steps in order
+
+| Step | What | Who |
+|------|------|-----|
+| 1 | Review archetype profiles in `docs/archetypes.md` — anything politically off? | Both |
+| 2 | Review Level 4 prompts in `docs/phases.md` — do they sound like real people? | Both |
+| 3 | Decide pilot model set and whether to include both genders from the start | Both |
+| 4 | Build the runner (`runners/run_api.py`) — SP, deputado federal, 4 models | Leticia |
+| 5 | Run pilot and read raw output | Leticia |
+| 6 | Decide refusal detection, candidate extraction, judge model | Both |
+| 7 | Scale up to Round 1 full (4 states, all models, all races) | Leticia |
+| 8 | Consumer product comparison — same prompts in ChatGPT Plus, Claude.ai, Gemini | Both |
+
+---
+
+## Repository structure
 
 ```
 brazil-election-2026/
 ├── profiles/
-│   ├── archetypes.json        # 9 perfis de eleitores com dados fixos
-│   └── party_scales.json      # escalas Zucco+Power e Bolognesi (a construir)
+│   ├── archetypes.json        # 9 voter profiles with fixed demographics
+│   └── party_scales.json      # Zucco+Power and Bolognesi scores (to build)
 ├── queries/
-│   └── templates.py           # gerador de prompts para todos os níveis
+│   └── templates.py           # prompt generator for all levels
 ├── runners/
-│   └── run_api.py             # runner da API (a construir)
+│   └── run_api.py             # API runner (to build)
 ├── results/
-│   ├── raw/                   # um JSON por resposta da API
-│   └── consumer/              # logs manuais dos produtos consumidor
-├── analysis/                  # notebooks e scripts (a construir)
+│   ├── raw/                   # one JSON per API response
+│   └── consumer/              # manual consumer product logs
+├── analysis/                  # notebooks and scripts (to build)
 └── docs/
-    ├── archetypes.md          # perfis completos dos arquétipos
-    └── phases.md              # exemplos de prompts por nível
+    ├── archetypes.md          # full archetype profiles
+    └── phases.md              # query examples per level
 ```
 
 ---
 
-## Como contribuir
+## How to contribute
 
-**Qualquer arquivo deste repositório pode ser editado diretamente no GitHub — sem precisar clonar.**
+**Everything in this repo is editable directly on GitHub — no cloning required.**
 
-Clique em qualquer arquivo, depois clique no ícone de lápis (canto superior direito). Quando salvar, o GitHub cria um commit e a mudança fica visível para os dois imediatamente. Para ver o que mudou: página inicial do repositório → clique em "X commits" → leia o diff.
+Click any file, then click the pencil icon (top right of the file view). When you save, GitHub creates a commit and the change is immediately visible to both of us. To see what changed: go to the repo homepage → click "X commits" → read the diff.
 
-| Arquivo | O que editar | Sensibilidade |
-|---------|-------------|---------------|
-| `README.md` | Framing, timeline, decisões abertas | Edite livremente |
-| `docs/archetypes.md` | Descrições dos arquétipos, posições políticas, exemplos | Edite livremente — sinalize qualquer coisa que soe politicamente errado |
-| `docs/phases.md` | Perfis Level 4, exemplos de query | Edite livremente — reescreva qualquer perfil que não soe como pessoa real |
-| `profiles/archetypes.json` | Dados dos arquétipos, dados demográficos fixos | Edite com cuidado — mudanças aqui afetam os prompts gerados |
-| `queries/templates.py` | Lógica do gerador de prompts | Código Python — abra uma Issue descrevendo o que mudar |
+| File | What to edit | How sensitive |
+|------|-------------|---------------|
+| `README.md` | Research framing, timeline, open questions | Edit freely |
+| `docs/archetypes.md` | Archetype descriptions, issue positions, example prompts | Edit freely — flag anything that sounds politically off |
+| `docs/phases.md` | Level 4 profiles, query examples | Edit freely — rewrite any profile that doesn't sound like a real person |
+| `profiles/archetypes.json` | Archetype data, fixed demographics | Edit with care — changes here flow into generated prompts |
+| `queries/templates.py` | Prompt generator logic | Python code — open an Issue describing what to change |
 
-Para propor uma mudança maior, abra uma Issue (menu superior → Issues → New issue).
+To propose a larger structural change, open a GitHub Issue (top menu → Issues → New issue).
 
-Para gerar todos os prompts e inspecioná-los antes de rodar qualquer coisa:
+To generate all prompts and inspect them before running anything:
 
 ```bash
 git clone https://github.com/leticiaauriemo/brazil-election-2026.git

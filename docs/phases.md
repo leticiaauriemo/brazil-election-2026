@@ -1,5 +1,9 @@
 # Query Phases — What Each Level Looks Like
 
+> **Methodology note:** The five-level personalization design is original to this project. The single-issue approach at Level 2 adapts the factorial design from Miyazaki & Hall (2026), which tested AI voting advice during Japan's 2026 Lower House election. Their design is the closest published precedent; our Levels 3–4 extend it by adding full voter profiles derived from the Neto (2024) segmentation.
+>
+> **Note on editability:** If any Level 4 profile doesn't sound like a real Brazilian voter typing to ChatGPT, rewrite it here. The goal is ecological validity — prompts that a member of each segment would plausibly send.
+
 All prompts are in Portuguese. All prompts end with the voting question. The voter never introduces themselves as a "voter profile" — they speak naturally, as someone would actually type into ChatGPT.
 
 ---

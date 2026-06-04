@@ -196,10 +196,38 @@ Both agree on core positions (r=0.97). We'll use Zucco & Power as primary and Bo
 
 ## How to contribute
 
-Clone the repo, edit the markdown files or the archetype/query code, and open a PR. The `profiles/archetypes.json` and `queries/templates.py` files are the core — changes there affect what gets run.
+**What you can edit freely — directly on GitHub:**
+- `README.md` — this file. Click the pencil icon top-right on GitHub to edit.
+- `docs/archetypes.md` — archetype descriptions, values, issue positions. If anything feels politically off about how a segment is described, edit it here.
+- `docs/phases.md` — example prompts per level. If a Level 4 profile doesn't sound like a real person, rewrite it.
 
-To generate all prompts and inspect them before running anything:
+**What to edit with care (changes affect what gets run):**
+- `profiles/archetypes.json` — the source of truth for all archetype data and fixed demographics. Edits here change the actual prompts generated.
+- `queries/templates.py` — the prompt generator. Python code; open a PR or flag what you'd change and we'll edit together.
+
+**What not to touch:**
+- `results/` — raw data outputs, not in the repo
+- `runners/` — not built yet
+
+To generate all prompts locally and read them before we run anything:
 
 ```bash
+git clone https://github.com/leticiaauriemo/brazil-election-2026.git
+cd brazil-election-2026
 python3 queries/templates.py
 ```
+
+---
+
+## Sources and references
+
+### Voter archetypes
+- **Neto, Felipe.** *Brasil no Espelho.* Quaest, 2024. Chapter 8: "O Brasil em segmentos." Cluster analysis of ~10,000 respondents across 197 variables. The nine identity segments are reproduced here with the author's framing; all demographic statistics cited in `docs/archetypes.md` are drawn directly from this chapter.
+
+### Party classification
+- **Zucco, Cesar, and Timothy J. Power.** "Brazilian Legislative Surveys (BLS), waves 1–9." *Legislative Studies Quarterly*, 2024. Continuous left-right scale (-1 to +1) derived from legislator self-placement across nine legislative waves (1990–2021). Primary scale for analysis.
+- **Bolognesi, Bruno.** "Classificação ideológica dos partidos brasileiros." *Associação Brasileira de Ciência Política*, 2023. Expert survey of ABCP members (n=519), 0–10 left-right scale, 35 parties. Used as validation and for party behavioral objectives (policy/office/vote-seeking dimension).
+
+### Methodology
+- **Miyazaki, Sho, and Andrew B. Hall.** "Why Do AI Models Tell Left-Wing Voters to Support the Communist Party? AI Voting Advice in Japan's 2026 General Election." Working paper, March 2026. Single-issue factorial design adapted for Brazil. Temperature=1.0 and repetition design follow their specification.
+- **Auriemo, Leticia.** *brazil-politics-eval*. GitHub, 2026. First experiment: factual accuracy of AI models on Brazilian political facts and single-issue party recommendations. This project is the second experiment, building on that design.

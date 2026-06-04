@@ -14,7 +14,7 @@ All prompts are in Portuguese.
 
 ---
 
-## Research question
+## Research question - Subject to change
 
 > Does an AI model's voting recommendation change based on (a) who the voter says they are, (b) which race they ask about, (c) whether they're using the consumer product or the API?
 

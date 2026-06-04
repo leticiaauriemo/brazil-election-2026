@@ -6,7 +6,7 @@
 
 ## What this is
 
-Brazil's 2026 elections are a testing ground for a question that matters far beyond Brazil: when a voter asks an AI chatbot who to vote for, what does it say — and does the answer depend on who's asking?
+Brazil's 2026 elections are a testing ground for a question that matters far beyond Brazil: when a voter asks an AI chatbot who to vote for, what does it say — and does the answer depend on who's asking and how much information is given to them?
 
 This project runs a structured eval of AI model behavior on voting advice across Brazil's electoral races. It builds on a first experiment ([brazil-politics-eval](https://github.com/leticiaauriemo/brazil-politics-eval)) that tested factual accuracy and single-issue party recommendations. This second experiment goes further: it tests how models respond to realistic voter profiles, across all ballot races, at different levels of personalization, and compares consumer product behavior against raw API behavior.
 

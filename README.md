@@ -196,20 +196,42 @@ Both agree on core positions (r=0.97). We'll use Zucco & Power as primary and Bo
 
 ## How to contribute
 
-**What you can edit freely — directly on GitHub:**
-- `README.md` — this file. Click the pencil icon top-right on GitHub to edit.
-- `docs/archetypes.md` — archetype descriptions, values, issue positions. If anything feels politically off about how a segment is described, edit it here.
-- `docs/phases.md` — example prompts per level. If a Level 4 profile doesn't sound like a real person, rewrite it.
+**Everything in this repo is editable directly on GitHub — no cloning required.**
 
-**What to edit with care (changes affect what gets run):**
-- `profiles/archetypes.json` — the source of truth for all archetype data and fixed demographics. Edits here change the actual prompts generated.
-- `queries/templates.py` — the prompt generator. Python code; open a PR or flag what you'd change and we'll edit together.
+Click any file, then click the pencil icon (top right of the file view) to edit in the browser. When you save, GitHub creates a commit and the change is immediately visible to both of us. To see what changed: go to the repo homepage → click "X commits" → read the diff.
 
-**What not to touch:**
-- `results/` — raw data outputs, not in the repo
-- `runners/` — not built yet
+| File | What to edit | How sensitive |
+|------|-------------|---------------|
+| `README.md` | Research framing, timeline, open questions | Edit freely |
+| `docs/archetypes.md` | Archetype descriptions, issue positions, example prompts | Edit freely — flag anything that sounds politically off |
+| `docs/phases.md` | Level 4 profiles, query examples | Edit freely — rewrite any profile that doesn't sound like a real person |
+| `profiles/archetypes.json` | Archetype data, fixed demographics, query building blocks | Edit with care — changes here flow into generated prompts |
+| `queries/templates.py` | Prompt generator logic | Python code — open an issue describing what to change and we'll edit together |
 
-To generate all prompts locally and read them before we run anything:
+If you want to propose a larger structural change, open a GitHub Issue (top menu → Issues → New issue) and describe it there. That keeps the discussion attached to the repo.
+
+---
+
+## Which models to run first
+
+We're not running all models at once. The plan is a **pilot with 3–4 models** to verify the output format, catch parsing failures, and get a first read on refusal rates before scaling up.
+
+**Proposed pilot set:**
+
+| Model | Why include |
+|-------|------------|
+| GPT-4o | Strong baseline, high answer rate, well-known |
+| Claude Sonnet | High refusal rate in Exp 1 — tests whether new prompts change that |
+| Gemini Flash | Selective search behavior was a key finding in Exp 1 |
+| Sabiá 4 | Only Brazilian-native model — different behavior expected |
+
+**Models to add in Round 1 proper** (after pilot looks clean): GPT-5, Claude Opus, Grok, DeepSeek, Qwen, Mistral.
+
+**Models to skip for now**: Llama 4 and Perplexity had technical failures (empty responses) in Exp 1 and need separate handling.
+
+> **Open question for discussion**: should the pilot include GPT-5 given its near-total refusal rate (99%) in Exp 1? It would confirm whether the new prompt format changes anything — but it also burns API credits on a model that may refuse everything again. Lean toward including it in Round 1 proper, not the pilot.
+
+To generate all prompts and inspect them before running anything:
 
 ```bash
 git clone https://github.com/leticiaauriemo/brazil-election-2026.git

@@ -172,6 +172,24 @@ brazil-election-2026/
 
 ## Decisions we'll need to make — but not yet
 
+### State variation per archetype
+
+The book (Neto 2024, p. 150) gives geographic concentrations for each segment:
+
+> *"Três estão concentrados regionalmente: os dependentes do Estado (Nordeste), os conservadores cristãos (periferia de grandes cidades) e o agro (Centro-Oeste e interior de Minas e São Paulo). Os outros estão dispersos por todo o território nacional, embora seja possível identificar particularidades: há um percentual maior de militantes de esquerda no Sudeste e no Nordeste; de progressistas, no Sudeste; de empreendedores individuais no Norte e Nordeste; e de empresários, no Sul e no Centro-Oeste. Extrema direita e liberais sociais não apresentam um padrão regional claro."*
+
+This creates a problem for our 4-state design: some archetype × state combinations are geographically implausible (e.g., Agro in Bahia, Progressista in Pará). There are two ways to handle this:
+
+**Option A — All archetypes in all states (current)**
+Treats state as a fully crossed independent variable. Every archetype appears in SP, BA, RS, and PA. Implausible combinations are included deliberately — to test whether the *model* treats them as implausible and shifts its recommendation accordingly. If a model gives different answers to "Sou do Pará e me preocupo com regulações que travam o agronegócio" vs. "Sou do Rio Grande do Sul...", that's a finding.
+
+**Option B — Archetype × state matched to book**
+Only run each archetype in states where the book says they're concentrated. Cleaner ecological validity, fewer implausible combinations, but smaller dataset and harder to isolate the state effect.
+
+**Pilot plan (decided):** Start with **all 9 archetypes in São Paulo only**. SP is the only state where every archetype is at least plausible, and it's the largest electoral delegation. Once the pilot looks clean, we'll decide whether to use Option A or B for the full run.
+
+---
+
 There are four analytical decisions that will shape how we interpret results. We're deliberately not making them before Round 1. The plan is to collect raw text first, then decide — because what the data actually looks like will inform the right approach.
 
 **1. Judge model**

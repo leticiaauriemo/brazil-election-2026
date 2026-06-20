@@ -38,19 +38,29 @@ RESULTS_DIR = Path(__file__).parent.parent / "results" / "raw"
 # ids are OpenRouter ids (port from brazil-politics-eval/models.py); Sabiá-4 is
 # on the Maritaca API and gets its own client.
 PILOT_MODELS = {
-    "gpt4o":        {"id": "openai/gpt-4o",                         "provider": "openrouter"},
-    "gpt5":         {"id": "openai/gpt-5.5-pro-20260423",           "provider": "openrouter"},
-    "claude_sonnet":{"id": "anthropic/claude-sonnet-4.6",           "provider": "openrouter"},
-    "claude_opus":  {"id": "anthropic/claude-opus-4.8-20260528",    "provider": "openrouter"},
-    "gemini_flash": {"id": "google/gemini-2.5-flash",               "provider": "openrouter"},
-    "grok":         {"id": "x-ai/grok-4.3-20260430",               "provider": "openrouter"},
-    "mistral":      {"id": "mistralai/mistral-medium-3.5-20260430", "provider": "openrouter"},
-    "sabia4":       {"id": "sabia-4",                               "provider": "maritaca",
-                     "base_url": "https://chat.maritaca.ai/api", "api_key_env": "MARITACA_API_KEY"},
+    # OpenAI
+    "gpt4o":         {"id": "openai/gpt-4o",               "provider": "openrouter"},
+    "gpt5":          {"id": "openai/gpt-5",                "provider": "openrouter"},
+    # Anthropic
+    "claude_sonnet":  {"id": "anthropic/claude-sonnet-4.6", "provider": "openrouter"},
+    "claude_opus":    {"id": "anthropic/claude-opus-4.8",   "provider": "openrouter"},
+    "claude_fable":   {"id": "anthropic/claude-fable-5",    "provider": "openrouter"},
+    # Google
+    "gemini_flash":   {"id": "google/gemini-2.5-flash",     "provider": "openrouter"},
+    "gemini_pro":     {"id": "google/gemini-2.5-pro",       "provider": "openrouter"},
+    # Meta
+    "llama":          {"id": "meta-llama/llama-4-maverick", "provider": "openrouter"},
+    # xAI
+    "grok":           {"id": "x-ai/grok-4.20",             "provider": "openrouter"},
+    # Mistral
+    "mistral":        {"id": "mistralai/mistral-large-2512","provider": "openrouter"},
+    # DeepSeek
+    "deepseek":       {"id": "deepseek/deepseek-v4-pro",    "provider": "openrouter"},
+    # Maritaca (Brazilian-native)
+    "sabia4":         {"id": "sabia-4",                     "provider": "maritaca",
+                       "base_url": "https://chat.maritaca.ai/api", "api_key_env": "MARITACA_API_KEY"},
 }
-# GPT-5 included despite high refusal in exp 1 — refusal is itself an outcome here.
-# Llama not available on OpenRouter. Gemini Pro only has image variants; Flash kept.
-# Verify all OpenRouter IDs at openrouter.ai/models before running.
+# GPT-5 included — high refusal in exp 1 but refusal is itself an outcome here.
 
 _clients = {}
 

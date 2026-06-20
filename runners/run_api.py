@@ -38,14 +38,19 @@ RESULTS_DIR = Path(__file__).parent.parent / "results" / "raw"
 # ids are OpenRouter ids (port from brazil-politics-eval/models.py); Sabiá-4 is
 # on the Maritaca API and gets its own client.
 PILOT_MODELS = {
-    "gpt4o":        {"id": "openai/gpt-4o",               "provider": "openrouter"},
-    "claude_sonnet":{"id": "anthropic/claude-sonnet-4.6", "provider": "openrouter"},
-    "gemini_flash": {"id": "google/gemini-2.5-flash",     "provider": "openrouter"},
-    "sabia4":       {"id": "sabia-4",                     "provider": "maritaca",
+    "gpt4o":        {"id": "openai/gpt-4o",                         "provider": "openrouter"},
+    "gpt5":         {"id": "openai/gpt-5.5-pro-20260423",           "provider": "openrouter"},
+    "claude_sonnet":{"id": "anthropic/claude-sonnet-4.6",           "provider": "openrouter"},
+    "claude_opus":  {"id": "anthropic/claude-opus-4.8-20260528",    "provider": "openrouter"},
+    "gemini_flash": {"id": "google/gemini-2.5-flash",               "provider": "openrouter"},
+    "grok":         {"id": "x-ai/grok-4.3-20260430",               "provider": "openrouter"},
+    "mistral":      {"id": "mistralai/mistral-medium-3.5-20260430", "provider": "openrouter"},
+    "sabia4":       {"id": "sabia-4",                               "provider": "maritaca",
                      "base_url": "https://chat.maritaca.ai/api", "api_key_env": "MARITACA_API_KEY"},
 }
-# GPT-5 deliberately excluded from the pilot (~99% refusal in exp 1). Round-1
-# additions (GPT-5, Claude Opus, Grok, DeepSeek, Qwen, Mistral) — also confirm first.
+# GPT-5 included despite high refusal in exp 1 — refusal is itself an outcome here.
+# Llama not available on OpenRouter. Gemini Pro only has image variants; Flash kept.
+# Verify all OpenRouter IDs at openrouter.ai/models before running.
 
 _clients = {}
 
@@ -100,7 +105,8 @@ def run(models, reps, temperature, search, dry_run):
     rows = build_all()
     total = len(rows) * len(models) * reps
     print(f"{len(rows)} conditions × {len(models)} models × {reps} reps = {total} prompts "
-          f"(temp={temperature}, search={search})\n")
+          f"(temp={temperature}, search={search})
+")
     if dry_run:
         print("dry run — no API calls made.")
         return
@@ -126,7 +132,8 @@ def run(models, reps, temperature, search, dry_run):
                 err = f"  ERROR: {error[:60]}" if error else ""
                 print(f"  {r['cond_id']} | {model_key} | rep {rep}{flag}  ({len(content)} chars){err}")
                 time.sleep(0.4)
-    print(f"\nDone. {done} new, {skipped} skipped. Raw in {RESULTS_DIR}/")
+    print(f"
+Done. {done} new, {skipped} skipped. Raw in {RESULTS_DIR}/")
 
 
 if __name__ == "__main__":
@@ -143,10 +150,15 @@ if __name__ == "__main__":
 
     if not args.confirmed and not args.dry_run:
         sys.exit(
-            "\nMODEL SET NOT CONFIRMED.\n"
-            "The PILOT_MODELS list is a proposal — confirm it with Leticia before running.\n"
-            f"Proposed: {list(PILOT_MODELS)}\n"
-            "Then re-run with --confirmed (or use --dry-run to just count).\n"
+            "
+MODEL SET NOT CONFIRMED.
+"
+            "The PILOT_MODELS list is a proposal — confirm it with Leticia before running.
+"
+            f"Proposed: {list(PILOT_MODELS)}
+"
+            "Then re-run with --confirmed (or use --dry-run to just count).
+"
         )
 
     fixed = load_cues()["metadata"]["fixed"]

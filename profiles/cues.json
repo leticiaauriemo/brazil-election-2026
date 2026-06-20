@@ -2,7 +2,7 @@
   "metadata": {
     "description": "Cue inventory for the AI voting-advice pilot. Two independently-set cues — a pure ideology label (L) and a pure issue position (I) — crossed into modules A-D plus 9 Neto-archetype anchors. Prompts assembled by queries/templates.py. All text BR Portuguese. See docs/pilot-design.md.",
     "fixed": {"state": "SP", "temperature": 1.0, "reps": 5},
-    "module_c_labels": ["voto_lula", "voto_bolso", "autopos_esq", "autopos_dir"]
+    "module_c_labels": ["voto_lula", "voto_bolso", "voto_lula_indeciso", "voto_bolso_indeciso", "autopos_esq", "autopos_dir", "pid_pt", "pid_bolso"]
   },
 
   "cargos": {

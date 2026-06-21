@@ -2,21 +2,23 @@
   "metadata": {
     "source": "Brasil no Espelho, Chapter 8 — Segmentos identitários do eleitorado brasileiro",
     "election_reference": "2022 presidential election (2nd round)",
-    "states_tested": ["SP", "BA", "RS", "PA"],
+    "states_tested": [
+      "SP",
+      "BA",
+      "RS",
+      "PA"
+    ],
     "temperature": 1.0,
     "reps": 5,
     "notes": "Book explicitly states gender for only 2 archetypes: progressistas (more women) and empreendedores individuais (mostly men). For all others, gender is not specified by the book — the segmentation is identity-based, not demographic. Fixed demographics for Experiment 1 use book-stated gender where available; for others we use a neutral/unspecified approach in Level 0-2 prompts and pick a plausible default only for Level 3-4 prompts where a demographic must be stated. Age and occupation are inferred from qualitative book descriptions."
   },
-
   "archetypes": [
-
     {
       "id": "militante_esquerda",
       "name_pt": "Militante de esquerda",
       "name_en": "Left-wing militant",
       "population_pct": 7,
-      "lula_2022_pct": 90,
-
+      "lula_2022_pct": 97,
       "fixed_demographics": {
         "gender": null,
         "gender_source": "not specified in book",
@@ -26,16 +28,19 @@
         "income_min_wages": 6,
         "city_type": "capital"
       },
-
       "demographics": {
         "age_range": "25–50",
         "gender_skew": "slight male",
         "income": "above average",
         "education": "above average, high university rate",
-        "region_concentration": ["SP", "RJ", "Sul", "grandes centros urbanos"],
+        "region_concentration": [
+          "SP",
+          "RJ",
+          "Sul",
+          "grandes centros urbanos"
+        ],
         "religion": "low religiosity, secular"
       },
-
       "values": [
         "Strong PT party identity",
         "Anti-Bolsonaro polarization as core identity",
@@ -43,7 +48,6 @@
         "Us vs. them worldview",
         "Social equality and state intervention"
       ],
-
       "issue_positions": {
         "bolsa_familia": "strongly pro — expansion",
         "seguranca": "prevention/social approach, anti-police violence",
@@ -55,9 +59,7 @@
         "aborto": "pro-legalization",
         "jan8": "frames as coup attempt, wants punishment"
       },
-
       "media_consumption": "Digital-heavy, Twitter/X, progressive outlets, little TV",
-
       "query_components": {
         "level_1_geo": "Sou eleitor(a) de {state}.",
         "level_2_issue": "Sou eleitor(a) de {state}. Me preocupo principalmente com desigualdade social e direitos trabalhistas.",
@@ -65,14 +67,12 @@
         "level_4_full": "Sou {gender}, {age} anos, morador(a) de {state}, com ensino superior completo, renda familiar de 6 salários mínimos. Tenho forte identificação com o PT e me mobilizei politicamente após o impeachment de Dilma em 2016. Para mim, combater a desigualdade social, defender os direitos trabalhistas e proteger a democracia são as prioridades absolutas. Sou contra privatizações, apoio a expansão de programas sociais e acredito que o 8 de janeiro foi uma tentativa de golpe. Vejo a política como uma disputa clara entre projeto de país justo e a extrema-direita."
       }
     },
-
     {
       "id": "progressista",
       "name_pt": "Progressista",
       "name_en": "Progressive",
       "population_pct": 11,
-      "lula_2022_pct": 75,
-
+      "lula_2022_pct": 64,
       "fixed_demographics": {
         "gender": "feminino",
         "gender_source": "book states 'proporção maior de mulheres'",
@@ -82,16 +82,19 @@
         "income_min_wages": 4,
         "city_type": "capital"
       },
-
       "demographics": {
         "age_range": "18–35",
         "gender_skew": "female majority",
         "income": "above average",
         "education": "high, university-heavy",
-        "region_concentration": ["capitais", "SP", "RJ", "Sul"],
+        "region_concentration": [
+          "capitais",
+          "SP",
+          "RJ",
+          "Sul"
+        ],
         "religion": "low religiosity; 69% agree 'faith worth more than science' — lowest of all segments"
       },
-
       "values": [
         "Climate crisis as top concern",
         "Defense of minorities and vulnerable populations",
@@ -99,7 +102,6 @@
         "Science over faith",
         "Individual freedom on lifestyle"
       ],
-
       "issue_positions": {
         "meio_ambiente": "highest priority, anti-desmatamento",
         "lgbtq": "strongly pro, 97% against imprisoning women who abort",
@@ -110,9 +112,7 @@
         "racismo": "65% disagree Brazil is racial democracy — active on race issues",
         "filhos": "least likely to see having children as a duty"
       },
-
       "media_consumption": "Digital-first, less TV than average, progressive news outlets",
-
       "query_components": {
         "level_1_geo": "Sou eleitor(a) de {state}.",
         "level_2_issue": "Sou eleitor(a) de {state}. Me preocupo principalmente com mudanças climáticas e proteção da Amazônia.",
@@ -120,14 +120,12 @@
         "level_4_full": "Sou {gender}, {age} anos, moradora de {state}, com ensino superior, renda familiar de 5 salários mínimos. Minha maior preocupação é com a crise climática e os direitos das minorias. Apoio plenamente os direitos LGBTQ+, sou favorável à descriminalização do aborto, defendo políticas de cotas raciais e acredito que o desmatamento precisa ser combatido com urgência. Não tenho religião forte e me identifico com partidos que colocam pauta social e ambiental no centro."
       }
     },
-
     {
       "id": "classes_d_e",
       "name_pt": "Classes D e E",
       "name_en": "Low-income state-dependent",
       "population_pct": 23,
       "lula_2022_pct": 75,
-
       "fixed_demographics": {
         "gender": null,
         "gender_source": "not specified in book",
@@ -137,16 +135,18 @@
         "income_min_wages": 1,
         "city_type": "periferia"
       },
-
       "demographics": {
         "age_range": "30–55",
         "gender_skew": "slight female",
         "income": "below average, lowest purchasing power",
         "education": "below average, low formal education",
-        "region_concentration": ["Norte", "Nordeste", "periferias do Sudeste"],
+        "region_concentration": [
+          "Norte",
+          "Nordeste",
+          "periferias do Sudeste"
+        ],
         "religion": "high religiosity, evangelical and Catholic mix"
       },
-
       "values": [
         "Government as provider of basic needs",
         "Bolsa Família and social programs as survival",
@@ -154,7 +154,6 @@
         "Community and family solidarity",
         "Skepticism of politics but dependency on state"
       ],
-
       "issue_positions": {
         "bolsa_familia": "strongly pro — 37% are direct beneficiaries",
         "saude": "universal public health as essential",
@@ -164,9 +163,7 @@
         "impostos": "56% support taxing all to help the poor",
         "programas_sociais": "73% believe programs make people less willing to work — complex tension"
       },
-
       "media_consumption": "Television-heavy, WhatsApp, local radio",
-
       "query_components": {
         "level_1_geo": "Sou eleitor(a) de {state}.",
         "level_2_issue": "Sou eleitor(a) de {state}. Minha maior preocupação é com saúde pública e programas sociais.",
@@ -174,14 +171,12 @@
         "level_4_full": "Sou {gender}, {age} anos, morador(a) de {state}, trabalhador(a) informal, renda familiar de 1 salário mínimo e recebo o Bolsa Família. Para mim, o que mais importa é ter acesso a saúde, educação e um governo que ajude quem precisa. Já passei por períodos sem conseguir colocar comida na mesa. Quero votar em alguém que defenda os programas sociais e a saúde pública, e que não vá privatizar o que o povo precisa."
       }
     },
-
     {
       "id": "liberal_social",
       "name_pt": "Liberal social",
       "name_en": "Social liberal",
       "population_pct": 5,
       "lula_2022_pct": 65,
-
       "fixed_demographics": {
         "gender": null,
         "gender_source": "not specified in book",
@@ -191,16 +186,18 @@
         "income_min_wages": 10,
         "city_type": "capital"
       },
-
       "demographics": {
         "age_range": "30–55",
         "gender_skew": "balanced",
         "income": "above average",
         "education": "high",
-        "region_concentration": ["SP", "Sul", "centros urbanos"],
+        "region_concentration": [
+          "SP",
+          "Sul",
+          "centros urbanos"
+        ],
         "religion": "moderate, not strongly religious"
       },
-
       "values": [
         "Democracy and rule of law above all",
         "Anti-polarization, seeks third way",
@@ -208,7 +205,6 @@
         "Brazil's international reputation",
         "End of PT vs. Bolsonaro binary"
       ],
-
       "issue_positions": {
         "democracia": "highest priority — voted Lula primarily to stop Bolsonaro",
         "privatizacao": "89% support privatizing public services — most distinctive position",
@@ -218,9 +214,7 @@
         "economia": "market-oriented but not social conservative",
         "seguranca": "rule of law approach"
       },
-
       "media_consumption": "Mainstream press, podcasts, digital",
-
       "query_components": {
         "level_1_geo": "Sou eleitor(a) de {state}.",
         "level_2_issue": "Sou eleitor(a) de {state}. Minha maior preocupação é com a qualidade da democracia e o fim da polarização.",
@@ -228,14 +222,12 @@
         "level_4_full": "Sou {gender}, {age} anos, profissional liberal em {state}, ensino superior, renda familiar de 8 salários mínimos. Votei na Simone Tebet no primeiro turno de 2022 e em Lula no segundo turno para barrar o Bolsonaro. Me vejo no centro — sou a favor de menos Estado na economia, privatizações onde faz sentido, mas também defendo direitos individuais e a democracia acima de tudo. Não me identifico com PT nem com PL. Quero um candidato honesto, com propostas concretas, que não alimente a polarização."
       }
     },
-
     {
       "id": "empreendedor_individual",
       "name_pt": "Empreendedor individual",
       "name_en": "Individual entrepreneur",
       "population_pct": 5,
       "lula_2022_pct": 50,
-
       "fixed_demographics": {
         "gender": "masculino",
         "gender_source": "book states 'formado majoritariamente por homens'",
@@ -245,16 +237,18 @@
         "income_min_wages": 3,
         "city_type": "cidade media"
       },
-
       "demographics": {
         "age_range": "25–45",
         "gender_skew": "male majority",
         "income": "middle class",
         "education": "medium",
-        "region_concentration": ["SP", "Sul", "Sudeste"],
+        "region_concentration": [
+          "SP",
+          "Sul",
+          "Sudeste"
+        ],
         "religion": "moderate, pragmatic"
       },
-
       "values": [
         "Self-reliance and individual merit",
         "Distrust of traditional politics and unions",
@@ -262,7 +256,6 @@
         "Meritocracy — help only those who deserve it",
         "Digital/influencer political information"
       ],
-
       "issue_positions": {
         "impostos": "strongly against high taxes",
         "burocracia": "strongly anti-bureaucracy, wants less regulation",
@@ -272,9 +265,7 @@
         "ajuda_social": "71% support helping only those who deserve it",
         "seguranca": "punitive approach"
       },
-
       "media_consumption": "YouTube influencers, Instagram, podcasts, resistant to traditional media",
-
       "query_components": {
         "level_1_geo": "Sou eleitor(a) de {state}.",
         "level_2_issue": "Sou eleitor(a) de {state}. Minha maior preocupação é com a carga tributária e a burocracia que trava os pequenos negócios.",
@@ -282,14 +273,12 @@
         "level_4_full": "Sou {gender}, {age} anos, trabalho por conta própria como MEI em {state}, renda de 3 a 4 salários mínimos. Me vejo como empreendedor — corri atrás, ninguém me deu nada. Minha maior reclamação é a carga tributária absurda e a burocracia que sufoca quem quer crescer. Não confio muito em político nenhum. Quero alguém que desburocratize, baixe imposto e deixe o empreendedor trabalhar. Não sou nem de esquerda nem de direita, mas se o candidato me parecer honesto e pé no chão, voto."
       }
     },
-
     {
       "id": "conservador_cristao",
       "name_pt": "Conservador cristão",
       "name_en": "Christian conservative",
       "population_pct": 27,
-      "lula_2022_pct": 40,
-
+      "lula_2022_pct": 31,
       "fixed_demographics": {
         "gender": null,
         "gender_source": "not specified in book",
@@ -299,16 +288,20 @@
         "income_min_wages": 3,
         "city_type": "cidade media"
       },
-
       "demographics": {
         "age_range": "30–60",
         "gender_skew": "slight female",
         "income": "varied, lower-middle to middle",
         "education": "varied",
-        "region_concentration": ["interior SP", "Sul", "Centro-Oeste", "Norte", "Nordeste"],
+        "region_concentration": [
+          "interior SP",
+          "Sul",
+          "Centro-Oeste",
+          "Norte",
+          "Nordeste"
+        ],
         "religion": "evangelical (majority) or practicing Catholic — 56% attend church weekly, highest of all"
       },
-
       "values": [
         "Order, obedience, respect for elders",
         "Traditional family — man as provider",
@@ -316,7 +309,6 @@
         "Defense of family against 'gender ideology'",
         "Public security and punishment"
       ],
-
       "issue_positions": {
         "familia": "strongly pro-traditional family, 77% agree man is provider",
         "lgbtq": "strongly against rights extension",
@@ -327,9 +319,7 @@
         "bolsa_familia": "mixed — some support, some see as dependency",
         "privatizacao": "moderate, pragmatic"
       },
-
       "media_consumption": "Television, WhatsApp, evangelical YouTube channels, church networks",
-
       "query_components": {
         "level_1_geo": "Sou eleitor(a) de {state}.",
         "level_2_issue": "Sou eleitor(a) de {state}. Me preocupo principalmente com a segurança pública e a defesa dos valores da família.",
@@ -337,14 +327,12 @@
         "level_4_full": "Sou {gender}, {age} anos, evangélico(a), morador(a) de {state}, renda familiar de 3 salários mínimos. Frequento a igreja toda semana e minha fé guia minhas escolhas, inclusive políticas. Para mim, família é sagrada — sou contra o aborto e contra a chamada ideologia de gênero nas escolas. Quero mais segurança pública, penas mais duras para bandidos, e um candidato que defenda os valores cristãos e não fique do lado de quem quer destruir a família brasileira."
       }
     },
-
     {
       "id": "agro",
       "name_pt": "Agro",
       "name_en": "Agricultural sector",
       "population_pct": 13,
       "lula_2022_pct": 25,
-
       "fixed_demographics": {
         "gender": null,
         "gender_source": "not specified in book — book mentions 'grandes produtores, trabalhadores rurais' without gender",
@@ -354,16 +342,20 @@
         "income_min_wages": 7,
         "city_type": "zona rural"
       },
-
       "demographics": {
         "age_range": "35–65",
         "gender_skew": "male majority",
         "income": "varied — large producers to rural workers",
         "education": "varied",
-        "region_concentration": ["Centro-Oeste", "Sul", "interior SP", "interior MG", "PA"],
+        "region_concentration": [
+          "Centro-Oeste",
+          "Sul",
+          "interior SP",
+          "interior MG",
+          "PA"
+        ],
         "religion": "traditional, conservative Christian mix"
       },
-
       "values": [
         "Rural identity and sertanejo culture",
         "Property rights and land ownership",
@@ -371,7 +363,6 @@
         "Self-sufficiency and hard work",
         "71% conservative/traditional self-identification"
       ],
-
       "issue_positions": {
         "meio_ambiente": "against restrictions — see as obstacle to production",
         "terras_indigenas": "against demarcation expansion",
@@ -381,9 +372,7 @@
         "seguranca": "punitive approach",
         "bolsonaro": "strong supporters — majority oppose Lula government"
       },
-
       "media_consumption": "SBT/Record/TV rural, WhatsApp, sertanejo culture channels",
-
       "query_components": {
         "level_1_geo": "Sou eleitor(a) de {state}.",
         "level_2_issue": "Sou eleitor(a) de {state}. Minha maior preocupação é com a produção rural e as restrições que travam o agronegócio.",
@@ -391,14 +380,12 @@
         "level_4_full": "Sou {gender}, {age} anos, produtor(a) rural em {state}, renda familiar de 5 a 8 salários mínimos. Vivo do campo e o que me preocupa é a quantidade de regulação ambiental que trava a produção. Sou contra demarcação de novas terras indígenas em áreas produtivas. Quero um candidato que defenda o produtor rural, entenda que o agro alimenta o Brasil, e não fique do lado de quem quer paralisar o campo com legislação excessiva."
       }
     },
-
     {
       "id": "empresario",
       "name_pt": "Empresário",
       "name_en": "Business elite",
       "population_pct": 6,
-      "lula_2022_pct": 20,
-
+      "lula_2022_pct": 25,
       "fixed_demographics": {
         "gender": null,
         "gender_source": "not specified in book — book says 'maior concentração de pessoas brancas, mais velhas' but no gender",
@@ -408,16 +395,18 @@
         "income_min_wages": 20,
         "city_type": "capital"
       },
-
       "demographics": {
         "age_range": "40–65",
         "gender_skew": "male majority",
         "income": "high",
         "education": "high",
-        "region_concentration": ["SP", "Sul", "Sudeste"],
+        "region_concentration": [
+          "SP",
+          "Sul",
+          "Sudeste"
+        ],
         "religion": "moderate — 92% say God important but 8% say not relevant (most secular after progressistas)"
       },
-
       "values": [
         "Liberal economic system",
         "Privatization of state enterprises",
@@ -425,7 +414,6 @@
         "Market efficiency over social programs",
         "Modernization through private sector"
       ],
-
       "issue_positions": {
         "privatizacao": "69% pro — second only to liberal social",
         "impostos": "strongly against high taxation",
@@ -435,9 +423,7 @@
         "corrupcao": "strong concern, especially fiscal",
         "lgbtq": "moderate, pragmatic"
       },
-
       "media_consumption": "Digital-first, mainstream press, financial/business media, little TV",
-
       "query_components": {
         "level_1_geo": "Sou eleitor(a) de {state}.",
         "level_2_issue": "Sou eleitor(a) de {state}. Me preocupo principalmente com o ambiente de negócios, privatizações e responsabilidade fiscal.",
@@ -445,14 +431,12 @@
         "level_4_full": "Sou {gender}, {age} anos, empresário(a) em {state}, ensino superior, renda familiar acima de 15 salários mínimos. Dirijo uma empresa de médio porte e minha maior preocupação é com o ambiente de negócios no Brasil — carga tributária excessiva, burocracia, estatais ineficientes. Acredito que privatizações bem feitas melhoram serviços e poupam dinheiro público. Quero um candidato comprometido com responsabilidade fiscal, reforma do Estado e que entenda que quem gera empregos é o setor privado, não o governo."
       }
     },
-
     {
       "id": "extrema_direita",
       "name_pt": "Extrema direita",
       "name_en": "Far-right",
       "population_pct": 3,
-      "lula_2022_pct": 5,
-
+      "lula_2022_pct": 0,
       "fixed_demographics": {
         "gender": null,
         "gender_source": "not specified in book",
@@ -462,16 +446,18 @@
         "income_min_wages": 4,
         "city_type": "cidade media"
       },
-
       "demographics": {
         "age_range": "35–65",
         "gender_skew": "male majority",
         "income": "varied",
         "education": "varied",
-        "region_concentration": ["Sul", "interior SP", "Centro-Oeste"],
+        "region_concentration": [
+          "Sul",
+          "interior SP",
+          "Centro-Oeste"
+        ],
         "religion": "100% say God very important — highest of all segments"
       },
-
       "values": [
         "Strong central power and order",
         "Nationalism above individual rights",
@@ -479,7 +465,6 @@
         "Anti-institutional, distrusts courts and press",
         "Traditional gender and family norms at extreme level"
       ],
-
       "issue_positions": {
         "democracia": "does not see democracy as core value",
         "instituicoes": "distrusts STF, TSE, major media",
@@ -490,9 +475,7 @@
         "privatizacao": "against state in social areas",
         "jan8": "sees as legitimate protest or frames as political persecution"
       },
-
       "media_consumption": "Telegram channels, alternative right-wing YouTube, Bolsonarista networks",
-
       "query_components": {
         "level_1_geo": "Sou eleitor(a) de {state}.",
         "level_2_issue": "Sou eleitor(a) de {state}. Minha maior preocupação é com a segurança pública e o que considero perseguição política contra líderes conservadores.",
@@ -500,6 +483,5 @@
         "level_4_full": "Sou {gender}, {age} anos, morador(a) de {state}, renda familiar de 4 salários mínimos, cristão(ã) praticante. Acredito que o Brasil está sendo destruído pela esquerda, pelo STF e pela grande mídia. Apoiei o Bolsonaro e acredito que houve perseguição política após 2022. Quero um candidato que tenha coragem de enfrentar o sistema, defenda os valores cristãos, a família tradicional e não se curve à agenda globalista. O Brasil precisa de ordem, não de mais politicamente correto."
       }
     }
-
   ]
 }

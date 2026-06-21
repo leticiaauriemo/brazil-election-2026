@@ -1,11 +1,10 @@
 {
   "metadata": {
-    "working_scale": "bolognesi",
-    "note": "Bolognesi (2023) values are REAL, read from Tabela 1 of the paper. Zucco-Power values are NULL: the article PDF only plots them (Figure 1) and points to online appendix C / the data repository (DOI 10.1017/lap.2023.24) for the numeric estimates — they were NOT invented. Fetch appendix C to fill `zucco_power`. This is an analysis-layer choice and does NOT block data collection: raw response text is always preserved, so ζ can be re-scored once Zucco-Power numbers are in. For the pilot we score on Bolognesi (0-10, left=0); rescale to [-1,1] via (b-5)/5 if a centered ruler is wanted.",
+    "working_scale": "zucco_power",
+    "note": "zucco_power values filled from Zucco & Power 2024 Table C1 (online appendix C). BLS 9 (2021) used where available; most recent prior wave used otherwise (see zp_year). REDE essentially disintegrated before BLS 9 — 2017 value used. PL is BLS 9 pre-Bolsonaro join; authors estimate ~0.69 for the 57th legislature. UNIÃO formed after BLS 9 fieldwork; authors own estimate 0.66 used (weighted avg DEM 0.431 and PSL 0.803). Parties with no BLS coverage: zucco_power = null, fall back to Bolognesi. Bolognesi kept as validation (r=0.97 vs BLS).",
     "zucco_power": {
-      "source": "Zucco & Power 2024, LAPS 66(1), Figure 1 p.181 (numeric estimates in online appendix C, not the PDF).",
-      "scale": "~[-1,1], 0-centered, negative=left",
-      "status": "PENDING — fetch from data repository DOI 10.1017/lap.2023.24"
+      "source": "Zucco & Power 2024, LAPS 66(1), Table C1 (online appendix C).",
+      "scale": "[-1,1], 0-centered, negative=left, positive=right"
     },
     "bolognesi": {
       "source": "Bolognesi, Ribeiro & Codato 2023, DADOS 66(2):e20210164, Tabela 1.",
@@ -14,27 +13,27 @@
     }
   },
   "parties": {
-    "PSOL":          {"zucco_power": null, "bolognesi": 1.28},
-    "PCdoB":         {"zucco_power": null, "bolognesi": 1.92},
-    "PT":            {"zucco_power": null, "bolognesi": 2.97},
-    "PDT":           {"zucco_power": null, "bolognesi": 3.92},
-    "PSB":           {"zucco_power": null, "bolognesi": 4.05},
-    "REDE":          {"zucco_power": null, "bolognesi": 4.77},
-    "CIDADANIA":     {"zucco_power": null, "bolognesi": 4.92},
-    "PV":            {"zucco_power": null, "bolognesi": 5.29},
-    "AVANTE":        {"zucco_power": null, "bolognesi": 6.32},
-    "SOLIDARIEDADE": {"zucco_power": null, "bolognesi": 6.50},
-    "MDB":           {"zucco_power": null, "bolognesi": 7.01},
-    "PSD":           {"zucco_power": null, "bolognesi": 7.09},
-    "PSDB":          {"zucco_power": null, "bolognesi": 7.11},
-    "PODEMOS":       {"zucco_power": null, "bolognesi": 7.24},
-    "PRTB":          {"zucco_power": null, "bolognesi": 7.45},
-    "PL":            {"zucco_power": null, "bolognesi": 7.78},
-    "REPUBLICANOS":  {"zucco_power": null, "bolognesi": 7.78},
-    "NOVO":          {"zucco_power": null, "bolognesi": 8.13},
-    "PP":            {"zucco_power": null, "bolognesi": 8.20},
-    "DC":            {"zucco_power": null, "bolognesi": 8.11},
-    "UNIÃO":         {"zucco_power": null, "bolognesi": null},
-    "AGIR":          {"zucco_power": null, "bolognesi": null}
+    "PSOL":          {"zucco_power": -0.874, "zp_year": 2021, "bolognesi": 1.28},
+    "PCdoB":         {"zucco_power": -0.822, "zp_year": 2021, "bolognesi": 1.92},
+    "PT":            {"zucco_power": -0.691, "zp_year": 2021, "bolognesi": 2.97},
+    "PDT":           {"zucco_power": -0.356, "zp_year": 2021, "bolognesi": 3.92},
+    "PSB":           {"zucco_power": -0.427, "zp_year": 2021, "bolognesi": 4.05},
+    "REDE":          {"zucco_power": -0.555, "zp_year": 2017, "bolognesi": 4.77},
+    "CIDADANIA":     {"zucco_power": -0.014, "zp_year": 2021, "bolognesi": 4.92},
+    "PV":            {"zucco_power": -0.069, "zp_year": 2021, "bolognesi": 5.29},
+    "AVANTE":        {"zucco_power":  null,  "zp_year": null,  "bolognesi": 6.32},
+    "SOLIDARIEDADE": {"zucco_power":  0.190, "zp_year": 2021, "bolognesi": 6.50},
+    "MDB":           {"zucco_power":  0.137, "zp_year": 2021, "bolognesi": 7.01},
+    "PSD":           {"zucco_power":  0.296, "zp_year": 2021, "bolognesi": 7.09},
+    "PSDB":          {"zucco_power":  0.157, "zp_year": 2021, "bolognesi": 7.11},
+    "PODEMOS":       {"zucco_power":  0.386, "zp_year": 2021, "bolognesi": 7.24},
+    "PRTB":          {"zucco_power":  null,  "zp_year": null,  "bolognesi": 7.45},
+    "PL":            {"zucco_power":  0.493, "zp_year": 2021, "bolognesi": 7.78},
+    "REPUBLICANOS":  {"zucco_power":  0.550, "zp_year": 2021, "bolognesi": 7.78},
+    "NOVO":          {"zucco_power":  0.711, "zp_year": 2021, "bolognesi": 8.13},
+    "PP":            {"zucco_power":  0.510, "zp_year": 2021, "bolognesi": 8.20},
+    "DC":            {"zucco_power":  null,  "zp_year": null,  "bolognesi": 8.11},
+    "UNIÃO":         {"zucco_power":  0.660, "zp_year": 2023, "bolognesi": null},
+    "AGIR":          {"zucco_power":  null,  "zp_year": null,  "bolognesi": null}
   }
 }

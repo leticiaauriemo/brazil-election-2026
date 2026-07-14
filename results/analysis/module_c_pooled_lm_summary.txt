@@ -1,0 +1,31 @@
+
+Call:
+lm(formula = zeta ~ label_num + issue_num + model + cargo + ask,
+    data = lm_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max
+-1.24519 -0.33075 -0.02244  0.38938  1.33060
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)
+(Intercept)        -0.325635   0.020468 -15.910   <2e-16 ***
+label_num           0.215088   0.004420  48.661   <2e-16 ***
+issue_num           0.292175   0.004420  66.097   <2e-16 ***
+modelclaude_sonnet  0.278900   0.022515  12.387   <2e-16 ***
+modeldeepseek       0.393912   0.025066  15.715   <2e-16 ***
+modelgemini_flash   0.382581   0.022295  17.160   <2e-16 ***
+modelgemini_pro     0.042684   0.052525   0.813   0.4164
+modelgpt4o          0.295062   0.024721  11.935   <2e-16 ***
+modelgrok           0.285760   0.021583  13.240   <2e-16 ***
+modelllama          0.276036   0.023895  11.552   <2e-16 ***
+modelmistral        0.372561   0.021604  17.245   <2e-16 ***
+modelsabia4         0.205338   0.023394   8.778   <2e-16 ***
+cargopresidente    -0.091303   0.008964 -10.185   <2e-16 ***
+askopen            -0.020394   0.008845  -2.306   0.0211 *
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.4595 on 10876 degrees of freedom
+Multiple R-squared:  0.4046,	Adjusted R-squared:  0.4039
+F-statistic: 568.5 on 13 and 10876 DF,  p-value: < 2.2e-16

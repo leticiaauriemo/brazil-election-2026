@@ -1,0 +1,13 @@
+model,rows,api_errors,empty_or_error_responses,usable_rows,usable_rate
+claude_opus,2680,0,0,2680,1
+claude_sonnet,2680,0,0,2680,1
+deepseek,1581,0,0,1581,1
+gemini_flash,2680,0,0,2680,1
+gemini_pro,2642,0,0,2642,1
+gpt4o,2680,0,0,2680,1
+gpt5,136,0,0,136,1
+grok,2680,0,0,2680,1
+llama,2680,0,0,2680,1
+mistral,2675,0,0,2675,1
+sabia4,2680,0,0,2680,1
+claude_fable,2680,2680,2680,0,0

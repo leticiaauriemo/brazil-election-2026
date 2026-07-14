@@ -1,0 +1,4 @@
+model,error_short,n
+claude_fable,"Error code: 404 - {'error': {'message': 'Claude Fable 5 is not available. Learn more: https://www.anthropic.com/news/fable-mythos-access', 'code': 404}, 'user_i",2629
+claude_fable,'NoneType' object is not subscriptable,44
+claude_fable,"Error code: 404 - {'error': {'message': 'Provider returned error', 'code': 404, 'metadata': {'raw': '[{\n ""error"": {\n ""code"": 404,\n ""message"": ""Publisher Mode",7

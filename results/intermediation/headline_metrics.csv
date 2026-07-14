@@ -1,0 +1,6 @@
+metric,value
+module_c_usable,18381
+module_c_cells,384
+mean_broad_agreement,0.3308343653480119
+mean_exact_agreement,0.2980532905944172
+rich_spearman,-0.8786687791935092

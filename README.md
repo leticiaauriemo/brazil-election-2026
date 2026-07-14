@@ -221,25 +221,31 @@ python analysis/parse.py
 
 ## Repository structure
 
-```
+~~~text
 brazil-election-2026/
-├── profiles/
-│   ├── cues.json              # ideology + issue cue inventories + anchors + module defs
-│   ├── party_scales.json      # ζ per party — Bolognesi (real), Zucco-Power (pending appendix C)
-│   └── archetypes.json        # richer Neto archetype reference data (Lula-% fix pending)
-├── queries/
-│   └── templates.py           # prompt generator: cues.json → modules A–D + anchors
-├── runners/
-│   └── run_api.py             # OpenRouter/Maritaca runner (refuses without --confirmed)
+├── profiles/                  # cue inventories, party scale, and rich profiles
+├── queries/                   # Portuguese prompt generation
+├── runners/                   # API collection
 ├── analysis/
-│   └── parse.py               # raw JSON → results/parsed.csv (party, refusal, ζ)
-├── results/raw/               # one JSON per (condition, model, rep)  [gitignored]
+│   ├── parse.py               # raw JSON to results/parsed.csv
+│   ├── 00_...R to 07_...R    # reproducible analysis pipeline
+│   └── README.md              # run order and dependencies
+├── results/
+│   ├── parsed.csv             # parsed response-level data
+│   ├── analysis/              # QC, descriptives, and parser audits
+│   ├── paper/                 # paper-oriented tables and figures
+│   └── intermediation/        # final deck tables and figures
+├── paper/deck/
+│   ├── ai_political_intermediation_brazil.tex
+│   ├── ai_political_intermediation_brazil.pdf
+│   └── README.md              # XeLaTeX build instructions
 ├── requirements.txt
 └── docs/
-    ├── pilot-design.md        # operational prompt sheet (the edit target)
-    ├── archetypes.md          # full archetype profiles
-    └── phases.md              # legacy query examples (v1 design)
-```
+~~~
+
+Run the numbered R scripts from the repository root. The large derived file
+results/analysis/clean_results.csv is intentionally ignored and recreated by
+analysis/00_clean_results.R.
 
 Each response saved raw (party/candidate extraction is post-hoc regex; raw text always preserved):
 

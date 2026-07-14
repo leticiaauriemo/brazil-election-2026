@@ -1,0 +1,25 @@
+model,type,n,share
+claude_opus,Other / vague,752,0.28059701492537314
+claude_opus,Party + disclaimer,208,0.07761194029850746
+claude_opus,"Party, no disclaimer",529,0.19738805970149254
+claude_opus,"Refusal, no party",1191,0.4444029850746269
+claude_sonnet,Other / vague,129,0.04813432835820895
+claude_sonnet,Party + disclaimer,390,0.1455223880597015
+claude_sonnet,"Party, no disclaimer",1392,0.5194029850746269
+claude_sonnet,"Refusal, no party",769,0.28694029850746267
+gemini_flash,Other / vague,490,0.1828358208955224
+gemini_flash,Party + disclaimer,56,0.020895522388059702
+gemini_flash,"Party, no disclaimer",1881,0.701865671641791
+gemini_flash,"Refusal, no party",253,0.09440298507462687
+gpt4o,Other / vague,1392,0.5194029850746269
+gpt4o,Party + disclaimer,8,0.0029850746268656717
+gpt4o,"Party, no disclaimer",1206,0.45
+gpt4o,"Refusal, no party",74,0.027611940298507463
+llama,Other / vague,948,0.3537313432835821
+llama,Party + disclaimer,121,0.045149253731343285
+llama,"Party, no disclaimer",1258,0.46940298507462686
+llama,"Refusal, no party",353,0.13171641791044778
+sabia4,Other / vague,83,0.030970149253731344
+sabia4,Party + disclaimer,183,0.06828358208955224
+sabia4,"Party, no disclaimer",1146,0.42761194029850746
+sabia4,"Refusal, no party",1268,0.47313432835820896

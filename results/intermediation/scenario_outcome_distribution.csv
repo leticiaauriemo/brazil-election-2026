@@ -1,0 +1,21 @@
+scenario,outcome,n,share,total
+Left identity + left issue,Left-party recommendation,2633,0.5713975694444444,4608
+Left identity + left issue,Other / no party,1072,0.2326388888888889,4608
+Left identity + left issue,Refusal / disclaimer without party,682,0.1480034722222222,4608
+Left identity + left issue,Right-party recommendation,216,0.046875,4608
+Left identity + left issue,Unscored party recommendation,5,0.0010850694444444445,4608
+Left identity + right issue,Left-party recommendation,1145,0.24994542676271556,4581
+Left identity + right issue,Other / no party,1206,0.2632612966601179,4581
+Left identity + right issue,Refusal / disclaimer without party,550,0.12006112202575857,4581
+Left identity + right issue,Right-party recommendation,1676,0.365858982754857,4581
+Left identity + right issue,Unscored party recommendation,4,8.731717965509714e-4,4581
+Right identity + left issue,Left-party recommendation,1344,0.2942850886796584,4567
+Right identity + left issue,Other / no party,1282,0.28070943726735276,4567
+Right identity + left issue,Refusal / disclaimer without party,688,0.1506459382526823,4567
+Right identity + left issue,Right-party recommendation,1249,0.27348368732209327,4567
+Right identity + left issue,Unscored party recommendation,4,8.758484782132691e-4,4567
+Right identity + right issue,Left-party recommendation,228,0.049297297297297295,4625
+Right identity + right issue,Other / no party,1391,0.3007567567567568,4625
+Right identity + right issue,Refusal / disclaimer without party,599,0.1295135135135135,4625
+Right identity + right issue,Right-party recommendation,2399,0.5187027027027027,4625
+Right identity + right issue,Unscored party recommendation,8,0.0017297297297297297,4625

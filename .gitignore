@@ -5,3 +5,8 @@ __pycache__/
 results/raw/
 results/consumer/
 *.json.bak
+.Rhistory
+output/
+tmp/
+paper/deck/build/
+results/analysis/clean_results.csv

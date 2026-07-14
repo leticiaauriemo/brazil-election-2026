@@ -1,0 +1,13 @@
+model,winner,n,share,n_party
+claude_opus,Follows issue,120,0.3858520900321543,311
+claude_opus,Follows label,191,0.6141479099678456,311
+claude_sonnet,Follows issue,309,0.46050670640834573,671
+claude_sonnet,Follows label,362,0.5394932935916542,671
+gemini_flash,Follows issue,430,0.5963938973647711,721
+gemini_flash,Follows label,291,0.40360610263522884,721
+gpt4o,Follows issue,242,0.606516290726817,399
+gpt4o,Follows label,157,0.39348370927318294,399
+llama,Follows issue,261,0.5711159737417943,457
+llama,Follows label,196,0.4288840262582057,457
+sabia4,Follows issue,288,0.4698205546492659,613
+sabia4,Follows label,325,0.5301794453507341,613

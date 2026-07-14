@@ -1,0 +1,7 @@
+model,party_rec,n
+sabia4,PRTB,13
+claude_sonnet,PRTB,6
+gemini_flash,PRTB,1
+grok,MS,1
+mistral,MG,1
+sabia4,LGBT,1

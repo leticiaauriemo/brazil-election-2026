@@ -1,0 +1,45 @@
+model,resolution,n,share
+claude_opus,Follows identity,191,0.19895833333333332
+claude_opus,Follows policy,120,0.125
+claude_opus,Other / no party,240,0.25
+claude_opus,Refusal / no party,409,0.42604166666666665
+claude_sonnet,Follows identity,362,0.3770833333333333
+claude_sonnet,Follows policy,309,0.321875
+claude_sonnet,Other / no party,34,0.035416666666666666
+claude_sonnet,Party without clear side,2,0.0020833333333333333
+claude_sonnet,Refusal / no party,253,0.2635416666666667
+deepseek,Follows identity,143,0.2865731462925852
+deepseek,Follows policy,205,0.41082164328657317
+deepseek,Other / no party,145,0.2905811623246493
+deepseek,Refusal / no party,6,0.012024048096192385
+gemini_flash,Follows identity,291,0.303125
+gemini_flash,Follows policy,430,0.4479166666666667
+gemini_flash,Other / no party,179,0.18645833333333334
+gemini_flash,Refusal / no party,60,0.0625
+gemini_pro,Follows identity,31,0.03270042194092827
+gemini_pro,Follows policy,5,0.005274261603375527
+gemini_pro,Other / no party,909,0.9588607594936709
+gemini_pro,Refusal / no party,3,0.0031645569620253164
+gpt4o,Follows identity,157,0.16354166666666667
+gpt4o,Follows policy,242,0.2520833333333333
+gpt4o,Other / no party,553,0.5760416666666667
+gpt4o,Refusal / no party,8,0.008333333333333333
+gpt5,Other / no party,4,0.16
+gpt5,Refusal / no party,21,0.84
+grok,Follows identity,396,0.4125
+grok,Follows policy,537,0.559375
+grok,Other / no party,3,0.003125
+grok,Party without clear side,1,0.0010416666666666667
+grok,Refusal / no party,23,0.023958333333333335
+llama,Follows identity,196,0.20416666666666666
+llama,Follows policy,261,0.271875
+llama,Other / no party,365,0.3802083333333333
+llama,Refusal / no party,138,0.14375
+mistral,Follows identity,302,0.3158995815899582
+mistral,Follows policy,623,0.6516736401673641
+mistral,Other / no party,31,0.032426778242677826
+sabia4,Follows identity,325,0.3385416666666667
+sabia4,Follows policy,288,0.3
+sabia4,Other / no party,25,0.026041666666666668
+sabia4,Party without clear side,5,0.005208333333333333
+sabia4,Refusal / no party,317,0.3302083333333333

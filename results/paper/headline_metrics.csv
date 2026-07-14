@@ -1,0 +1,9 @@
+metric,value
+rows,28474
+usable_rows,25794
+usable_share,0.9058790475521529
+complete_models,6
+pooled_label_effect,0.44758638834714665
+pooled_issue_effect,0.51920060344319785
+party_rows,14652
+zeta_rows,14629

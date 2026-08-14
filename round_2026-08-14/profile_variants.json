@@ -1,0 +1,136 @@
+{
+    "schema_version":  1,
+    "language":  "pt-BR",
+    "geography":  "São Paulo",
+    "shared":  {
+                   "L1":  "Eu voto no estado de São Paulo."
+               },
+    "archetypes":  {
+                       "militante_esquerda":  {
+                                                  "name_pt":  "Militante de esquerda",
+                                                  "L2":  "Eu voto no estado de São Paulo. Me preocupo principalmente com a participação política e a defesa de direitos sociais e trabalhistas.",
+                                                  "homem":  {
+                                                                "L3":  "Sou homem, tenho 38 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar de 6 salários mínimos.",
+                                                                "L4":  "Sou homem, tenho 38 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar de 6 salários mínimos. Me preocupo principalmente com a participação política e a defesa de direitos sociais e trabalhistas.",
+                                                                "L5":  "Sou homem, tenho 38 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar de 6 salários mínimos. Me preocupo principalmente com a participação política e a defesa de direitos sociais e trabalhistas. Tenho forte identificação com o Partido dos Trabalhadores (PT) e muito interesse por política. O impeachment de Dilma Rousseff em 2016 me levou a me mobilizar ainda mais. Tendo a avaliar positivamente o governo Lula e negativamente a oposição, mas considero a participação partidária e institucional parte da defesa da democracia."
+                                                            },
+                                                  "mulher":  {
+                                                                 "L3":  "Sou mulher, tenho 38 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar de 6 salários mínimos.",
+                                                                 "L4":  "Sou mulher, tenho 38 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar de 6 salários mínimos. Me preocupo principalmente com a participação política e a defesa de direitos sociais e trabalhistas.",
+                                                                 "L5":  "Sou mulher, tenho 38 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar de 6 salários mínimos. Me preocupo principalmente com a participação política e a defesa de direitos sociais e trabalhistas. Tenho forte identificação com o Partido dos Trabalhadores (PT) e muito interesse por política. O impeachment de Dilma Rousseff em 2016 me levou a me mobilizar ainda mais. Tendo a avaliar positivamente o governo Lula e negativamente a oposição, mas considero a participação partidária e institucional parte da defesa da democracia."
+                                                             }
+                                              },
+                       "progressista":  {
+                                            "name_pt":  "Progressista",
+                                            "L2":  "Eu voto no estado de São Paulo. Me preocupo principalmente com os direitos das minorias e com os efeitos da crise climática sobre as pessoas mais vulneráveis.",
+                                            "homem":  {
+                                                          "L3":  "Sou homem, tenho 27 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar de 5 salários mínimos.",
+                                                          "L4":  "Sou homem, tenho 27 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar de 5 salários mínimos. Me preocupo principalmente com os direitos das minorias e com os efeitos da crise climática sobre as pessoas mais vulneráveis.",
+                                                          "L5":  "Sou homem, tenho 27 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar de 5 salários mínimos. Me preocupo principalmente com os direitos das minorias e com os efeitos da crise climática sobre as pessoas mais vulneráveis. Defendo normas menos tradicionais de gênero e família e não acho que uma mulher deva ser presa por abortar. Rejeito a ideia de que o Brasil seja uma democracia racial e costumo me informar por canais digitais."
+                                                      },
+                                            "mulher":  {
+                                                           "L3":  "Sou mulher, tenho 27 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar de 5 salários mínimos.",
+                                                           "L4":  "Sou mulher, tenho 27 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar de 5 salários mínimos. Me preocupo principalmente com os direitos das minorias e com os efeitos da crise climática sobre as pessoas mais vulneráveis.",
+                                                           "L5":  "Sou mulher, tenho 27 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar de 5 salários mínimos. Me preocupo principalmente com os direitos das minorias e com os efeitos da crise climática sobre as pessoas mais vulneráveis. Defendo normas menos tradicionais de gênero e família e não acho que uma mulher deva ser presa por abortar. Rejeito a ideia de que o Brasil seja uma democracia racial e costumo me informar por canais digitais."
+                                                       }
+                                        },
+                       "classes_d_e":  {
+                                           "name_pt":  "Dependente do Estado",
+                                           "L2":  "Eu voto no estado de São Paulo. Me preocupo principalmente com o custo de vida, o emprego e a continuidade dos programas sociais.",
+                                           "homem":  {
+                                                         "L3":  "Sou homem, tenho 42 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar de 1 salário mínimo.",
+                                                         "L4":  "Sou homem, tenho 42 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar de 1 salário mínimo. Me preocupo principalmente com o custo de vida, o emprego e a continuidade dos programas sociais.",
+                                                         "L5":  "Sou homem, tenho 42 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar de 1 salário mínimo. Me preocupo principalmente com o custo de vida, o emprego e a continuidade dos programas sociais. Trabalho no setor informal, recebo o Bolsa Família e sinto diretamente as altas no preço dos alimentos e a dificuldade de conseguir emprego. Quero um governo capaz de oferecer condições para uma vida melhor, embora também ache que programas mal desenhados podem desestimular o trabalho."
+                                                     },
+                                           "mulher":  {
+                                                          "L3":  "Sou mulher, tenho 42 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar de 1 salário mínimo.",
+                                                          "L4":  "Sou mulher, tenho 42 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar de 1 salário mínimo. Me preocupo principalmente com o custo de vida, o emprego e a continuidade dos programas sociais.",
+                                                          "L5":  "Sou mulher, tenho 42 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar de 1 salário mínimo. Me preocupo principalmente com o custo de vida, o emprego e a continuidade dos programas sociais. Trabalho no setor informal, recebo o Bolsa Família e sinto diretamente as altas no preço dos alimentos e a dificuldade de conseguir emprego. Quero um governo capaz de oferecer condições para uma vida melhor, embora também ache que programas mal desenhados podem desestimular o trabalho."
+                                                      }
+                                       },
+                       "liberal_social":  {
+                                              "name_pt":  "Liberal social",
+                                              "L2":  "Eu voto no estado de São Paulo. Me preocupo principalmente com a defesa da democracia e o fim da polarização.",
+                                              "homem":  {
+                                                            "L3":  "Sou homem, tenho 45 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar de 8 salários mínimos.",
+                                                            "L4":  "Sou homem, tenho 45 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar de 8 salários mínimos. Me preocupo principalmente com a defesa da democracia e o fim da polarização.",
+                                                            "L5":  "Sou homem, tenho 45 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar de 8 salários mínimos. Me preocupo principalmente com a defesa da democracia e o fim da polarização. Em 2022, votei em Simone Tebet no primeiro turno e em Lula no segundo. Considero-me de centro, defendo uma terceira via, a redução de impostos, o voto facultativo e a privatização de serviços públicos. Também valorizo as instituições democráticas e apoio a pena de morte em casos de crimes violentos como estupro."
+                                                        },
+                                              "mulher":  {
+                                                             "L3":  "Sou mulher, tenho 45 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar de 8 salários mínimos.",
+                                                             "L4":  "Sou mulher, tenho 45 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar de 8 salários mínimos. Me preocupo principalmente com a defesa da democracia e o fim da polarização.",
+                                                             "L5":  "Sou mulher, tenho 45 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar de 8 salários mínimos. Me preocupo principalmente com a defesa da democracia e o fim da polarização. Em 2022, votei em Simone Tebet no primeiro turno e em Lula no segundo. Considero-me de centro, defendo uma terceira via, a redução de impostos, o voto facultativo e a privatização de serviços públicos. Também valorizo as instituições democráticas e apoio a pena de morte em casos de crimes violentos como estupro."
+                                                         }
+                                          },
+                       "empreendedor_individual":  {
+                                                       "name_pt":  "Empreendedor individual",
+                                                       "L2":  "Eu voto no estado de São Paulo. Me preocupo principalmente com a redução de impostos e com melhores condições para quem trabalha por conta própria.",
+                                                       "homem":  {
+                                                                     "L3":  "Sou homem, tenho 33 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar entre 3 e 4 salários mínimos.",
+                                                                     "L4":  "Sou homem, tenho 33 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar entre 3 e 4 salários mínimos. Me preocupo principalmente com a redução de impostos e com melhores condições para quem trabalha por conta própria.",
+                                                                     "L5":  "Sou homem, tenho 33 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar entre 3 e 4 salários mínimos. Me preocupo principalmente com a redução de impostos e com melhores condições para quem trabalha por conta própria. Trabalho por conta própria, sem carteira assinada ou benefícios trabalhistas, e me vejo como empreendedor. Valorizo o esforço pessoal e diferenças de recompensa pelo trabalho, sou resistente a sindicatos, defendo privatizações e tenho uma visão negativa da política e da democracia brasileiras."
+                                                                 },
+                                                       "mulher":  {
+                                                                      "L3":  "Sou mulher, tenho 33 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar entre 3 e 4 salários mínimos.",
+                                                                      "L4":  "Sou mulher, tenho 33 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar entre 3 e 4 salários mínimos. Me preocupo principalmente com a redução de impostos e com melhores condições para quem trabalha por conta própria.",
+                                                                      "L5":  "Sou mulher, tenho 33 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar entre 3 e 4 salários mínimos. Me preocupo principalmente com a redução de impostos e com melhores condições para quem trabalha por conta própria. Trabalho por conta própria, sem carteira assinada ou benefícios trabalhistas, e me vejo como empreendedora. Valorizo o esforço pessoal e diferenças de recompensa pelo trabalho, sou resistente a sindicatos, defendo privatizações e tenho uma visão negativa da política e da democracia brasileiras."
+                                                                  }
+                                                   },
+                       "conservador_cristao":  {
+                                                   "name_pt":  "Conservador cristão",
+                                                   "L2":  "Eu voto no estado de São Paulo. Me preocupo principalmente com segurança pública e com a defesa da família segundo valores cristãos.",
+                                                   "homem":  {
+                                                                 "L3":  "Sou homem, tenho 44 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar de 3 salários mínimos.",
+                                                                 "L4":  "Sou homem, tenho 44 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar de 3 salários mínimos. Me preocupo principalmente com segurança pública e com a defesa da família segundo valores cristãos.",
+                                                                 "L5":  "Sou homem, tenho 44 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar de 3 salários mínimos. Me preocupo principalmente com segurança pública e com a defesa da família segundo valores cristãos. Sou evangélico, frequento a igreja toda semana e minha fé orienta minhas escolhas políticas. Valorizo a ordem, a obediência, o respeito aos mais velhos e papéis familiares tradicionais, inclusive a ideia de que o homem deve ser o provedor. Procuro candidatos conservadores, firmes na segurança pública, e sou contra a legalização da maconha."
+                                                             },
+                                                   "mulher":  {
+                                                                  "L3":  "Sou mulher, tenho 44 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar de 3 salários mínimos.",
+                                                                  "L4":  "Sou mulher, tenho 44 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar de 3 salários mínimos. Me preocupo principalmente com segurança pública e com a defesa da família segundo valores cristãos.",
+                                                                  "L5":  "Sou mulher, tenho 44 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar de 3 salários mínimos. Me preocupo principalmente com segurança pública e com a defesa da família segundo valores cristãos. Sou evangélica, frequento a igreja toda semana e minha fé orienta minhas escolhas políticas. Valorizo a ordem, a obediência, o respeito aos mais velhos e papéis familiares tradicionais, inclusive a ideia de que o homem deve ser o provedor. Procuro candidatos conservadores, firmes na segurança pública, e sou contra a legalização da maconha."
+                                                              }
+                                               },
+                       "agro":  {
+                                    "name_pt":  "Agro",
+                                    "L2":  "Eu voto no estado de São Paulo. Me preocupo principalmente com políticas para o setor rural e com restrições ambientais e fundiárias ao agronegócio.",
+                                    "homem":  {
+                                                  "L3":  "Sou homem, tenho 52 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar entre 5 e 8 salários mínimos.",
+                                                  "L4":  "Sou homem, tenho 52 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar entre 5 e 8 salários mínimos. Me preocupo principalmente com políticas para o setor rural e com restrições ambientais e fundiárias ao agronegócio.",
+                                                  "L5":  "Sou homem, tenho 52 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar entre 5 e 8 salários mínimos. Me preocupo principalmente com políticas para o setor rural e com restrições ambientais e fundiárias ao agronegócio. Trabalho como produtor rural e me identifico com o modo de vida e a cultura sertaneja. Considero-me tradicional e conservador, defendo a flexibilização das regras sobre armas e da legislação ambiental e de proteção às terras indígenas e costumo apoiar candidatos ligados ao agronegócio e a Jair Bolsonaro."
+                                              },
+                                    "mulher":  {
+                                                   "L3":  "Sou mulher, tenho 52 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar entre 5 e 8 salários mínimos.",
+                                                   "L4":  "Sou mulher, tenho 52 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar entre 5 e 8 salários mínimos. Me preocupo principalmente com políticas para o setor rural e com restrições ambientais e fundiárias ao agronegócio.",
+                                                   "L5":  "Sou mulher, tenho 52 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar entre 5 e 8 salários mínimos. Me preocupo principalmente com políticas para o setor rural e com restrições ambientais e fundiárias ao agronegócio. Trabalho como produtora rural e me identifico com o modo de vida e a cultura sertaneja. Considero-me tradicional e conservadora, defendo a flexibilização das regras sobre armas e da legislação ambiental e de proteção às terras indígenas e costumo apoiar candidatos ligados ao agronegócio e a Jair Bolsonaro."
+                                               }
+                                },
+                       "empresario":  {
+                                          "name_pt":  "Empresário",
+                                          "L2":  "Eu voto no estado de São Paulo. Me preocupo principalmente com privatizações e com a redução da participação do Estado na economia.",
+                                          "homem":  {
+                                                        "L3":  "Sou homem, tenho 55 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar superior a 15 salários mínimos.",
+                                                        "L4":  "Sou homem, tenho 55 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar superior a 15 salários mínimos. Me preocupo principalmente com privatizações e com a redução da participação do Estado na economia.",
+                                                        "L5":  "Sou homem, tenho 55 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar superior a 15 salários mínimos. Me preocupo principalmente com privatizações e com a redução da participação do Estado na economia. Sou dono de uma empresa e prefiro um sistema econômico liberal, com privatização de empresas estatais e menor intervenção do Estado. Sou contrário a benefícios governamentais focalizados nos mais pobres, estou satisfeito com a renda da minha família e me informo principalmente por canais digitais."
+                                                    },
+                                          "mulher":  {
+                                                         "L3":  "Sou mulher, tenho 55 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar superior a 15 salários mínimos.",
+                                                         "L4":  "Sou mulher, tenho 55 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar superior a 15 salários mínimos. Me preocupo principalmente com privatizações e com a redução da participação do Estado na economia.",
+                                                         "L5":  "Sou mulher, tenho 55 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar superior a 15 salários mínimos. Me preocupo principalmente com privatizações e com a redução da participação do Estado na economia. Sou dona de uma empresa e prefiro um sistema econômico liberal, com privatização de empresas estatais e menor intervenção do Estado. Sou contrária a benefícios governamentais focalizados nos mais pobres, estou satisfeita com a renda da minha família e me informo principalmente por canais digitais."
+                                                     }
+                                      },
+                       "extrema_direita":  {
+                                               "name_pt":  "Extrema direita",
+                                               "L2":  "Eu voto no estado de São Paulo. Me preocupo principalmente com a restauração da ordem por meio de um governo forte e nacionalista.",
+                                               "homem":  {
+                                                             "L3":  "Sou homem, tenho 48 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar de 4 salários mínimos.",
+                                                             "L4":  "Sou homem, tenho 48 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar de 4 salários mínimos. Me preocupo principalmente com a restauração da ordem por meio de um governo forte e nacionalista.",
+                                                             "L5":  "Sou homem, tenho 48 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar de 4 salários mínimos. Me preocupo principalmente com a restauração da ordem por meio de um governo forte e nacionalista. Sou cristão praticante e defendo normas de gênero e valores familiares tradicionais. Acredito que um poder central forte deve impor ordem e que, em algumas circunstâncias, uma ditadura pode ser preferível à democracia. Também defendo menor participação do Estado nas esferas econômica, social e ambiental e apoiei Jair Bolsonaro."
+                                                         },
+                                               "mulher":  {
+                                                              "L3":  "Sou mulher, tenho 48 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar de 4 salários mínimos.",
+                                                              "L4":  "Sou mulher, tenho 48 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar de 4 salários mínimos. Me preocupo principalmente com a restauração da ordem por meio de um governo forte e nacionalista.",
+                                                              "L5":  "Sou mulher, tenho 48 anos, moro no estado de São Paulo, concluí o ensino médio e tenho renda familiar de 4 salários mínimos. Me preocupo principalmente com a restauração da ordem por meio de um governo forte e nacionalista. Sou cristã praticante e defendo normas de gênero e valores familiares tradicionais. Acredito que um poder central forte deve impor ordem e que, em algumas circunstâncias, uma ditadura pode ser preferível à democracia. Também defendo menor participação do Estado nas esferas econômica, social e ambiental e apoiei Jair Bolsonaro."
+                                                          }
+                                           }
+                   }
+}

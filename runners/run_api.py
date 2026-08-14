@@ -95,7 +95,11 @@ def query(model, prompt, temperature, search):
             model=model_id,
             messages=[{"role": "user", "content": prompt}],
             temperature=temperature,
-            max_tokens=1024,
+            # Reasoning models (gpt5, deepseek-v4, gemini-pro, grok) spend tokens
+            # on hidden reasoning before emitting content; 1024 was too low and the
+            # reasoning consumed the whole budget -> empty content (finish=length).
+            # 8000 leaves room for reasoning + the visible answer.
+            max_tokens=8000,
         )
         msg = resp.choices[0].message
         content = msg.content or "ERROR: empty response"
@@ -115,8 +119,7 @@ def run(models, reps, temperature, search, dry_run):
     rows = build_all()
     total = len(rows) * len(models) * reps
     print(f"{len(rows)} conditions × {len(models)} models × {reps} reps = {total} prompts "
-          f"(temp={temperature}, search={search})
-")
+          f"(temp={temperature}, search={search})\n")
     if dry_run:
         print("dry run — no API calls made.")
         return
@@ -142,8 +145,7 @@ def run(models, reps, temperature, search, dry_run):
                 err = f"  ERROR: {error[:60]}" if error else ""
                 print(f"  {r['cond_id']} | {model_key} | rep {rep}{flag}  ({len(content)} chars){err}")
                 time.sleep(0.4)
-    print(f"
-Done. {done} new, {skipped} skipped. Raw in {RESULTS_DIR}/")
+    print(f"\nDone. {done} new, {skipped} skipped. Raw in {RESULTS_DIR}/")
 
 
 if __name__ == "__main__":
@@ -160,15 +162,10 @@ if __name__ == "__main__":
 
     if not args.confirmed and not args.dry_run:
         sys.exit(
-            "
-MODEL SET NOT CONFIRMED.
-"
-            "The PILOT_MODELS list is a proposal — confirm it with Leticia before running.
-"
-            f"Proposed: {list(PILOT_MODELS)}
-"
-            "Then re-run with --confirmed (or use --dry-run to just count).
-"
+            "\nMODEL SET NOT CONFIRMED.\n"
+            "The PILOT_MODELS list is a proposal — confirm it with Leticia before running.\n"
+            f"Proposed: {list(PILOT_MODELS)}\n"
+            "Then re-run with --confirmed (or use --dry-run to just count).\n"
         )
 
     fixed = load_cues()["metadata"]["fixed"]

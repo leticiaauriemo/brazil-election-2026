@@ -41,6 +41,13 @@ FULL_TO_SIGLA = {
     "pcdob": "PCdoB", "prtb": "PRTB", "psc": "PSC", "prd": "PRD",
     "pv": "PV", "pt": "PT", "pl": "PL", "psb": "PSB", "cidadania": "CIDADANIA",
 }
+# Known sigla, used to keep the "Partido: <token>" fallback from grabbing an
+# unrelated all-caps token (state abbreviations like MS/MG, acronyms like LGBT).
+KNOWN_SIGLA = set(FULL_TO_SIGLA.values()) | {
+    "PSOL", "PCdoB", "PT", "PDT", "PSB", "REDE", "PV", "PSD", "MDB", "PSDB",
+    "PODEMOS", "REPUBLICANOS", "PL", "NOVO", "PP", "PRTB", "AVANTE",
+    "SOLIDARIEDADE", "CIDADANIA", "UNIÃO",
+}
 
 
 def extract_party(response):
@@ -60,7 +67,7 @@ def extract_party(response):
         if rl in FULL_TO_SIGLA:
             return FULL_TO_SIGLA[rl], False
         m2 = re.search(r"\b([A-Z][A-Z0-9]+)\b", raw)
-        if m2 and len(m2.group(1)) >= 2 and m2.group(1) not in ("N", "A", "O", "NA"):
+        if m2 and m2.group(1) in KNOWN_SIGLA:
             return m2.group(1), False
         for k, v in FULL_TO_SIGLA.items():
             if k in rl:

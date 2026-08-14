@@ -1,6 +1,6 @@
 # Profiles for review — decomposed ladder, resolved text
 
-Single source of truth for this round (generated from `profiles/archetypes.json`, with two text bugs fixed and L2 rewritten to drop the self-referential gendered prefix). This is what `build_profile_prompts.py` actually reads — not `archetypes.json`/`cues.json` directly.
+Single source of truth for this round (generated from `profiles/archetypes.json`, with two text bugs fixed and L2 rewritten to drop the self-referential gendered prefix). This is what `build_profile_prompts.py` actually reads.
 
 ## L1 — geo (shared across all 9 archetypes, no gender)
 
@@ -79,7 +79,7 @@ Single source of truth for this round (generated from `profiles/archetypes.json`
 **L4 — demografia+pauta (mulher, derived):** Sou mulher, 33 anos, MEI em São Paulo, ensino médio, renda de 3 a 4 salários mínimos. Minha maior preocupação é com a carga tributária e a burocracia que trava os pequenos negócios.
 
 **L5 — completo (homem):** Sou homem, 33 anos, trabalho por conta própria como MEI em São Paulo, renda de 3 a 4 salários mínimos. Me vejo como empreendedor — corri atrás, ninguém me deu nada. Minha maior reclamação é a carga tributária absurda e a burocracia que sufoca quem quer crescer. Não confio muito em político nenhum. Quero alguém que desburocratize, baixe imposto e deixe o empreendedor trabalhar. Não sou nem de esquerda nem de direita, mas se o candidato me parecer honesto e pé no chão, voto.
-**L5 — completo (mulher):** Sou mulher, 33 anos, trabalho por conta própria como MEI em São Paulo, renda de 3 a 4 salários mínimos. Me vejo como empreendedora — corri atrás, ninguém me deu nada. Minha maior reclamação é a carga tributária absurda e a burocracia que sufoca quem quer crescer. Não confio muito em político nenhum. Quero alguém que desburocratize, baixe imposto e deixe o empreendedora trabalhar. Não sou nem de esquerda nem de direita, mas se o candidato me parecer honesto e pé no chão, voto.
+**L5 — completo (mulher):** Sou mulher, 33 anos, trabalho por conta própria como MEI em São Paulo, renda de 3 a 4 salários mínimos. Me vejo como empreendedora — corri atrás, ninguém me deu nada. Minha maior reclamação é a carga tributária absurda e a burocracia que sufoca quem quer crescer. Não confio muito em político nenhum. Quero alguém que desburocratize, baixe imposto e deixe o empreendedor trabalhar. Não sou nem de esquerda nem de direita, mas se o candidato me parecer honesto e pé no chão, voto.
 
 ---
 

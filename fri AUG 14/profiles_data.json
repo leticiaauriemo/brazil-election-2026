@@ -1,11 +1,7 @@
 {
   "metadata": {
-    "source": "Built from profiles/archetypes.json for the decomposed-profile round (2026-08-14). L1 is shared across all archetypes (geo only, no gender). L2 is the pauta (issue) sentence alone, no self-referential gendered wording. L3 is demographics only, gendered via {gender}. L4 (demo+pauta) is derived at generation time, not stored here. L5 is the full bundled profile, gendered. Two known source bugs fixed here: progressista's hardcoded 'moradora', empreendedor_individual's hardcoded 'empreendedor'.",
-    "state_text": "São Paulo",
-    "gender_words": {
-      "homem": "morador/empresário/etc. base form",
-      "mulher": "moradora/empresária/etc. (a)-suffixed form"
-    }
+    "source": "Built from profiles/archetypes.json for the decomposed-profile round (2026-08-14, corrected 2026-08-14 to fix an over-broad empreendedor_individual patch). L1 is shared across all archetypes (geo only, no gender). L2 is the pauta (issue) sentence alone. L3 is demographics only, gendered via {gender}. L4 (demo+pauta) is derived at generation time. L5 is the full bundled profile, gendered.",
+    "state_text": "São Paulo"
   },
   "shared_l1": "Eu voto em {state}.",
   "archetypes": {
@@ -52,7 +48,7 @@
       "age": 33,
       "pauta": "Minha maior preocupação é com a carga tributária e a burocracia que trava os pequenos negócios.",
       "demografia": "Sou {gender}, {age} anos, MEI em {state}, ensino médio, renda de 3 a 4 salários mínimos.",
-      "completo": "Sou {gender}, {age} anos, trabalho por conta própria como MEI em {state}, renda de 3 a 4 salários mínimos. Me vejo como empreendedor(a) — corri atrás, ninguém me deu nada. Minha maior reclamação é a carga tributária absurda e a burocracia que sufoca quem quer crescer. Não confio muito em político nenhum. Quero alguém que desburocratize, baixe imposto e deixe o empreendedor(a) trabalhar. Não sou nem de esquerda nem de direita, mas se o candidato me parecer honesto e pé no chão, voto."
+      "completo": "Sou {gender}, {age} anos, trabalho por conta própria como MEI em {state}, renda de 3 a 4 salários mínimos. Me vejo como empreendedor(a) — corri atrás, ninguém me deu nada. Minha maior reclamação é a carga tributária absurda e a burocracia que sufoca quem quer crescer. Não confio muito em político nenhum. Quero alguém que desburocratize, baixe imposto e deixe o empreendedor trabalhar. Não sou nem de esquerda nem de direita, mas se o candidato me parecer honesto e pé no chão, voto."
     },
     "conservador_cristao": {
       "name_pt": "Conservador cristão",

@@ -1,10 +1,13 @@
 """
 fri AUG 14/build_profile_prompts.py — prompt generator for the decomposed-profile round.
 
-Reads fri AUG 14/profiles_data.json (the reviewed, cleaned single source of truth for
-this round — NOT profiles/archetypes.json or the live "anchors" in profiles/cues.json)
-plus profiles/cues.json only for the cargo/ask closing-question strings, which are
-shared with the rest of the pilot and not archetype content.
+Everything this script needs lives in this folder (copied from the live repo so the
+whole round is self-contained): profiles_data.json (the reviewed, cleaned single
+source of truth for this round -- NOT profiles/archetypes.json or the live "anchors"
+in profiles/cues.json) and cues.json (a copy of profiles/cues.json), used only for
+the cargo/ask closing-question strings shared with the rest of the pilot, not
+archetype content. If profiles/cues.json changes upstream, re-copy it here manually --
+this is a snapshot, not a live link.
 
 Levels (see fri AUG 14/profiles_reviewed.md for the full resolved text):
   L1 — geo only, SHARED across all 9 archetypes, no gender (1 base condition)
@@ -28,7 +31,7 @@ from itertools import product
 
 HERE = Path(__file__).parent
 PROFILES_FILE = HERE / "profiles_data.json"
-CUES_FILE = HERE.parent / "profiles" / "cues.json"
+CUES_FILE = HERE / "cues.json"
 
 GENDERS = ["homem", "mulher"]
 

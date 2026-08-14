@@ -20,9 +20,18 @@ The original pilot dataset is untouched and stays the primary source. `results/p
 | `llama` | `meta-llama/llama-4-maverick` | kept per Leticia — this is the model behind WhatsApp's AI features, directly relevant to a Brazil piece regardless of Leandro's GPT-market-share framing |
 | `deepseek` | `deepseek/deepseek-v4-pro` | **added back** per Luca, over dropping it for Llama — now both are in |
 
-**DECISION NEEDED: Gemini version.** Google's current lineup (checked 2026-08-14) is Gemini 3.6 Flash (GA), Gemini 3.5 Flash-Lite (GA), and **Gemini 3.1 Pro** (preview — Google's most advanced reasoning model, the natural successor to the original pilot's `gemini_pro` role as the refusal/agreement outlier). Because 3.1 Pro is still in preview, its OpenRouter availability isn't confirmed. Options: (a) try `google/gemini-3.1-pro` and fall back to `google/gemini-3.6-flash` if it's not accessible, (b) just use `gemini-3.6-flash` directly since it's GA. Not decided — code currently defaults to the original pilot's `gemini-2.5-pro` id as a placeholder.
+**RESOLVED — Gemini version and all model ids (checked 2026-08-14 via each model's live OpenRouter page directly, not just search snippets):**
 
-**DECISION NEEDED: unverified model ids.** `openai/gpt-5.6-sol`, `openai/gpt-5.6-luna`, `anthropic/claude-opus-5`, `anthropic/claude-sonnet-5` are confirmed live on OpenRouter (checked directly). `x-ai/grok-4.6` and any Gemini 3.x id are **inferred by naming pattern**, not confirmed against a live OpenRouter listing — `run_new_round.py` should be tested with `--models <one> --reps 1 --no-cross` (a single real call) before a full run, to catch any 404s early.
+| id | Confirmed live? | Notes |
+|---|---|---|
+| `openai/gpt-5.6-sol` | ✅ | |
+| `openai/gpt-5.6-luna` | ✅ | |
+| `anthropic/claude-opus-5` | ✅ | |
+| `anthropic/claude-sonnet-5` | ✅ | |
+| `x-ai/grok-4.6` | ✅ | $2/$6 per M tokens |
+| `google/gemini-3.1-pro-preview` | ✅ | **note the exact slug needs `-preview`** — `google/gemini-3.1-pro` alone does not exist. Chosen over 3.6 Flash because it's the frontier reasoning model, the natural successor to the original pilot's `gemini_pro` role as the refusal/agreement outlier |
+
+All six now hardcoded into `run_new_round.py`'s `ROUND_MODELS` — no more placeholders.
 
 ## Design: decomposed rich profiles — redesigned
 
@@ -68,14 +77,16 @@ Breakdown of the 12,800 default, by level:
 
 For scale: the original full pilot was 32,160 calls — this is ~40% of that.
 
-## Code written (not yet run)
+## Code written (not yet run) — fully self-contained in `fri AUG 14/`
 
-Three new files in `fri AUG 14/`, all standalone — none of them edit `profiles/archetypes.json`, `profiles/cues.json`, `queries/templates.py`, or `runners/run_api.py`:
+Everything needed to run this round now lives in this one folder, including copies of the two live-repo files it depends on (`cues.json`, `run_api.py`) — nothing outside `fri AUG 14/` is touched or required, other than your `OPENROUTER_API_KEY` / `MARITACA_API_KEY` environment variables and the `openai` Python package:
 
 1. **`profiles_data.json`** — the clean, machine-readable source: per archetype, the pauta/demografia/completo text with the two bugs already fixed and L2's prefix already stripped. Generated once from `profiles/archetypes.json`.
 2. **`profiles_reviewed.md`** — human-readable version of the same data, fully resolved (both genders, São Paulo filled in) for manual review before running. **This is what to actually read to check the prompt wording.**
-3. **`build_profile_prompts.py`** — generates the 64/256 condition list from `profiles_data.json` (+ `profiles/cues.json` only for the shared cargo/ask closing-question strings). Verified working: `python3 "fri AUG 14/build_profile_prompts.py"` prints 256 conditions, matches the table above.
-4. **`run_new_round.py`** — the actual API runner. Reuses `query()`/`client_for()` from `runners/run_api.py` unmodified. Writes to `fri AUG 14/results/raw/` only. Gated behind `--confirmed` (refuses to run without it, same pattern as the original pilot's runner). Verified working in `--dry-run` mode: correctly reports 12,800 total, **makes zero API calls**.
+3. **`cues.json`** — a copy of `profiles/cues.json`, used only for the shared cargo/ask closing-question strings ("Pra quem devo votar para presidente...", etc.), not archetype content. **Snapshot, not a live link** — if the original changes upstream, re-copy manually.
+4. **`run_api.py`** — a copy of `runners/run_api.py`, used for its `query()`/`client_for()` functions (the actual "call the model" logic) and `PILOT_MODELS` (existing model ids for gpt4o/sabia4/llama/deepseek). **Snapshot, not a live link** — already has the `max_tokens=8000` fix baked in as of today; if that file gets fixed again upstream, re-copy it here too.
+5. **`build_profile_prompts.py`** — generates the 64/256 condition list from `profiles_data.json` + `cues.json` (both local now). Verified working: `python3 "fri AUG 14/build_profile_prompts.py"` prints 256 conditions, matches the table above.
+6. **`run_new_round.py`** — the actual API runner. Imports from the local `run_api.py`. Writes to `fri AUG 14/results/raw/` only. All 10 model ids hardcoded and confirmed (see above) — no placeholders left. Gated behind `--confirmed` (refuses to run without it). Verified working in `--dry-run` mode: correctly reports 12,800 total, **makes zero API calls**.
 
 ## Decision checklist
 
@@ -84,7 +95,8 @@ Three new files in `fri AUG 14/`, all standalone — none of them edit `profiles
 - ✅ Data separation, `{state}`, `{gender}`, the two template bugs, level redesign, gender-neutral L1/L2 wording (re-verified 2026-08-14 with a fresh scan of all 9 archetypes — no other hardcoded gender issues found beyond the two already fixed).
 - ✅ **cargo×ask crossing — kept, per Luca's explicit "vale sim fazer todos."** Total = **12,800**. (Corrected: this was mis-listed as still-open in an earlier version of this doc; Luca already gave a clear answer.)
 
+- ✅ **All 10 model ids confirmed live on OpenRouter directly** (Gemini resolved to `gemini-3.1-pro-preview`, Grok to `grok-4.6`) — no more placeholders.
+- ✅ **Folder is fully self-contained** — `cues.json` and `run_api.py` copied in from the live repo; nothing outside `fri AUG 14/` is required to run this.
+
 **OPEN:**
-1. **DECISION NEEDED: Gemini model** — 3.1 Pro (preview, uncertain availability) vs. 3.6 Flash (GA, safer) vs. keep the original pilot's 2.5 Pro. Code currently defaults to 2.5 Pro as a placeholder — model *count* (10) is unaffected either way, only which Gemini checkpoint is actually called.
-2. **DECISION NEEDED: verify `x-ai/grok-4.6` and the chosen Gemini id actually exist on OpenRouter** — both were inferred by naming pattern from vendor announcements, not confirmed against a live OpenRouter listing (Claude Opus 5 / Sonnet 5 and both GPT-5.6 variants *were* directly confirmed). Test with `--models grok46 --reps 1 --no-cross` before a full run.
-3. **Still not running anything against a real model** — waiting on the above, plus final review of `profiles_reviewed.md`.
+1. **Still not running anything against a real model** — waiting on final review of `profiles_reviewed.md` and the go-ahead to run.

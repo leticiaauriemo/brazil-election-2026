@@ -15,9 +15,38 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from openai import OpenAI
+from openai import APIStatusError, OpenAI
 
 HERE = Path(__file__).resolve().parent
+
+# --- OpenRouter key rotation -------------------------------------------------
+# Multiple funding sources for this round: set OPENROUTER_API_KEYS to a
+# comma-separated list (falls back to single OPENROUTER_API_KEY for backward
+# compatibility with the rest of this file / the original pilot's runner).
+# Keys are tried in the order given; run_one() advances to the next key only
+# on an insufficient-credit error (HTTP 402 / "credit"/"insufficient" in the
+# message), not on other failures, so ordinary retries keep their original
+# semantics. Prints a clear alert on each rotation and again if every key is
+# exhausted.
+def _load_openrouter_keys() -> list[str]:
+    combined = os.environ.get("OPENROUTER_API_KEYS")
+    if combined:
+        keys = [k.strip() for k in combined.split(",") if k.strip()]
+        if keys:
+            return keys
+    single = os.environ.get("OPENROUTER_API_KEY")
+    return [single] if single else []
+
+
+OPENROUTER_KEYS = _load_openrouter_keys()
+_key_state = {"index": 0}
+
+
+def is_insufficient_credit_error(exc: Exception) -> bool:
+    if isinstance(exc, APIStatusError) and exc.status_code in (402, 403):
+        return True
+    text = str(exc).lower()
+    return any(s in text for s in ("insufficient", "payment required", "credit", "quota"))
 PROFILE_PATH = HERE / "profile_variants.json"
 RESULTS_DIR = HERE / "results"
 RAW_DIR = RESULTS_DIR / "raw"
@@ -368,9 +397,9 @@ def prepare_manifest(config: dict[str, Any]) -> tuple[dict[str, Any], str]:
 
 def client_for(model: dict[str, Any]) -> OpenAI:
     if model["provider"] == "openrouter":
-        key = os.environ.get("OPENROUTER_API_KEY")
-        if not key:
-            raise RuntimeError("OPENROUTER_API_KEY is not set")
+        if not OPENROUTER_KEYS:
+            raise RuntimeError("OPENROUTER_API_KEY / OPENROUTER_API_KEYS is not set")
+        key = OPENROUTER_KEYS[_key_state["index"]]
         return OpenAI(api_key=key, base_url="https://openrouter.ai/api/v1")
     if model["provider"] == "maritaca":
         key = os.environ.get("MARITACA_API_KEY")
@@ -548,6 +577,21 @@ def run_one(
             return
         except Exception as exc:  # Provider SDK exceptions vary.
             last_error = exc
+            if MODEL_CONFIGS[job["model_key"]]["provider"] == "openrouter" and is_insufficient_credit_error(exc):
+                exhausted_index = _key_state["index"]
+                if exhausted_index + 1 < len(OPENROUTER_KEYS):
+                    _key_state["index"] = exhausted_index + 1
+                    print(
+                        f"ALERT: OpenRouter key #{exhausted_index + 1} is out of credits. "
+                        f"Switching to key #{exhausted_index + 2} of {len(OPENROUTER_KEYS)}.",
+                        file=sys.stderr,
+                    )
+                    continue  # retry the same job immediately on the new key, same attempt budget
+                print(
+                    f"ALERT: OpenRouter key #{exhausted_index + 1} is out of credits and it was "
+                    f"the last of {len(OPENROUTER_KEYS)} configured keys. No funded keys remain.",
+                    file=sys.stderr,
+                )
             if attempt < MAX_RETRIES:
                 time.sleep(2 ** (attempt - 1))
 

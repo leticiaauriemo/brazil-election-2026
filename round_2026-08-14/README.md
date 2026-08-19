@@ -189,6 +189,9 @@ Every requested value and every deliberate omission is frozen in the run manifes
 - README.md: self-contained design and operating guide.
 - CHANGELOG.md: development history; this is the only operational-round document that discusses earlier work.
 - ../docs/archetypes.md: detailed audit of the archetype source and the mapping into prompts.
+- analysis/: reproducible R pipeline for indexing, coding, summaries, figures, and audited deck materials.
+- deck/exploratory_results_expanded.tex: canonical Beamer source for the external-audience results deck.
+- deck/exploratory_results_expanded.pdf: rendered 39-slide results deck.
 - results/: generated locally and ignored by Git.
 
 ## Safe workflow

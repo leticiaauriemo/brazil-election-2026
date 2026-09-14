@@ -22,7 +22,7 @@ quoted examples need the web text. To rerun from the raw inputs, place them unde
 | `04_regex.R` | A rule-based reading of the outcome, used to check the labels |
 | `05_results.R` | Every table behind the figures and the numbers quoted in the text |
 | `06_figures.R` | The fifteen figures, numbered in the order of the post, without captions (the post carries them) |
-| `reference/` | Coding sample identifiers, codebook, name aliases, benchmarks, population shares |
+| `reference/` | The 256 prompts, coding sample identifiers, codebook, coder run manifest and failed requests, name aliases, benchmarks, population shares |
 | `output/derived/` | Intermediate Parquet files, committed except the web answer text |
 | `output/tables/`, `output/figures/` | Results, committed |
 | `appendix/` | The appendix to the post: prompts, profiles, models, coding rules, computation |

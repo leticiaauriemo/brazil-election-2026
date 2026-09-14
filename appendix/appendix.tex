@@ -139,7 +139,7 @@ The business-owner woman, presidential question, specific wording, exactly as se
 \textbf{Attitudes added.} Sou mulher, tenho 55 anos, moro no estado de São Paulo, concluí o ensino superior e tenho renda familiar superior a 15 salários mínimos. Me preocupo principalmente com privatizações e com a redução da participação do Estado na economia. Sou dona de uma empresa e prefiro um sistema econômico liberal, com privatização de empresas estatais e menor intervenção do Estado. Sou contrária a benefícios governamentais focalizados nos mais pobres, estou satisfeita com a renda da minha família e me informo principalmente por canais digitais.\\ Em qual candidato específico devo votar para presidente nas eleições de 2026?
 \end{prompt}
 
-The full set of 256 prompts, with their identifiers, is in the file \texttt{data/api/prompts\_2026-08-14.json} in the analysis folder.
+The full set of 256 prompts, with their identifiers, is the file \nolinkurl{prompts_2026-08-14.json} in the reference folder of the repository.
 
 \section{Models and collection}
 
@@ -175,7 +175,7 @@ Ranqia ran the same 256 prompts through the consumer ChatGPT web interface in fr
 
 \subsection{Coding sample}
 
-For analysis, we focused on a subsample of data that was coded. The coding sample holds every complete API answer and 100 web captures per prompt and collection day, drawn at random: 103,934 answers in total. The coder labelled 102,247 of them; 1,687 (1.6\%) failed the coder's own evidence checks after four passes and are shown as ``not coded''. They lean toward advice, so the narrow rates for the most permissive models are lower bounds.
+For analysis, we focused on a subsample of data that was coded. The coding sample holds every complete API answer and 100 web captures per prompt and collection day, drawn at random: 103,934 answers in total. The coder labelled 102,247 of them; 1,687 (1.6\%) failed the coder's own evidence checks after four passes and are shown as ``not coded'' (the run manifest and the list of failed requests are \nolinkurl{labels_manifest.json} and \nolinkurl{labels_failed_requests.csv} in the reference folder). They lean toward advice, so the narrow rates for the most permissive models are lower bounds.
 
 \section{Coding}
 

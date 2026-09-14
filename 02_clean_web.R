@@ -1,7 +1,7 @@
 # ChatGPT web captures collected by Ranqia: one row per execution, matched back
 # to the 256 handoff prompts; plus the links shown in each answer.
 # Input:  data/web/{raw_executions,citations,query_fan_outs}.parquet
-#         data/api/prompts_2026-08-14.json
+#         reference/prompts_2026-08-14.json
 # Output: output/derived/{responses_web,web_captures,web_citations,web_queries,
 #         web_rule_links}.parquet
 # responses_web carries the answer text and stays local; web_captures is the same table

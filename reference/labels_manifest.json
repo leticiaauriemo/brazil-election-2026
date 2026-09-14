@@ -1,0 +1,16 @@
+{
+  "input_rows": 959990,
+  "selected_rows": 103934,
+  "first_pass_valid": 73295,
+  "retry_1_valid": 19039,
+  "retry_2_valid": 8107,
+  "retry_3_valid": 1806,
+  "final_valid_selected": 102247,
+  "residual_failures": 1687,
+  "replaced_from_retries": 28952,
+  "model": "gpt-5-mini-2025-08-07",
+  "codebook_version": "2026-09-05.1",
+  "input_sha256": "d7d5951b8703bb56f49a06ac2ef935604d082f51af0ef459d74a6aa9c34e1229",
+  "final_parquet_sha256": "d4dc1d353988b5e82270a37e8465f6123c25ed9407c071b92ba595882242081c",
+  "ready_for_analysis": false
+}

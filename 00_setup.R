@@ -21,7 +21,7 @@ here <- dirname(normalizePath(sub(
 # per model and the 256 handoff prompts), Ranqia's ChatGPT-web export, and Ranqia's
 # GPT-5 mini labels. data/ and output/ are gitignored; see README for provenance.
 api_zip_dir <- file.path(here, "data", "api", "release_zips")
-handoff_path <- file.path(here, "data", "api", "prompts_2026-08-14.json")
+handoff_path <- file.path(here, "reference", "prompts_2026-08-14.json")
 web_raw_dir <- file.path(here, "data", "web")
 labels_path <- file.path(here, "data", "labels", "responses_coded_final.parquet")
 reference <- function(name) file.path(here, "reference", name)

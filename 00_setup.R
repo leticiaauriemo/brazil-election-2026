@@ -105,8 +105,8 @@ canonical_party <- function(x) {
   )
 }
 
-# Figures: publication style, no titles; the takeaway goes in the caption. The base theme
-# is set globally so a plot's own theme() calls (rotated labels) are kept.
+# Figures: publication style, no titles and no captions; the post supplies the text. The
+# base theme is set globally so a plot's own theme() calls (rotated labels) are kept.
 palette <- c(
   navy = "#17324D", teal = "#2A9D8F", gold = "#E9C46A",
   coral = "#E76F51", grey = "#7A8793", ink = "#202B33"
@@ -118,12 +118,10 @@ theme_set(
       panel.grid.major.y = element_blank(),
       legend.position = "bottom",
       legend.title = element_blank(),
-      strip.text = element_text(face = "bold", color = palette[["navy"]]),
-      plot.caption = element_text(color = palette[["grey"]], hjust = 0, size = rel(0.8))
+      strip.text = element_text(face = "bold", color = palette[["navy"]])
     )
 )
 save_figure <- function(name, plot, width, height) {
-  plot$labels$caption <- str_wrap(plot$labels$caption, width = round(width * 14))
   for (ext in c("png", "pdf")) {
     ggsave(file.path(here, "output", "figures", paste0(name, ".", ext)), plot,
       width = width, height = height, dpi = 180, bg = "white"

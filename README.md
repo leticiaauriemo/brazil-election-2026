@@ -21,7 +21,7 @@ quoted examples need the web text. To rerun from the raw inputs, place them unde
 | `03_labels.R` | Joins the GPT-5 mini labels to the coding sample and derives the outcomes |
 | `04_regex.R` | A rule-based reading of the outcome, used to check the labels |
 | `05_results.R` | Every table behind the figures and the numbers quoted in the text |
-| `06_figures.R` | The fifteen figures, numbered in the order of the post |
+| `06_figures.R` | The fifteen figures, numbered in the order of the post, without captions (the post carries them) |
 | `reference/` | Coding sample identifiers, codebook, name aliases, benchmarks, population shares |
 | `output/derived/` | Intermediate Parquet files, committed except the web answer text |
 | `output/tables/`, `output/figures/` | Results, committed |

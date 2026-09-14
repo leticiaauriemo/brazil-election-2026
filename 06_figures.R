@@ -46,12 +46,7 @@ p <- ggplot(mapping = aes(level_name(level), share, color = measure_name(measure
   scale_y_continuous(labels = pct, limits = c(0, 1)) +
   scale_color_manual(values = unname(palette[c("navy", "teal")])) +
   labs(
-    x = "What the voter reveals", y = "Share of answers",
-    caption = paste0(
-      "Specific-candidate wording, all five conditions. Lines: the eleven configurations ",
-      "weighted equally. Faint points: one per configuration. The broader measure counts any ",
-      "endorsement, match or steer away, including shortlists and party-only answers."
-    )
+    x = "What the voter reveals", y = "Share of answers"
   )
 save_figure("01_ladder_pooled", p, 9, 5.5)
 
@@ -71,13 +66,7 @@ p <- ggplot(levels, aes(level, advice, group = model)) +
   facet_wrap(~model, nrow = 3) +
   scale_y_continuous(labels = pct, limits = c(0, 1)) +
   labs(
-    x = "What the voter reveals", y = "Probability of naming one candidate",
-    caption = paste0(
-      "Specific-candidate wording, all five conditions. Biography and issue are separate ",
-      "additions to the bare question; the last two conditions add the issue to the biography, ",
-      "then attitudes and identities. Band: 95% interval across prompts. The bare ",
-      "question rests on two prompts and about ten answers per API configuration."
-    )
+    x = "What the voter reveals", y = "Probability of naming one candidate"
   )
 save_figure("02_ladder_by_model", p, 12, 7.5)
 
@@ -116,17 +105,7 @@ p <- ggplot(by_model, aes(y = model)) +
     color = c(palette[["teal"]], palette[["navy"]])
   ))) +
   labs(
-    x = "Share of answers", y = NULL,
-    caption = paste0(
-      "Full profiles, specific-candidate wording. Filled point: share of labelled responses ",
-      "that settle on one candidate, as an endorsement or as the voter's best match, others ",
-      "at most listed as alternatives; every other answer declines to name one. Open point: ",
-      "share that endorses, matches or steers away from any candidate or party, including ",
-      "shortlists and party-only answers; the broader measure is motivated by Resolucao TSE ",
-      "23.755/2026, which forbids ranking, suggesting or prioritising candidates or parties, ",
-      "but it is a behavioural category, not a legal finding. Whiskers: 95% intervals across ",
-      "prompts. Label: share of responses the coder could not label."
-    )
+    x = "Share of answers", y = NULL
   )
 save_figure("03_advice_by_model", p, 9, 5.4)
 
@@ -166,15 +145,7 @@ p <- ggplot(cats, aes(share, model, fill = category)) +
     "#B0B8C1", "#D9DEE3", "grey95"
   )) +
   labs(
-    x = "Share of responses", y = NULL,
-    caption = paste0(
-      "Full profiles, specific-candidate wording. Mutually exclusive bins, most to least ",
-      "directive. The dark bin is the advice rate of the other figures; every other bin is a ",
-      "way of declining to name one candidate. A description of the presidential field is ",
-      "whole only if it names all thirteen registered candidates; the label is the average ",
-      "number named when the system describes the field. For deputies, national figures ",
-      "named as reference points do not count as candidates."
-    )
+    x = "Share of responses", y = NULL
   ) +
   guides(fill = guide_legend(nrow = 3))
 save_figure("04_categories_by_office", p, 13, 6)
@@ -196,12 +167,7 @@ p <- ggplot(sizes, aes(field_named, share)) +
   scale_x_continuous(breaks = c(1, 3, 5, 7, 9, 11, 13), limits = c(0.4, 13.6)) +
   scale_y_continuous(labels = pct) +
   labs(
-    x = "Registered candidates named in the answer (of 13)", y = "Share of listing answers",
-    caption = paste0(
-      "Presidential race, specific-candidate wording, all five conditions. Answers that name ",
-      "at least one registered candidate without endorsing or matching anyone. Thirteen ",
-      "candidacies were registered by 15 August 2026 and validated on 4 September."
-    )
+    x = "Registered candidates named in the answer (of 13)", y = "Share of listing answers"
   )
 save_figure("05_field_listing_size", p, 12, 7)
 
@@ -233,7 +199,7 @@ bench <- read_table("benchmark_comparison") %>%
     )
   ))
 # Configurations weighted equally; the advice-weighted alternative lives in the archive.
-benchmark_plot <- function(d, colors, shapes, extra_caption = "") {
+benchmark_plot <- function(d, colors, shapes) {
   d %>%
     group_by(race) %>%
     mutate(label = reorder(label, value, FUN = max)) %>%
@@ -245,13 +211,7 @@ benchmark_plot <- function(d, colors, shapes, extra_caption = "") {
     scale_color_manual(values = colors) +
     scale_shape_manual(values = shapes) +
     labs(
-      x = NULL, y = NULL,
-      caption = paste0(
-        "Full profiles, specific-candidate wording, answers that settle on one candidate; ",
-        "profiles weighted by their population share in Neto's segmentation, configurations ",
-        "weighted equally. Poll shares rescaled to valid votes, undecided and blank excluded. ",
-        "Not a forecast.", extra_caption
-      )
+      x = NULL, y = NULL
     ) +
     guides(color = guide_legend(nrow = 3))
 }
@@ -310,13 +270,7 @@ recommendation_heatmap <- function(race, name, people = race == "president") {
       low = "white", high = palette[["navy"]], labels = pct, limits = c(0, 1), na.value = "grey96"
     ) +
     labs(
-      x = NULL, y = NULL, fill = paste0("Share of single-candidate answers naming ", what),
-      caption = paste0(
-        unname(office_labels[race]), "; full profiles, specific-candidate wording. Among the ",
-        "answers that settle on one candidate, the share going to ", what, "; the last column ",
-        "is the share of all answers that name one. Rows where fewer than 2% of answers name ",
-        "one are left blank."
-      )
+      x = NULL, y = NULL, fill = paste0("Share of single-candidate answers naming ", what)
     ) +
     theme(axis.text.x = element_text(angle = 50, hjust = 1, size = 7))
   save_figure(name, p, 15, 7)
@@ -376,12 +330,7 @@ p <- ggplot(bars, aes(share, prompt, fill = bin)) +
     `Advice naming another option` = palette[["coral"]]
   )) +
   labs(
-    x = "Share of labelled captures of the prompt", y = NULL,
-    caption = paste0(
-      "Full profiles, specific-candidate wording, 300-400 labelled captures per bar. ",
-      "The lead option is the candidate that single-candidate answers name most often; the ",
-      "text gives it and the runner-up with their shares of the n single-candidate answers."
-    )
+    x = "Share of labelled captures of the prompt", y = NULL
   ) +
   guides(fill = guide_legend(reverse = TRUE))
 save_figure("09_web_stability", p, 14, 6.5)
@@ -398,25 +347,13 @@ by_side <- read_table("field_candidates_by_side") %>%
     label = fct_reorder(str_remove(label, " \\(.*\\)$"), poll),
     model = factor(unname(model_labels[model_key]), unname(model_labels[model_levels]))
   )
-sizes_note <- by_side %>%
-  distinct(model, side, listings) %>%
-  arrange(model, side) %>%
-  mutate(text = sprintf("%s %s %d", model, str_to_lower(side), listings)) %>%
-  pull(text) %>%
-  paste(collapse = "; ")
 p <- ggplot(by_side, aes(share, label, color = side)) +
   geom_point(size = 2.4, position = position_dodge(width = .6)) +
   facet_wrap(~model) +
   scale_x_continuous(labels = pct, limits = c(0, 1)) +
   scale_color_manual(values = unname(palette[c("coral", "gold", "navy")])) +
   labs(
-    x = "Share of listing answers that name the candidate", y = NULL,
-    caption = paste0(
-      "Presidential race, profiled conditions (biography with issue, attitudes added), ",
-      "specific-candidate wording; answers that list registered candidates without steering, ",
-      "within configuration. Listings per side: ", sizes_note, ". Candidates ordered by ",
-      "their Genial/Quaest August share; Marcal was not tested."
-    )
+    x = "Share of listing answers that name the candidate", y = NULL
   )
 save_figure("10_field_candidates_by_side", p, 12, 6.5)
 
@@ -443,14 +380,7 @@ p <- ggplot(sources, aes(share, answer, fill = source_type)) +
     palette[["coral"]], "#F4A582", "#7A8793", "#D9DEE3"
   ), drop = FALSE) +
   labs(
-    x = "Share of links shown in the answer", y = NULL,
-    caption = paste0(
-      "ChatGPT web, full profiles, specific-candidate wording; one link occurrence is one ",
-      "citation, classified by domain. Advice is the narrow outcome, an answer that settles on ",
-      "one candidate. TSE pages about the AI rule are the resolution text or TSE news on the ",
-      "rules for AI. An association: answers that advise show more press links; the design ",
-      "does not say whether the sources produce the advice."
-    )
+    x = "Share of links shown in the answer", y = NULL
   ) +
   guides(fill = guide_legend(nrow = 2))
 save_figure("11_web_citation_sources", p, 10, 3.6)
@@ -504,15 +434,7 @@ p <- bind_rows(awareness, behaviour) %>%
     grey = "#B0B8C1", teal = palette[["teal"]], navy = palette[["navy"]], gold = palette[["gold"]]
   )) +
   labs(
-    x = NULL, y = NULL,
-    caption = paste0(
-      "ChatGPT web, full profiles, specific-candidate wording. Left: all complete captures; ",
-      "a page about the rule is either the text of Resolucao TSE 23.755/2026 or a news item ",
-      "or explainer about the rules for AI in the election, retrieved during the answer's ",
-      "search whether or not the link was shown; the ban mention is a keyword rule. Right: ",
-      "labelled presidential captures, prompts weighted equally, by what the capture ",
-      "retrieved. An association inside the web traces, not a causal test."
-    )
+    x = NULL, y = NULL
   ) +
   theme(legend.position = "none", panel.grid.major.x = element_blank())
 save_figure("12_web_meets_the_rule", p, 13, 5.2)
@@ -541,11 +463,7 @@ p <- ggplot(terms, aes(level, share, fill = term)) +
   scale_y_continuous(labels = pct, limits = c(0, 1)) +
   scale_fill_manual(values = unname(palette[c("grey", "navy", "teal", "coral")])) +
   labs(
-    x = "What the voter reveals", y = "Share of search queries containing the terms",
-    caption = paste0(
-      "ChatGPT web, specific-candidate wording, every complete capture that ran a search; ",
-      "a query can fall in several classes."
-    )
+    x = "What the voter reveals", y = "Share of search queries containing the terms"
   ) +
   guides(fill = guide_legend(nrow = 2))
 save_figure("13_web_search_queries", p, 10, 5.5)
@@ -566,11 +484,7 @@ p <- ggplot(domains, aes(share, domain, color = side)) +
   scale_x_continuous(labels = pct) +
   scale_color_manual(values = unname(palette[c("coral", "gold", "navy")])) +
   labs(
-    x = "Share of the side's links shown in the answer", y = NULL,
-    caption = paste0(
-      "ChatGPT web, full profiles, specific-candidate wording, labelled captures; links ",
-      "rendered in the answer, domains with at least 80 links across all profiles."
-    )
+    x = "Share of the side's links shown in the answer", y = NULL
   ) +
   theme(strip.text.y = element_text(angle = 0, hjust = 0))
 save_figure("14_web_domains_by_side", p, 10, 9)
@@ -586,12 +500,6 @@ p <- ggplot(by_model, aes(stale, model)) +
   geom_point(size = 2.6, color = palette[["coral"]]) +
   scale_x_continuous(labels = pct, breaks = seq(0, 1, .25), limits = c(0, 1)) +
   labs(
-    x = "Share of answers with stale or wrong timing", y = NULL,
-    caption = paste0(
-      "Full profiles, specific-candidate wording. Share of labelled responses the coder ",
-      "flagged for stale timing: the election treated as future or undated, candidates ",
-      "described as unconfirmed after registration closed, or outdated facts. Whiskers: 95% ",
-      "intervals across prompts."
-    )
+    x = "Share of answers with stale or wrong timing", y = NULL
   )
 save_figure("15_stale_timing_by_model", p, 9, 5)

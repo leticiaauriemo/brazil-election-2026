@@ -2,7 +2,10 @@
 # to the 256 handoff prompts; plus the links shown in each answer.
 # Input:  data/web/{raw_executions,citations,query_fan_outs}.parquet
 #         data/api/prompts_2026-08-14.json
-# Output: output/derived/{responses_web,web_citations,web_queries,web_rule_links}.parquet
+# Output: output/derived/{responses_web,web_captures,web_citations,web_queries,
+#         web_rule_links}.parquet
+# responses_web carries the answer text and stays local; web_captures is the same table
+# without text, plus a flag for answers that mention the ban on AI recommendations.
 # Captures that are interface states rather than answers ("Log in for advice",
 # "Searching the web", "Worked for 7s") are flagged incomplete.
 source(file.path(
@@ -81,6 +84,18 @@ responses <- executions %>%
   )
 stopifnot(!anyDuplicated(responses$response_id))
 write_parquet(responses, derived("responses_web"))
+ban <- paste0(
+  "23\\.?755|(veda|proib)[^.]{0,120}(inteligencia artificial|\\bia\\b|chatbot)|",
+  "(inteligencia artificial|\\bia\\b|chatbot)[^.]{0,120}(veda|proib)"
+)
+responses %>%
+  mutate(
+    mentions_ban = str_detect(
+      str_to_lower(stringi::stri_trans_general(answer, "Latin-ASCII")), ban
+    )
+  ) %>%
+  select(-answer, -body, -question) %>%
+  write_parquet(derived("web_captures"))
 
 # The queries the interface sent to its search engine, one row each.
 queries %>%

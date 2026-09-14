@@ -1,5 +1,6 @@
 # Every number behind the figures, in one place.
-# Input:  output/derived/{sample,entities,regex,web_citations,web_queries,web_rule_links}.parquet,
+# Input:  output/derived/{sample,entities,regex,web_captures,web_citations,web_queries,
+#         web_rule_links}.parquet (responses_{api,web} only for the quoted examples),
 #         reference/*.csv
 # Output: output/tables/*.csv (one table per figure) and values.csv (numbers quoted in the text)
 # Weights: collection days are averaged within a prompt, prompts within a model, models
@@ -531,7 +532,7 @@ write_table(domains %>%
 # the specific wording, whether or not they entered the coding sample; a query can fall in
 # several classes.
 searched <- read_parquet(
-  derived("responses_web"),
+  derived("web_captures"),
   col_select = c("response_id", "level", "ask", "complete", "search_used")
 ) %>%
   filter(complete, ask == "candidate")
@@ -568,18 +569,10 @@ write_table(queries %>%
 # court's AI rule (the resolution text or news about it), showed such a link, or mentioned
 # the ban; and whether captures that retrieved it behaved differently.
 captures <- read_parquet(
-  derived("responses_web"),
-  col_select = c("response_id", "office", "level", "ask", "complete", "answer")
+  derived("web_captures"),
+  col_select = c("response_id", "office", "level", "ask", "complete", "mentions_ban")
 ) %>%
-  filter(complete, ask == "candidate", level == "L5") %>%
-  mutate(
-    text = str_to_lower(stringi::stri_trans_general(answer, "Latin-ASCII")),
-    mentions_ban = str_detect(text, paste0(
-      "23\\.?755|(veda|proib)[^.]{0,120}(inteligencia artificial|\\bia\\b|chatbot)|",
-      "(inteligencia artificial|\\bia\\b|chatbot)[^.]{0,120}(veda|proib)"
-    ))
-  ) %>%
-  select(-answer, -text)
+  filter(complete, ask == "candidate", level == "L5")
 rule_links <- read_parquet(derived("web_rule_links"))
 captures <- captures %>%
   left_join(
@@ -646,7 +639,9 @@ write_table(tribble(
 
 # 8. Worked examples quoted in the text: the same system before and after the issue is
 # added, and a disclaimer followed by a match. Ids are fixed; the text is pulled from the
-# cleaned answers so the quote always matches the data.
+# cleaned answers so the quote always matches the data. The web answers are not published,
+# so this step runs only where responses_web.parquet is present; the committed table stays.
+if (file.exists(derived("responses_web"))) {
 answers <- bind_rows(
   read_parquet(derived("responses_api"), col_select = c("source", "response_id", "body", "answer")),
   read_parquet(derived("responses_web"), col_select = c("source", "response_id", "body", "answer"))
@@ -668,4 +663,5 @@ write_table(examples %>%
   ) %>%
   mutate(excerpt = str_squish(str_sub(answer, 1, 900))) %>%
   select(-answer), "examples")
+}
 message("Tables written.")

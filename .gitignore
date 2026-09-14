@@ -1,6 +1,6 @@
 # Raw inputs and heavy intermediates stay local; see README.
 data/
-output/derived/
+output/derived/responses_web.parquet
 archive/
 *.zip
 # housekeeping

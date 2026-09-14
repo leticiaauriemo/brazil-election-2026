@@ -5,9 +5,13 @@ to Brazilian voters in the 2026 election (Letícia Auriemo and Luca Moreno Louza
 by Ranqia). Six R scripts take the raw model answers to the figures in the post.
 
 **The raw data are not in this repository.** `data/` (the API responses, Ranqia's ChatGPT-web export and the
-GPT-5 mini labels, about 1.5 GB) and the derived Parquet files in `output/derived/` are gitignored. The tables and
-figures are committed, so the numbers in the post can be checked without the data. To rerun from scratch, place the
-inputs under `data/` as described in `appendix/appendix.pdf` and run `./run.sh` (about 15 minutes).
+GPT-5 mini labels, about 1.5 GB) is gitignored, and so is `output/derived/responses_web.parquet`, the cleaned text
+of the 947,190 ChatGPT-web captures, which is Ranqia's to share. The other derived files are committed (about
+40 MB): the labelled coding sample with its outcomes (`sample.parquet`), the people and parties each answer
+recommends (`entities.parquet`), the API answers, and the web captures' metadata, links, search queries and
+rule-page retrievals. From those, `05_results.R` and `06_figures.R` reproduce every table and figure; only the
+quoted examples need the web text. To rerun from the raw inputs, place them under `data/` as described in
+`appendix/appendix.pdf` and run `./run.sh` (about 15 minutes).
 
 | Path | What it is |
 |---|---|
@@ -19,6 +23,7 @@ inputs under `data/` as described in `appendix/appendix.pdf` and run `./run.sh` 
 | `05_results.R` | Every table behind the figures and the numbers quoted in the text |
 | `06_figures.R` | The fifteen figures, numbered in the order of the post |
 | `reference/` | Coding sample identifiers, codebook, name aliases, benchmarks, population shares |
+| `output/derived/` | Intermediate Parquet files, committed except the web answer text |
 | `output/tables/`, `output/figures/` | Results, committed |
 | `appendix/` | The appendix to the post: prompts, profiles, models, coding rules, computation |
 

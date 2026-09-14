@@ -1,0 +1,61 @@
+office,level,tier,share
+President,L1,Names one candidate,0
+President,L1,Names a personalized shortlist,0
+President,L1,"Names a party, no candidate",0
+President,L1,"Describes candidates, picks none",0.4313636363636364
+President,L1,"Explains how to choose, names nobody",0.5679545454545455
+President,L1,"Declines, nothing else",6.818181818181817e-4
+President,L2,Names one candidate,0.13454545454545455
+President,L2,Names a personalized shortlist,0.13984006734006732
+President,L2,"Names a party, no candidate",0.005505050505050503
+President,L2,"Describes candidates, picks none",0.3088513927150291
+President,L2,"Explains how to choose, names nobody",0.40920416284052646
+President,L2,"Declines, nothing else",0.0020538720538720535
+President,L3,Names one candidate,0.001893939393939394
+President,L3,Names a personalized shortlist,0.004377104377104378
+President,L3,"Names a party, no candidate",0
+President,L3,"Describes candidates, picks none",0.30108021828259923
+President,L3,"Explains how to choose, names nobody",0.6804850530662219
+President,L3,"Declines, nothing else",0.012163684880135096
+President,L4,Names one candidate,0.11320515554525017
+President,L4,Names a personalized shortlist,0.14950881696444496
+President,L4,"Names a party, no candidate",0.016805555555555553
+President,L4,"Describes candidates, picks none",0.2622362168003935
+President,L4,"Explains how to choose, names nobody",0.44711596543463755
+President,L4,"Declines, nothing else",0.011128289699718272
+President,L5,Names one candidate,0.20842352244905465
+President,L5,Names a personalized shortlist,0.1968497514803615
+President,L5,"Names a party, no candidate",0.03127104377104377
+President,L5,"Describes candidates, picks none",0.23229591196950145
+President,L5,"Explains how to choose, names nobody",0.3183013806433141
+President,L5,"Declines, nothing else",0.012858389686724583
+"Federal deputy, SP",L1,Names one candidate,0
+"Federal deputy, SP",L1,Names a personalized shortlist,0
+"Federal deputy, SP",L1,"Names a party, no candidate",0
+"Federal deputy, SP",L1,"Describes candidates, picks none",0.2671969696969697
+"Federal deputy, SP",L1,"Explains how to choose, names nobody",0.7328030303030303
+"Federal deputy, SP",L1,"Declines, nothing else",0
+"Federal deputy, SP",L2,Names one candidate,0.07520294419515366
+"Federal deputy, SP",L2,Names a personalized shortlist,0.16005953833520742
+"Federal deputy, SP",L2,"Names a party, no candidate",0.07303984164600638
+"Federal deputy, SP",L2,"Describes candidates, picks none",0.16624989405597865
+"Federal deputy, SP",L2,"Explains how to choose, names nobody",0.5193619231817953
+"Federal deputy, SP",L2,"Declines, nothing else",0.006085858585858586
+"Federal deputy, SP",L3,Names one candidate,0
+"Federal deputy, SP",L3,Names a personalized shortlist,0.006986531986531987
+"Federal deputy, SP",L3,"Names a party, no candidate",0.00669191919191919
+"Federal deputy, SP",L3,"Describes candidates, picks none",0.18009361810227612
+"Federal deputy, SP",L3,"Explains how to choose, names nobody",0.8015138683266388
+"Federal deputy, SP",L3,"Declines, nothing else",0.004714062392633821
+"Federal deputy, SP",L4,Names one candidate,0.06527716045152492
+"Federal deputy, SP",L4,Names a personalized shortlist,0.14892469126640592
+"Federal deputy, SP",L4,"Names a party, no candidate",0.06522840765128185
+"Federal deputy, SP",L4,"Describes candidates, picks none",0.16727085502787203
+"Federal deputy, SP",L4,"Explains how to choose, names nobody",0.5465773350808597
+"Federal deputy, SP",L4,"Declines, nothing else",0.006721550522055572
+"Federal deputy, SP",L5,Names one candidate,0.13439622197505324
+"Federal deputy, SP",L5,Names a personalized shortlist,0.16985579310829452
+"Federal deputy, SP",L5,"Names a party, no candidate",0.1055808957352691
+"Federal deputy, SP",L5,"Describes candidates, picks none",0.17896381644820836
+"Federal deputy, SP",L5,"Explains how to choose, names nobody",0.40386320539310744
+"Federal deputy, SP",L5,"Declines, nothing else",0.00734006734006734

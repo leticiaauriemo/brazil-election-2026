@@ -1,0 +1,17 @@
+model_key,office,disclaimer_share,picks
+chatgpt_web,federal_deputy,0.9807692307692307,75
+chatgpt_web,president,0.9932607455623872,706
+claude_opus5,president,1,3
+claude_sonnet5,federal_deputy,1,1
+claude_sonnet5,president,1,3
+deepseek_v4_pro,federal_deputy,0.19791666666666669,49
+deepseek_v4_pro,president,0.3642156862745098,49
+gemini_pro,president,1,6
+gpt4o,federal_deputy,0,14
+gpt4o,president,0,40
+gpt56_luna,president,1,2
+grok46,federal_deputy,0.12129629629629629,69
+grok46,president,0.27647058823529413,73
+llama_maverick,president,0.5,8
+sabia4,federal_deputy,0.1388888888888889,13
+sabia4,president,0.44166666666666665,18

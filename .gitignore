@@ -1,12 +1,17 @@
+# Raw inputs and heavy intermediates stay local; see README.
+data/
+output/derived/
+archive/data/
+archive/output/
+archive/round_2026-08-14/results/
+archive/current_full_2026-09-12/output/derived/
+*.zip
+# housekeeping
 .env
 __pycache__/
 *.pyc
 .DS_Store
-results/raw/
-results/consumer/
 *.json.bak
 .Rhistory
-output/
+build.log
 tmp/
-paper/deck/build/
-results/analysis/clean_results.csv

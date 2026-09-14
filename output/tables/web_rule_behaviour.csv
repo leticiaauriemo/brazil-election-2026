@@ -1,0 +1,6 @@
+office,exposure,prompts,n,advice,steers_tse
+federal_deputy,Retrieved a news item or explainer about the rule,18,635,0.014544415086759683,0.027310390761187926
+federal_deputy,Retrieved neither,18,5723,0.010796779813768477,0.0289037482486882
+president,Retrieved a news item or explainer about the rule,18,626,0.09488341311234982,0.2493963600902724
+president,Retrieved neither,18,5631,0.11552824426469961,0.2341321445131538
+president,Retrieved the resolution text,17,36,0.0784313725490196,0.16176470588235295

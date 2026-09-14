@@ -1,0 +1,1873 @@
+model_key,archetype,office,option,unconditional,advice_rate,share
+chatgpt_web,agro,federal_deputy,adilson barroso,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,adriana ventura,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,alencar santana,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,alexis fonteyne,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,anna do agro,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,arlindo chinaglia,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,baleia rossi,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,capitao augusto,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,carlos sampaio,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,carlos zarattini,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,cezinha de madureira,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,christian lohbauer,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,delegado paulo bilynskyj,0.0016835016835016836,0.0016835016835016836,1
+chatgpt_web,agro,federal_deputy,erika hilton,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,frederico d'avila,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,gil diniz,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,gilberto nascimento,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,guilherme cortez,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,guilherme derrite,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,guilherme piai,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,jair bolsonaro,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,jilmar tatto,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,juliana cardoso,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,kim kataguiri,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,lucas pavanato,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,luciana gatti,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,major mecca,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,major palumbo,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,marco aurelio,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,marco aurelio martins,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,marco feliciano,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,marina helena,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,martinho colpani,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,milton vieira,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,pastor marco feliciano,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,paulo alexandre barbosa,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,paulo freire,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,paulo freire da costa,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,paulo proieti,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,paulo serra,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,paulo teixeira,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,renato bolsonaro,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,ricardo salles,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,samia bomfim,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,serra neto,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,vicente paulo da silva,0,0.0016835016835016836,0
+chatgpt_web,agro,federal_deputy,vicentinho,0,0.0016835016835016836,0
+chatgpt_web,classes_d_e,federal_deputy,adilson barroso,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,adriana ventura,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,alencar santana,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,alexis fonteyne,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,anna do agro,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,arlindo chinaglia,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,baleia rossi,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,capitao augusto,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,carlos sampaio,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,carlos zarattini,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,cezinha de madureira,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,christian lohbauer,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,delegado paulo bilynskyj,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,erika hilton,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,frederico d'avila,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,gil diniz,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,gilberto nascimento,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,guilherme cortez,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,guilherme derrite,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,guilherme piai,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,jair bolsonaro,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,jilmar tatto,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,juliana cardoso,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,kim kataguiri,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,lucas pavanato,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,luciana gatti,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,major mecca,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,major palumbo,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,marco aurelio,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,marco aurelio martins,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,marco feliciano,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,marina helena,0.00125,0.00125,1
+chatgpt_web,classes_d_e,federal_deputy,martinho colpani,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,milton vieira,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,pastor marco feliciano,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,paulo alexandre barbosa,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,paulo freire,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,paulo freire da costa,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,paulo proieti,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,paulo serra,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,paulo teixeira,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,renato bolsonaro,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,ricardo salles,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,samia bomfim,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,serra neto,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,vicente paulo da silva,0,0.00125,0
+chatgpt_web,classes_d_e,federal_deputy,vicentinho,0,0.00125,0
+chatgpt_web,conservador_cristao,federal_deputy,adilson barroso,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,adriana ventura,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,alencar santana,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,alexis fonteyne,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,anna do agro,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,arlindo chinaglia,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,baleia rossi,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,capitao augusto,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,carlos sampaio,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,carlos zarattini,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,cezinha de madureira,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,christian lohbauer,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,delegado paulo bilynskyj,0.0016666666666666666,0.0016666666666666666,1
+chatgpt_web,conservador_cristao,federal_deputy,erika hilton,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,frederico d'avila,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,gil diniz,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,gilberto nascimento,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,guilherme cortez,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,guilherme derrite,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,guilherme piai,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,jair bolsonaro,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,jilmar tatto,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,juliana cardoso,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,kim kataguiri,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,lucas pavanato,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,luciana gatti,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,major mecca,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,major palumbo,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,marco aurelio,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,marco aurelio martins,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,marco feliciano,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,marina helena,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,martinho colpani,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,milton vieira,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,pastor marco feliciano,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,paulo alexandre barbosa,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,paulo freire,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,paulo freire da costa,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,paulo proieti,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,paulo serra,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,paulo teixeira,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,renato bolsonaro,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,ricardo salles,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,samia bomfim,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,serra neto,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,vicente paulo da silva,0,0.0016666666666666666,0
+chatgpt_web,conservador_cristao,federal_deputy,vicentinho,0,0.0016666666666666666,0
+chatgpt_web,empreendedor_individual,federal_deputy,adilson barroso,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,adriana ventura,0.008877035662749949,0.06210137085137085,0.1429442787019249
+chatgpt_web,empreendedor_individual,federal_deputy,alencar santana,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,alexis fonteyne,0.0012626262626262627,0.06210137085137085,0.02033169711580354
+chatgpt_web,empreendedor_individual,federal_deputy,anna do agro,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,arlindo chinaglia,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,baleia rossi,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,capitao augusto,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,carlos sampaio,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,carlos zarattini,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,cezinha de madureira,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,christian lohbauer,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,delegado paulo bilynskyj,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,erika hilton,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,frederico d'avila,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,gil diniz,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,gilberto nascimento,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,guilherme cortez,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,guilherme derrite,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,guilherme piai,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,jair bolsonaro,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,jilmar tatto,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,juliana cardoso,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,kim kataguiri,0.006377551020408163,0.06210137085137085,0.10269581706451787
+chatgpt_web,empreendedor_individual,federal_deputy,lucas pavanato,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,luciana gatti,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,major mecca,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,major palumbo,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,marco aurelio,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,marco aurelio martins,0.00125,0.06210137085137085,0.0201283801446455
+chatgpt_web,empreendedor_individual,federal_deputy,marco feliciano,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,marina helena,0.04433415790558648,0.06210137085137085,0.7138998269731083
+chatgpt_web,empreendedor_individual,federal_deputy,martinho colpani,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,milton vieira,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,pastor marco feliciano,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,paulo alexandre barbosa,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,paulo freire,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,paulo freire da costa,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,paulo proieti,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,paulo serra,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,paulo teixeira,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,renato bolsonaro,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,ricardo salles,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,samia bomfim,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,serra neto,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,vicente paulo da silva,0,0.06210137085137085,0
+chatgpt_web,empreendedor_individual,federal_deputy,vicentinho,0,0.06210137085137085,0
+chatgpt_web,empresario,federal_deputy,adilson barroso,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,adriana ventura,0.0016666666666666666,0.013418893330528087,0.12420298944287655
+chatgpt_web,empresario,federal_deputy,alencar santana,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,alexis fonteyne,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,anna do agro,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,arlindo chinaglia,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,baleia rossi,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,capitao augusto,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,carlos sampaio,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,carlos zarattini,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,cezinha de madureira,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,christian lohbauer,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,delegado paulo bilynskyj,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,erika hilton,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,frederico d'avila,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,gil diniz,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,gilberto nascimento,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,guilherme cortez,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,guilherme derrite,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,guilherme piai,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,jair bolsonaro,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,jilmar tatto,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,juliana cardoso,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,kim kataguiri,0.006752226663861421,0.013418893330528087,0.5031880422284938
+chatgpt_web,empresario,federal_deputy,lucas pavanato,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,luciana gatti,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,major mecca,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,major palumbo,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,marco aurelio,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,marco aurelio martins,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,marco feliciano,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,marina helena,0.004999999999999999,0.013418893330528087,0.3726089683286296
+chatgpt_web,empresario,federal_deputy,martinho colpani,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,milton vieira,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,pastor marco feliciano,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,paulo alexandre barbosa,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,paulo freire,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,paulo freire da costa,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,paulo proieti,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,paulo serra,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,paulo teixeira,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,renato bolsonaro,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,ricardo salles,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,samia bomfim,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,serra neto,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,vicente paulo da silva,0,0.013418893330528087,0
+chatgpt_web,empresario,federal_deputy,vicentinho,0,0.013418893330528087,0
+chatgpt_web,extrema_direita,federal_deputy,adilson barroso,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,adriana ventura,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,alencar santana,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,alexis fonteyne,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,anna do agro,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,arlindo chinaglia,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,baleia rossi,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,capitao augusto,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,carlos sampaio,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,carlos zarattini,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,cezinha de madureira,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,christian lohbauer,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,delegado paulo bilynskyj,0.003333333333333333,0.005,0.6666666666666667
+chatgpt_web,extrema_direita,federal_deputy,erika hilton,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,frederico d'avila,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,gil diniz,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,gilberto nascimento,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,guilherme cortez,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,guilherme derrite,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,guilherme piai,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,jair bolsonaro,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,jilmar tatto,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,juliana cardoso,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,kim kataguiri,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,lucas pavanato,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,luciana gatti,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,major mecca,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,major palumbo,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,marco aurelio,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,marco aurelio martins,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,marco feliciano,0.0016666666666666666,0.005,0.33333333333333337
+chatgpt_web,extrema_direita,federal_deputy,marina helena,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,martinho colpani,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,milton vieira,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,pastor marco feliciano,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,paulo alexandre barbosa,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,paulo freire,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,paulo freire da costa,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,paulo proieti,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,paulo serra,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,paulo teixeira,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,renato bolsonaro,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,ricardo salles,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,samia bomfim,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,serra neto,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,vicente paulo da silva,0,0.005,0
+chatgpt_web,extrema_direita,federal_deputy,vicentinho,0,0.005,0
+chatgpt_web,liberal_social,federal_deputy,adilson barroso,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,adriana ventura,0.0012886597938144332,0.007627824638133917,0.1689419795221843
+chatgpt_web,liberal_social,federal_deputy,alencar santana,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,alexis fonteyne,0.0012886597938144332,0.007627824638133917,0.1689419795221843
+chatgpt_web,liberal_social,federal_deputy,anna do agro,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,arlindo chinaglia,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,baleia rossi,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,capitao augusto,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,carlos sampaio,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,carlos zarattini,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,cezinha de madureira,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,christian lohbauer,0.0012626262626262627,0.007627824638133917,0.16552901023890781
+chatgpt_web,liberal_social,federal_deputy,delegado paulo bilynskyj,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,erika hilton,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,frederico d'avila,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,gil diniz,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,gilberto nascimento,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,guilherme cortez,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,guilherme derrite,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,guilherme piai,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,jair bolsonaro,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,jilmar tatto,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,juliana cardoso,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,kim kataguiri,0.0025252525252525255,0.007627824638133917,0.33105802047781563
+chatgpt_web,liberal_social,federal_deputy,lucas pavanato,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,luciana gatti,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,major mecca,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,major palumbo,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,marco aurelio,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,marco aurelio martins,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,marco feliciano,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,marina helena,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,martinho colpani,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,milton vieira,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,pastor marco feliciano,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,paulo alexandre barbosa,0.0012626262626262627,0.007627824638133917,0.16552901023890781
+chatgpt_web,liberal_social,federal_deputy,paulo freire,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,paulo freire da costa,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,paulo proieti,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,paulo serra,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,paulo teixeira,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,renato bolsonaro,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,ricardo salles,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,samia bomfim,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,serra neto,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,vicente paulo da silva,0,0.007627824638133917,0
+chatgpt_web,liberal_social,federal_deputy,vicentinho,0,0.007627824638133917,0
+chatgpt_web,militante_esquerda,federal_deputy,adilson barroso,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,adriana ventura,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,alencar santana,0.0012626262626262627,0.003787878787878788,0.33333333333333337
+chatgpt_web,militante_esquerda,federal_deputy,alexis fonteyne,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,anna do agro,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,arlindo chinaglia,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,baleia rossi,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,capitao augusto,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,carlos sampaio,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,carlos zarattini,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,cezinha de madureira,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,christian lohbauer,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,delegado paulo bilynskyj,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,erika hilton,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,frederico d'avila,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,gil diniz,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,gilberto nascimento,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,guilherme cortez,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,guilherme derrite,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,guilherme piai,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,jair bolsonaro,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,jilmar tatto,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,juliana cardoso,0.0025252525252525255,0.003787878787878788,0.6666666666666667
+chatgpt_web,militante_esquerda,federal_deputy,kim kataguiri,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,lucas pavanato,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,luciana gatti,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,major mecca,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,major palumbo,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,marco aurelio,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,marco aurelio martins,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,marco feliciano,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,marina helena,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,martinho colpani,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,milton vieira,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,pastor marco feliciano,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,paulo alexandre barbosa,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,paulo freire,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,paulo freire da costa,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,paulo proieti,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,paulo serra,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,paulo teixeira,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,renato bolsonaro,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,ricardo salles,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,samia bomfim,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,serra neto,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,vicente paulo da silva,0,0.003787878787878788,0
+chatgpt_web,militante_esquerda,federal_deputy,vicentinho,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,adilson barroso,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,adriana ventura,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,alencar santana,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,alexis fonteyne,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,anna do agro,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,arlindo chinaglia,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,baleia rossi,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,capitao augusto,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,carlos sampaio,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,carlos zarattini,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,cezinha de madureira,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,christian lohbauer,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,delegado paulo bilynskyj,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,erika hilton,0.003787878787878788,0.003787878787878788,1
+chatgpt_web,progressista,federal_deputy,frederico d'avila,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,gil diniz,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,gilberto nascimento,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,guilherme cortez,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,guilherme derrite,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,guilherme piai,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,jair bolsonaro,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,jilmar tatto,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,juliana cardoso,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,kim kataguiri,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,lucas pavanato,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,luciana gatti,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,major mecca,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,major palumbo,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,marco aurelio,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,marco aurelio martins,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,marco feliciano,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,marina helena,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,martinho colpani,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,milton vieira,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,pastor marco feliciano,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,paulo alexandre barbosa,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,paulo freire,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,paulo freire da costa,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,paulo proieti,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,paulo serra,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,paulo teixeira,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,renato bolsonaro,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,ricardo salles,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,samia bomfim,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,serra neto,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,vicente paulo da silva,0,0.003787878787878788,0
+chatgpt_web,progressista,federal_deputy,vicentinho,0,0.003787878787878788,0
+claude_sonnet5,agro,federal_deputy,adilson barroso,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,adriana ventura,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,alencar santana,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,alexis fonteyne,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,anna do agro,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.0625,0
+claude_sonnet5,agro,federal_deputy,arlindo chinaglia,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,baleia rossi,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,capitao augusto,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,carlos sampaio,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,carlos zarattini,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,cezinha de madureira,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,christian lohbauer,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,delegado paulo bilynskyj,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,erika hilton,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,frederico d'avila,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,gil diniz,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,gilberto nascimento,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,guilherme cortez,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,guilherme derrite,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,guilherme piai,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,jair bolsonaro,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,jilmar tatto,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,juliana cardoso,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,kim kataguiri,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,lucas pavanato,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,luciana gatti,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,major mecca,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,major palumbo,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,marco aurelio,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,marco aurelio martins,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,marco feliciano,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,marina helena,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,martinho colpani,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,milton vieira,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,pastor marco feliciano,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,paulo alexandre barbosa,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,paulo freire,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,paulo freire da costa,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,paulo proieti,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,paulo serra,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,paulo teixeira,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,renato bolsonaro,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,ricardo salles,0.0625,0.0625,1
+claude_sonnet5,agro,federal_deputy,samia bomfim,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,serra neto,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,vicente paulo da silva,0,0.0625,0
+claude_sonnet5,agro,federal_deputy,vicentinho,0,0.0625,0
+deepseek_v4_pro,agro,federal_deputy,adilson barroso,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,adriana ventura,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,alencar santana,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,alexis fonteyne,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,anna do agro,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,arlindo chinaglia,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,baleia rossi,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,capitao augusto,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,carlos sampaio,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,carlos zarattini,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,cezinha de madureira,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,christian lohbauer,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,delegado paulo bilynskyj,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,erika hilton,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,frederico d'avila,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,gil diniz,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,gilberto nascimento,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,guilherme cortez,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,guilherme derrite,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,guilherme piai,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,jair bolsonaro,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,jilmar tatto,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,juliana cardoso,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,kim kataguiri,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,lucas pavanato,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,luciana gatti,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,major mecca,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,major palumbo,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,marco aurelio,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,marco aurelio martins,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,marco feliciano,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,marina helena,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,martinho colpani,0.8333333333333333,0.9166666666666666,0.9090909090909091
+deepseek_v4_pro,agro,federal_deputy,milton vieira,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,pastor marco feliciano,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,paulo alexandre barbosa,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,paulo freire,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,paulo freire da costa,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,paulo proieti,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,paulo serra,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,paulo teixeira,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,renato bolsonaro,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,ricardo salles,0.08333333333333333,0.9166666666666666,0.09090909090909091
+deepseek_v4_pro,agro,federal_deputy,samia bomfim,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,serra neto,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,vicente paulo da silva,0,0.9166666666666666,0
+deepseek_v4_pro,agro,federal_deputy,vicentinho,0,0.9166666666666666,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,adilson barroso,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,adriana ventura,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,alencar santana,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,alexis fonteyne,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,anna do agro,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,arlindo chinaglia,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,baleia rossi,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,capitao augusto,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,carlos sampaio,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,carlos zarattini,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,cezinha de madureira,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,christian lohbauer,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,delegado paulo bilynskyj,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,erika hilton,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,frederico d'avila,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,gil diniz,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,gilberto nascimento,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,guilherme cortez,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,guilherme derrite,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,guilherme piai,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,jair bolsonaro,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,jilmar tatto,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,juliana cardoso,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,kim kataguiri,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,lucas pavanato,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,luciana gatti,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,major mecca,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,major palumbo,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,marco aurelio,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,marco aurelio martins,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,marco feliciano,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,marina helena,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,martinho colpani,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,milton vieira,0.1,0.7125,0.14035087719298248
+deepseek_v4_pro,conservador_cristao,federal_deputy,pastor marco feliciano,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,paulo alexandre barbosa,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,paulo freire,0.4125,0.7125,0.5789473684210527
+deepseek_v4_pro,conservador_cristao,federal_deputy,paulo freire da costa,0.2,0.7125,0.28070175438596495
+deepseek_v4_pro,conservador_cristao,federal_deputy,paulo proieti,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,paulo serra,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,paulo teixeira,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,renato bolsonaro,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,ricardo salles,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,samia bomfim,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,serra neto,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,vicente paulo da silva,0,0.7125,0
+deepseek_v4_pro,conservador_cristao,federal_deputy,vicentinho,0,0.7125,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,adilson barroso,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,adriana ventura,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,alencar santana,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,alexis fonteyne,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,anna do agro,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,arlindo chinaglia,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,baleia rossi,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,capitao augusto,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,carlos sampaio,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,carlos zarattini,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,cezinha de madureira,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,christian lohbauer,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,delegado paulo bilynskyj,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,erika hilton,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,frederico d'avila,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,gil diniz,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,gilberto nascimento,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,guilherme cortez,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,guilherme derrite,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,guilherme piai,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,jair bolsonaro,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,jilmar tatto,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,juliana cardoso,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,kim kataguiri,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,lucas pavanato,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,luciana gatti,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,major mecca,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,major palumbo,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,marco aurelio,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,marco aurelio martins,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,marco feliciano,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,marina helena,0.75,0.8333333333333333,0.8999999999999999
+deepseek_v4_pro,empreendedor_individual,federal_deputy,martinho colpani,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,milton vieira,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,pastor marco feliciano,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,paulo alexandre barbosa,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,paulo freire,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,paulo freire da costa,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,paulo proieti,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,paulo serra,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,paulo teixeira,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,renato bolsonaro,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,ricardo salles,0.08333333333333333,0.8333333333333333,0.09999999999999999
+deepseek_v4_pro,empreendedor_individual,federal_deputy,samia bomfim,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,serra neto,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,vicente paulo da silva,0,0.8333333333333333,0
+deepseek_v4_pro,empreendedor_individual,federal_deputy,vicentinho,0,0.8333333333333333,0
+deepseek_v4_pro,empresario,federal_deputy,adilson barroso,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,adriana ventura,0.1,0.6000000000000001,0.16666666666666666
+deepseek_v4_pro,empresario,federal_deputy,alencar santana,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,alexis fonteyne,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,anna do agro,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,arlindo chinaglia,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,baleia rossi,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,capitao augusto,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,carlos sampaio,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,carlos zarattini,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,cezinha de madureira,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,christian lohbauer,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,delegado paulo bilynskyj,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,erika hilton,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,frederico d'avila,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,gil diniz,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,gilberto nascimento,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,guilherme cortez,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,guilherme derrite,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,guilherme piai,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,jair bolsonaro,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,jilmar tatto,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,juliana cardoso,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,kim kataguiri,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,lucas pavanato,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,luciana gatti,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,major mecca,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,major palumbo,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,marco aurelio,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,marco aurelio martins,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,marco feliciano,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,marina helena,0.30000000000000004,0.6000000000000001,0.5
+deepseek_v4_pro,empresario,federal_deputy,martinho colpani,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,milton vieira,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,pastor marco feliciano,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,paulo alexandre barbosa,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,paulo freire,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,paulo freire da costa,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,paulo proieti,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,paulo serra,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,paulo teixeira,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,renato bolsonaro,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,ricardo salles,0.2,0.6000000000000001,0.3333333333333333
+deepseek_v4_pro,empresario,federal_deputy,samia bomfim,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,serra neto,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,vicente paulo da silva,0,0.6000000000000001,0
+deepseek_v4_pro,empresario,federal_deputy,vicentinho,0,0.6000000000000001,0
+deepseek_v4_pro,extrema_direita,federal_deputy,adilson barroso,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,adriana ventura,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,alencar santana,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,alexis fonteyne,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,anna do agro,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,arlindo chinaglia,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,baleia rossi,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,capitao augusto,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,carlos sampaio,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,carlos zarattini,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,cezinha de madureira,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,christian lohbauer,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,delegado paulo bilynskyj,0.125,0.29166666666666663,0.4285714285714286
+deepseek_v4_pro,extrema_direita,federal_deputy,erika hilton,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,frederico d'avila,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,gil diniz,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,gilberto nascimento,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,guilherme cortez,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,guilherme derrite,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,guilherme piai,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,jair bolsonaro,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,jilmar tatto,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,juliana cardoso,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,kim kataguiri,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,lucas pavanato,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,luciana gatti,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,major mecca,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,major palumbo,0.08333333333333333,0.29166666666666663,0.28571428571428575
+deepseek_v4_pro,extrema_direita,federal_deputy,marco aurelio,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,marco aurelio martins,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,marco feliciano,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,marina helena,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,martinho colpani,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,milton vieira,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,pastor marco feliciano,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,paulo alexandre barbosa,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,paulo freire,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,paulo freire da costa,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,paulo proieti,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,paulo serra,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,paulo teixeira,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,renato bolsonaro,0.08333333333333333,0.29166666666666663,0.28571428571428575
+deepseek_v4_pro,extrema_direita,federal_deputy,ricardo salles,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,samia bomfim,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,serra neto,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,vicente paulo da silva,0,0.29166666666666663,0
+deepseek_v4_pro,extrema_direita,federal_deputy,vicentinho,0,0.29166666666666663,0
+deepseek_v4_pro,liberal_social,federal_deputy,adilson barroso,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,adriana ventura,0.125,0.7916666666666666,0.15789473684210528
+deepseek_v4_pro,liberal_social,federal_deputy,alencar santana,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,alexis fonteyne,0.08333333333333333,0.7916666666666666,0.10526315789473684
+deepseek_v4_pro,liberal_social,federal_deputy,anna do agro,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,arlindo chinaglia,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,baleia rossi,0.20833333333333331,0.7916666666666666,0.2631578947368421
+deepseek_v4_pro,liberal_social,federal_deputy,capitao augusto,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,carlos sampaio,0.25,0.7916666666666666,0.31578947368421056
+deepseek_v4_pro,liberal_social,federal_deputy,carlos zarattini,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,cezinha de madureira,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,christian lohbauer,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,delegado paulo bilynskyj,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,erika hilton,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,frederico d'avila,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,gil diniz,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,gilberto nascimento,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,guilherme cortez,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,guilherme derrite,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,guilherme piai,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,jair bolsonaro,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,jilmar tatto,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,juliana cardoso,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,kim kataguiri,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,lucas pavanato,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,luciana gatti,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,major mecca,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,major palumbo,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,marco aurelio,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,marco aurelio martins,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,marco feliciano,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,marina helena,0.125,0.7916666666666666,0.15789473684210528
+deepseek_v4_pro,liberal_social,federal_deputy,martinho colpani,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,milton vieira,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,pastor marco feliciano,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,paulo alexandre barbosa,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,paulo freire,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,paulo freire da costa,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,paulo proieti,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,paulo serra,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,paulo teixeira,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,renato bolsonaro,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,ricardo salles,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,samia bomfim,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,serra neto,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,vicente paulo da silva,0,0.7916666666666666,0
+deepseek_v4_pro,liberal_social,federal_deputy,vicentinho,0,0.7916666666666666,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,adilson barroso,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,adriana ventura,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,alencar santana,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,alexis fonteyne,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,anna do agro,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,arlindo chinaglia,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,baleia rossi,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,capitao augusto,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,carlos sampaio,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,carlos zarattini,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,cezinha de madureira,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,christian lohbauer,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,delegado paulo bilynskyj,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,erika hilton,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,frederico d'avila,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,gil diniz,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,gilberto nascimento,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,guilherme cortez,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,guilherme derrite,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,guilherme piai,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,jair bolsonaro,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,jilmar tatto,0.0625,0.8125,0.07692307692307693
+deepseek_v4_pro,militante_esquerda,federal_deputy,juliana cardoso,0.25,0.8125,0.3076923076923077
+deepseek_v4_pro,militante_esquerda,federal_deputy,kim kataguiri,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,lucas pavanato,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,luciana gatti,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,major mecca,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,major palumbo,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,marco aurelio,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,marco aurelio martins,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,marco feliciano,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,marina helena,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,martinho colpani,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,milton vieira,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,pastor marco feliciano,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,paulo alexandre barbosa,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,paulo freire,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,paulo freire da costa,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,paulo proieti,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,paulo serra,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,paulo teixeira,0.1875,0.8125,0.23076923076923078
+deepseek_v4_pro,militante_esquerda,federal_deputy,renato bolsonaro,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,ricardo salles,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,samia bomfim,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,serra neto,0,0.8125,0
+deepseek_v4_pro,militante_esquerda,federal_deputy,vicente paulo da silva,0.0625,0.8125,0.07692307692307693
+deepseek_v4_pro,militante_esquerda,federal_deputy,vicentinho,0.25,0.8125,0.3076923076923077
+deepseek_v4_pro,progressista,federal_deputy,adilson barroso,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,adriana ventura,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,alencar santana,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,alexis fonteyne,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,anna do agro,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,arlindo chinaglia,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,baleia rossi,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,capitao augusto,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,carlos sampaio,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,carlos zarattini,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,cezinha de madureira,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,christian lohbauer,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,delegado paulo bilynskyj,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,erika hilton,0.25,0.5625,0.4444444444444444
+deepseek_v4_pro,progressista,federal_deputy,frederico d'avila,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,gil diniz,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,gilberto nascimento,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,guilherme cortez,0.0625,0.5625,0.1111111111111111
+deepseek_v4_pro,progressista,federal_deputy,guilherme derrite,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,guilherme piai,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,jair bolsonaro,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,jilmar tatto,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,juliana cardoso,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,kim kataguiri,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,lucas pavanato,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,luciana gatti,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,major mecca,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,major palumbo,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,marco aurelio,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,marco aurelio martins,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,marco feliciano,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,marina helena,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,martinho colpani,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,milton vieira,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,pastor marco feliciano,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,paulo alexandre barbosa,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,paulo freire,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,paulo freire da costa,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,paulo proieti,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,paulo serra,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,paulo teixeira,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,renato bolsonaro,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,ricardo salles,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,samia bomfim,0.25,0.5625,0.4444444444444444
+deepseek_v4_pro,progressista,federal_deputy,serra neto,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,vicente paulo da silva,0,0.5625,0
+deepseek_v4_pro,progressista,federal_deputy,vicentinho,0,0.5625,0
+gpt4o,agro,federal_deputy,adilson barroso,0,0.3,0
+gpt4o,agro,federal_deputy,adriana ventura,0,0.3,0
+gpt4o,agro,federal_deputy,alencar santana,0,0.3,0
+gpt4o,agro,federal_deputy,alexis fonteyne,0,0.3,0
+gpt4o,agro,federal_deputy,anna do agro,0,0.3,0
+gpt4o,agro,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.3,0
+gpt4o,agro,federal_deputy,arlindo chinaglia,0,0.3,0
+gpt4o,agro,federal_deputy,baleia rossi,0,0.3,0
+gpt4o,agro,federal_deputy,capitao augusto,0,0.3,0
+gpt4o,agro,federal_deputy,carlos sampaio,0,0.3,0
+gpt4o,agro,federal_deputy,carlos zarattini,0,0.3,0
+gpt4o,agro,federal_deputy,cezinha de madureira,0,0.3,0
+gpt4o,agro,federal_deputy,christian lohbauer,0,0.3,0
+gpt4o,agro,federal_deputy,delegado paulo bilynskyj,0,0.3,0
+gpt4o,agro,federal_deputy,erika hilton,0,0.3,0
+gpt4o,agro,federal_deputy,frederico d'avila,0,0.3,0
+gpt4o,agro,federal_deputy,gil diniz,0,0.3,0
+gpt4o,agro,federal_deputy,gilberto nascimento,0,0.3,0
+gpt4o,agro,federal_deputy,guilherme cortez,0,0.3,0
+gpt4o,agro,federal_deputy,guilherme derrite,0,0.3,0
+gpt4o,agro,federal_deputy,guilherme piai,0,0.3,0
+gpt4o,agro,federal_deputy,jair bolsonaro,0.1,0.3,0.3333333333333333
+gpt4o,agro,federal_deputy,jilmar tatto,0,0.3,0
+gpt4o,agro,federal_deputy,juliana cardoso,0,0.3,0
+gpt4o,agro,federal_deputy,kim kataguiri,0,0.3,0
+gpt4o,agro,federal_deputy,lucas pavanato,0,0.3,0
+gpt4o,agro,federal_deputy,luciana gatti,0,0.3,0
+gpt4o,agro,federal_deputy,major mecca,0,0.3,0
+gpt4o,agro,federal_deputy,major palumbo,0,0.3,0
+gpt4o,agro,federal_deputy,marco aurelio,0,0.3,0
+gpt4o,agro,federal_deputy,marco aurelio martins,0,0.3,0
+gpt4o,agro,federal_deputy,marco feliciano,0,0.3,0
+gpt4o,agro,federal_deputy,marina helena,0,0.3,0
+gpt4o,agro,federal_deputy,martinho colpani,0,0.3,0
+gpt4o,agro,federal_deputy,milton vieira,0,0.3,0
+gpt4o,agro,federal_deputy,pastor marco feliciano,0,0.3,0
+gpt4o,agro,federal_deputy,paulo alexandre barbosa,0,0.3,0
+gpt4o,agro,federal_deputy,paulo freire,0,0.3,0
+gpt4o,agro,federal_deputy,paulo freire da costa,0,0.3,0
+gpt4o,agro,federal_deputy,paulo proieti,0,0.3,0
+gpt4o,agro,federal_deputy,paulo serra,0,0.3,0
+gpt4o,agro,federal_deputy,paulo teixeira,0,0.3,0
+gpt4o,agro,federal_deputy,renato bolsonaro,0,0.3,0
+gpt4o,agro,federal_deputy,ricardo salles,0.2,0.3,0.6666666666666666
+gpt4o,agro,federal_deputy,samia bomfim,0,0.3,0
+gpt4o,agro,federal_deputy,serra neto,0,0.3,0
+gpt4o,agro,federal_deputy,vicente paulo da silva,0,0.3,0
+gpt4o,agro,federal_deputy,vicentinho,0,0.3,0
+gpt4o,empreendedor_individual,federal_deputy,adilson barroso,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,adriana ventura,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,alencar santana,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,alexis fonteyne,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,anna do agro,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,arlindo chinaglia,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,baleia rossi,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,capitao augusto,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,carlos sampaio,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,carlos zarattini,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,cezinha de madureira,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,christian lohbauer,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,delegado paulo bilynskyj,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,erika hilton,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,frederico d'avila,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,gil diniz,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,gilberto nascimento,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,guilherme cortez,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,guilherme derrite,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,guilherme piai,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,jair bolsonaro,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,jilmar tatto,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,juliana cardoso,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,kim kataguiri,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,lucas pavanato,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,luciana gatti,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,major mecca,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,major palumbo,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,marco aurelio,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,marco aurelio martins,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,marco feliciano,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,marina helena,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,martinho colpani,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,milton vieira,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,pastor marco feliciano,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,paulo alexandre barbosa,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,paulo freire,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,paulo freire da costa,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,paulo proieti,0.1,0.1,1
+gpt4o,empreendedor_individual,federal_deputy,paulo serra,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,paulo teixeira,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,renato bolsonaro,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,ricardo salles,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,samia bomfim,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,serra neto,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,vicente paulo da silva,0,0.1,0
+gpt4o,empreendedor_individual,federal_deputy,vicentinho,0,0.1,0
+gpt4o,empresario,federal_deputy,adilson barroso,0,0.1,0
+gpt4o,empresario,federal_deputy,adriana ventura,0,0.1,0
+gpt4o,empresario,federal_deputy,alencar santana,0,0.1,0
+gpt4o,empresario,federal_deputy,alexis fonteyne,0,0.1,0
+gpt4o,empresario,federal_deputy,anna do agro,0,0.1,0
+gpt4o,empresario,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.1,0
+gpt4o,empresario,federal_deputy,arlindo chinaglia,0,0.1,0
+gpt4o,empresario,federal_deputy,baleia rossi,0,0.1,0
+gpt4o,empresario,federal_deputy,capitao augusto,0,0.1,0
+gpt4o,empresario,federal_deputy,carlos sampaio,0,0.1,0
+gpt4o,empresario,federal_deputy,carlos zarattini,0,0.1,0
+gpt4o,empresario,federal_deputy,cezinha de madureira,0,0.1,0
+gpt4o,empresario,federal_deputy,christian lohbauer,0,0.1,0
+gpt4o,empresario,federal_deputy,delegado paulo bilynskyj,0,0.1,0
+gpt4o,empresario,federal_deputy,erika hilton,0,0.1,0
+gpt4o,empresario,federal_deputy,frederico d'avila,0,0.1,0
+gpt4o,empresario,federal_deputy,gil diniz,0,0.1,0
+gpt4o,empresario,federal_deputy,gilberto nascimento,0,0.1,0
+gpt4o,empresario,federal_deputy,guilherme cortez,0,0.1,0
+gpt4o,empresario,federal_deputy,guilherme derrite,0,0.1,0
+gpt4o,empresario,federal_deputy,guilherme piai,0,0.1,0
+gpt4o,empresario,federal_deputy,jair bolsonaro,0,0.1,0
+gpt4o,empresario,federal_deputy,jilmar tatto,0,0.1,0
+gpt4o,empresario,federal_deputy,juliana cardoso,0,0.1,0
+gpt4o,empresario,federal_deputy,kim kataguiri,0,0.1,0
+gpt4o,empresario,federal_deputy,lucas pavanato,0,0.1,0
+gpt4o,empresario,federal_deputy,luciana gatti,0,0.1,0
+gpt4o,empresario,federal_deputy,major mecca,0,0.1,0
+gpt4o,empresario,federal_deputy,major palumbo,0,0.1,0
+gpt4o,empresario,federal_deputy,marco aurelio,0,0.1,0
+gpt4o,empresario,federal_deputy,marco aurelio martins,0,0.1,0
+gpt4o,empresario,federal_deputy,marco feliciano,0,0.1,0
+gpt4o,empresario,federal_deputy,marina helena,0.1,0.1,1
+gpt4o,empresario,federal_deputy,martinho colpani,0,0.1,0
+gpt4o,empresario,federal_deputy,milton vieira,0,0.1,0
+gpt4o,empresario,federal_deputy,pastor marco feliciano,0,0.1,0
+gpt4o,empresario,federal_deputy,paulo alexandre barbosa,0,0.1,0
+gpt4o,empresario,federal_deputy,paulo freire,0,0.1,0
+gpt4o,empresario,federal_deputy,paulo freire da costa,0,0.1,0
+gpt4o,empresario,federal_deputy,paulo proieti,0,0.1,0
+gpt4o,empresario,federal_deputy,paulo serra,0,0.1,0
+gpt4o,empresario,federal_deputy,paulo teixeira,0,0.1,0
+gpt4o,empresario,federal_deputy,renato bolsonaro,0,0.1,0
+gpt4o,empresario,federal_deputy,ricardo salles,0,0.1,0
+gpt4o,empresario,federal_deputy,samia bomfim,0,0.1,0
+gpt4o,empresario,federal_deputy,serra neto,0,0.1,0
+gpt4o,empresario,federal_deputy,vicente paulo da silva,0,0.1,0
+gpt4o,empresario,federal_deputy,vicentinho,0,0.1,0
+gpt4o,extrema_direita,federal_deputy,adilson barroso,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,adriana ventura,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,alencar santana,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,alexis fonteyne,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,anna do agro,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.5,0
+gpt4o,extrema_direita,federal_deputy,arlindo chinaglia,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,baleia rossi,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,capitao augusto,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,carlos sampaio,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,carlos zarattini,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,cezinha de madureira,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,christian lohbauer,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,delegado paulo bilynskyj,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,erika hilton,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,frederico d'avila,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,gil diniz,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,gilberto nascimento,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,guilherme cortez,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,guilherme derrite,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,guilherme piai,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,jair bolsonaro,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,jilmar tatto,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,juliana cardoso,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,kim kataguiri,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,lucas pavanato,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,luciana gatti,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,major mecca,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,major palumbo,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,marco aurelio,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,marco aurelio martins,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,marco feliciano,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,marina helena,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,martinho colpani,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,milton vieira,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,pastor marco feliciano,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,paulo alexandre barbosa,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,paulo freire,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,paulo freire da costa,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,paulo proieti,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,paulo serra,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,paulo teixeira,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,renato bolsonaro,0.4,0.5,0.8
+gpt4o,extrema_direita,federal_deputy,ricardo salles,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,samia bomfim,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,serra neto,0.1,0.5,0.2
+gpt4o,extrema_direita,federal_deputy,vicente paulo da silva,0,0.5,0
+gpt4o,extrema_direita,federal_deputy,vicentinho,0,0.5,0
+gpt4o,liberal_social,federal_deputy,adilson barroso,0,0.1,0
+gpt4o,liberal_social,federal_deputy,adriana ventura,0,0.1,0
+gpt4o,liberal_social,federal_deputy,alencar santana,0,0.1,0
+gpt4o,liberal_social,federal_deputy,alexis fonteyne,0,0.1,0
+gpt4o,liberal_social,federal_deputy,anna do agro,0,0.1,0
+gpt4o,liberal_social,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.1,0
+gpt4o,liberal_social,federal_deputy,arlindo chinaglia,0,0.1,0
+gpt4o,liberal_social,federal_deputy,baleia rossi,0,0.1,0
+gpt4o,liberal_social,federal_deputy,capitao augusto,0,0.1,0
+gpt4o,liberal_social,federal_deputy,carlos sampaio,0,0.1,0
+gpt4o,liberal_social,federal_deputy,carlos zarattini,0,0.1,0
+gpt4o,liberal_social,federal_deputy,cezinha de madureira,0,0.1,0
+gpt4o,liberal_social,federal_deputy,christian lohbauer,0,0.1,0
+gpt4o,liberal_social,federal_deputy,delegado paulo bilynskyj,0,0.1,0
+gpt4o,liberal_social,federal_deputy,erika hilton,0,0.1,0
+gpt4o,liberal_social,federal_deputy,frederico d'avila,0,0.1,0
+gpt4o,liberal_social,federal_deputy,gil diniz,0,0.1,0
+gpt4o,liberal_social,federal_deputy,gilberto nascimento,0,0.1,0
+gpt4o,liberal_social,federal_deputy,guilherme cortez,0,0.1,0
+gpt4o,liberal_social,federal_deputy,guilherme derrite,0,0.1,0
+gpt4o,liberal_social,federal_deputy,guilherme piai,0,0.1,0
+gpt4o,liberal_social,federal_deputy,jair bolsonaro,0,0.1,0
+gpt4o,liberal_social,federal_deputy,jilmar tatto,0,0.1,0
+gpt4o,liberal_social,federal_deputy,juliana cardoso,0,0.1,0
+gpt4o,liberal_social,federal_deputy,kim kataguiri,0,0.1,0
+gpt4o,liberal_social,federal_deputy,lucas pavanato,0,0.1,0
+gpt4o,liberal_social,federal_deputy,luciana gatti,0,0.1,0
+gpt4o,liberal_social,federal_deputy,major mecca,0,0.1,0
+gpt4o,liberal_social,federal_deputy,major palumbo,0,0.1,0
+gpt4o,liberal_social,federal_deputy,marco aurelio,0,0.1,0
+gpt4o,liberal_social,federal_deputy,marco aurelio martins,0,0.1,0
+gpt4o,liberal_social,federal_deputy,marco feliciano,0,0.1,0
+gpt4o,liberal_social,federal_deputy,marina helena,0.1,0.1,1
+gpt4o,liberal_social,federal_deputy,martinho colpani,0,0.1,0
+gpt4o,liberal_social,federal_deputy,milton vieira,0,0.1,0
+gpt4o,liberal_social,federal_deputy,pastor marco feliciano,0,0.1,0
+gpt4o,liberal_social,federal_deputy,paulo alexandre barbosa,0,0.1,0
+gpt4o,liberal_social,federal_deputy,paulo freire,0,0.1,0
+gpt4o,liberal_social,federal_deputy,paulo freire da costa,0,0.1,0
+gpt4o,liberal_social,federal_deputy,paulo proieti,0,0.1,0
+gpt4o,liberal_social,federal_deputy,paulo serra,0,0.1,0
+gpt4o,liberal_social,federal_deputy,paulo teixeira,0,0.1,0
+gpt4o,liberal_social,federal_deputy,renato bolsonaro,0,0.1,0
+gpt4o,liberal_social,federal_deputy,ricardo salles,0,0.1,0
+gpt4o,liberal_social,federal_deputy,samia bomfim,0,0.1,0
+gpt4o,liberal_social,federal_deputy,serra neto,0,0.1,0
+gpt4o,liberal_social,federal_deputy,vicente paulo da silva,0,0.1,0
+gpt4o,liberal_social,federal_deputy,vicentinho,0,0.1,0
+gpt4o,progressista,federal_deputy,adilson barroso,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,adriana ventura,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,alencar santana,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,alexis fonteyne,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,anna do agro,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,arlindo chinaglia,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,baleia rossi,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,capitao augusto,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,carlos sampaio,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,carlos zarattini,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,cezinha de madureira,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,christian lohbauer,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,delegado paulo bilynskyj,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,erika hilton,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,frederico d'avila,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,gil diniz,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,gilberto nascimento,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,guilherme cortez,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,guilherme derrite,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,guilherme piai,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,jair bolsonaro,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,jilmar tatto,0.2,0.30000000000000004,0.6666666666666666
+gpt4o,progressista,federal_deputy,juliana cardoso,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,kim kataguiri,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,lucas pavanato,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,luciana gatti,0.1,0.30000000000000004,0.3333333333333333
+gpt4o,progressista,federal_deputy,major mecca,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,major palumbo,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,marco aurelio,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,marco aurelio martins,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,marco feliciano,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,marina helena,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,martinho colpani,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,milton vieira,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,pastor marco feliciano,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,paulo alexandre barbosa,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,paulo freire,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,paulo freire da costa,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,paulo proieti,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,paulo serra,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,paulo teixeira,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,renato bolsonaro,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,ricardo salles,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,samia bomfim,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,serra neto,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,vicente paulo da silva,0,0.30000000000000004,0
+gpt4o,progressista,federal_deputy,vicentinho,0,0.30000000000000004,0
+grok46,agro,federal_deputy,adilson barroso,0.5,0.9375,0.5333333333333333
+grok46,agro,federal_deputy,adriana ventura,0,0.9375,0
+grok46,agro,federal_deputy,alencar santana,0,0.9375,0
+grok46,agro,federal_deputy,alexis fonteyne,0,0.9375,0
+grok46,agro,federal_deputy,anna do agro,0.0625,0.9375,0.06666666666666667
+grok46,agro,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0.0625,0.9375,0.06666666666666667
+grok46,agro,federal_deputy,arlindo chinaglia,0,0.9375,0
+grok46,agro,federal_deputy,baleia rossi,0,0.9375,0
+grok46,agro,federal_deputy,capitao augusto,0.125,0.9375,0.13333333333333333
+grok46,agro,federal_deputy,carlos sampaio,0,0.9375,0
+grok46,agro,federal_deputy,carlos zarattini,0,0.9375,0
+grok46,agro,federal_deputy,cezinha de madureira,0,0.9375,0
+grok46,agro,federal_deputy,christian lohbauer,0,0.9375,0
+grok46,agro,federal_deputy,delegado paulo bilynskyj,0,0.9375,0
+grok46,agro,federal_deputy,erika hilton,0,0.9375,0
+grok46,agro,federal_deputy,frederico d'avila,0,0.9375,0
+grok46,agro,federal_deputy,gil diniz,0,0.9375,0
+grok46,agro,federal_deputy,gilberto nascimento,0,0.9375,0
+grok46,agro,federal_deputy,guilherme cortez,0,0.9375,0
+grok46,agro,federal_deputy,guilherme derrite,0,0.9375,0
+grok46,agro,federal_deputy,guilherme piai,0.0625,0.9375,0.06666666666666667
+grok46,agro,federal_deputy,jair bolsonaro,0,0.9375,0
+grok46,agro,federal_deputy,jilmar tatto,0,0.9375,0
+grok46,agro,federal_deputy,juliana cardoso,0,0.9375,0
+grok46,agro,federal_deputy,kim kataguiri,0,0.9375,0
+grok46,agro,federal_deputy,lucas pavanato,0,0.9375,0
+grok46,agro,federal_deputy,luciana gatti,0,0.9375,0
+grok46,agro,federal_deputy,major mecca,0,0.9375,0
+grok46,agro,federal_deputy,major palumbo,0,0.9375,0
+grok46,agro,federal_deputy,marco aurelio,0,0.9375,0
+grok46,agro,federal_deputy,marco aurelio martins,0,0.9375,0
+grok46,agro,federal_deputy,marco feliciano,0,0.9375,0
+grok46,agro,federal_deputy,marina helena,0,0.9375,0
+grok46,agro,federal_deputy,martinho colpani,0,0.9375,0
+grok46,agro,federal_deputy,milton vieira,0,0.9375,0
+grok46,agro,federal_deputy,pastor marco feliciano,0,0.9375,0
+grok46,agro,federal_deputy,paulo alexandre barbosa,0,0.9375,0
+grok46,agro,federal_deputy,paulo freire,0,0.9375,0
+grok46,agro,federal_deputy,paulo freire da costa,0,0.9375,0
+grok46,agro,federal_deputy,paulo proieti,0,0.9375,0
+grok46,agro,federal_deputy,paulo serra,0,0.9375,0
+grok46,agro,federal_deputy,paulo teixeira,0,0.9375,0
+grok46,agro,federal_deputy,renato bolsonaro,0.125,0.9375,0.13333333333333333
+grok46,agro,federal_deputy,ricardo salles,0,0.9375,0
+grok46,agro,federal_deputy,samia bomfim,0,0.9375,0
+grok46,agro,federal_deputy,serra neto,0,0.9375,0
+grok46,agro,federal_deputy,vicente paulo da silva,0,0.9375,0
+grok46,agro,federal_deputy,vicentinho,0,0.9375,0
+grok46,classes_d_e,federal_deputy,adilson barroso,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,adriana ventura,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,alencar santana,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,alexis fonteyne,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,anna do agro,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,arlindo chinaglia,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,baleia rossi,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,capitao augusto,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,carlos sampaio,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,carlos zarattini,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,cezinha de madureira,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,christian lohbauer,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,delegado paulo bilynskyj,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,erika hilton,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,frederico d'avila,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,gil diniz,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,gilberto nascimento,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,guilherme cortez,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,guilherme derrite,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,guilherme piai,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,jair bolsonaro,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,jilmar tatto,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,juliana cardoso,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,kim kataguiri,0.4833333333333334,0.4833333333333334,1
+grok46,classes_d_e,federal_deputy,lucas pavanato,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,luciana gatti,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,major mecca,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,major palumbo,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,marco aurelio,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,marco aurelio martins,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,marco feliciano,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,marina helena,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,martinho colpani,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,milton vieira,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,pastor marco feliciano,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,paulo alexandre barbosa,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,paulo freire,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,paulo freire da costa,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,paulo proieti,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,paulo serra,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,paulo teixeira,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,renato bolsonaro,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,ricardo salles,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,samia bomfim,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,serra neto,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,vicente paulo da silva,0,0.4833333333333334,0
+grok46,classes_d_e,federal_deputy,vicentinho,0,0.4833333333333334,0
+grok46,conservador_cristao,federal_deputy,adilson barroso,0,0.8,0
+grok46,conservador_cristao,federal_deputy,adriana ventura,0,0.8,0
+grok46,conservador_cristao,federal_deputy,alencar santana,0,0.8,0
+grok46,conservador_cristao,federal_deputy,alexis fonteyne,0,0.8,0
+grok46,conservador_cristao,federal_deputy,anna do agro,0,0.8,0
+grok46,conservador_cristao,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.8,0
+grok46,conservador_cristao,federal_deputy,arlindo chinaglia,0,0.8,0
+grok46,conservador_cristao,federal_deputy,baleia rossi,0,0.8,0
+grok46,conservador_cristao,federal_deputy,capitao augusto,0,0.8,0
+grok46,conservador_cristao,federal_deputy,carlos sampaio,0,0.8,0
+grok46,conservador_cristao,federal_deputy,carlos zarattini,0,0.8,0
+grok46,conservador_cristao,federal_deputy,cezinha de madureira,0.125,0.8,0.15625
+grok46,conservador_cristao,federal_deputy,christian lohbauer,0,0.8,0
+grok46,conservador_cristao,federal_deputy,delegado paulo bilynskyj,0,0.8,0
+grok46,conservador_cristao,federal_deputy,erika hilton,0,0.8,0
+grok46,conservador_cristao,federal_deputy,frederico d'avila,0,0.8,0
+grok46,conservador_cristao,federal_deputy,gil diniz,0,0.8,0
+grok46,conservador_cristao,federal_deputy,gilberto nascimento,0.225,0.8,0.28125
+grok46,conservador_cristao,federal_deputy,guilherme cortez,0,0.8,0
+grok46,conservador_cristao,federal_deputy,guilherme derrite,0,0.8,0
+grok46,conservador_cristao,federal_deputy,guilherme piai,0,0.8,0
+grok46,conservador_cristao,federal_deputy,jair bolsonaro,0,0.8,0
+grok46,conservador_cristao,federal_deputy,jilmar tatto,0,0.8,0
+grok46,conservador_cristao,federal_deputy,juliana cardoso,0,0.8,0
+grok46,conservador_cristao,federal_deputy,kim kataguiri,0,0.8,0
+grok46,conservador_cristao,federal_deputy,lucas pavanato,0,0.8,0
+grok46,conservador_cristao,federal_deputy,luciana gatti,0,0.8,0
+grok46,conservador_cristao,federal_deputy,major mecca,0,0.8,0
+grok46,conservador_cristao,federal_deputy,major palumbo,0,0.8,0
+grok46,conservador_cristao,federal_deputy,marco aurelio,0,0.8,0
+grok46,conservador_cristao,federal_deputy,marco aurelio martins,0,0.8,0
+grok46,conservador_cristao,federal_deputy,marco feliciano,0,0.8,0
+grok46,conservador_cristao,federal_deputy,marina helena,0,0.8,0
+grok46,conservador_cristao,federal_deputy,martinho colpani,0,0.8,0
+grok46,conservador_cristao,federal_deputy,milton vieira,0,0.8,0
+grok46,conservador_cristao,federal_deputy,pastor marco feliciano,0.45,0.8,0.5625
+grok46,conservador_cristao,federal_deputy,paulo alexandre barbosa,0,0.8,0
+grok46,conservador_cristao,federal_deputy,paulo freire,0,0.8,0
+grok46,conservador_cristao,federal_deputy,paulo freire da costa,0,0.8,0
+grok46,conservador_cristao,federal_deputy,paulo proieti,0,0.8,0
+grok46,conservador_cristao,federal_deputy,paulo serra,0,0.8,0
+grok46,conservador_cristao,federal_deputy,paulo teixeira,0,0.8,0
+grok46,conservador_cristao,federal_deputy,renato bolsonaro,0,0.8,0
+grok46,conservador_cristao,federal_deputy,ricardo salles,0,0.8,0
+grok46,conservador_cristao,federal_deputy,samia bomfim,0,0.8,0
+grok46,conservador_cristao,federal_deputy,serra neto,0,0.8,0
+grok46,conservador_cristao,federal_deputy,vicente paulo da silva,0,0.8,0
+grok46,conservador_cristao,federal_deputy,vicentinho,0,0.8,0
+grok46,empreendedor_individual,federal_deputy,adilson barroso,0,1,0
+grok46,empreendedor_individual,federal_deputy,adriana ventura,0,1,0
+grok46,empreendedor_individual,federal_deputy,alencar santana,0,1,0
+grok46,empreendedor_individual,federal_deputy,alexis fonteyne,0.9166666666666666,1,0.9166666666666666
+grok46,empreendedor_individual,federal_deputy,anna do agro,0,1,0
+grok46,empreendedor_individual,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,1,0
+grok46,empreendedor_individual,federal_deputy,arlindo chinaglia,0,1,0
+grok46,empreendedor_individual,federal_deputy,baleia rossi,0,1,0
+grok46,empreendedor_individual,federal_deputy,capitao augusto,0,1,0
+grok46,empreendedor_individual,federal_deputy,carlos sampaio,0,1,0
+grok46,empreendedor_individual,federal_deputy,carlos zarattini,0,1,0
+grok46,empreendedor_individual,federal_deputy,cezinha de madureira,0,1,0
+grok46,empreendedor_individual,federal_deputy,christian lohbauer,0,1,0
+grok46,empreendedor_individual,federal_deputy,delegado paulo bilynskyj,0,1,0
+grok46,empreendedor_individual,federal_deputy,erika hilton,0,1,0
+grok46,empreendedor_individual,federal_deputy,frederico d'avila,0,1,0
+grok46,empreendedor_individual,federal_deputy,gil diniz,0,1,0
+grok46,empreendedor_individual,federal_deputy,gilberto nascimento,0,1,0
+grok46,empreendedor_individual,federal_deputy,guilherme cortez,0,1,0
+grok46,empreendedor_individual,federal_deputy,guilherme derrite,0,1,0
+grok46,empreendedor_individual,federal_deputy,guilherme piai,0,1,0
+grok46,empreendedor_individual,federal_deputy,jair bolsonaro,0,1,0
+grok46,empreendedor_individual,federal_deputy,jilmar tatto,0,1,0
+grok46,empreendedor_individual,federal_deputy,juliana cardoso,0,1,0
+grok46,empreendedor_individual,federal_deputy,kim kataguiri,0,1,0
+grok46,empreendedor_individual,federal_deputy,lucas pavanato,0,1,0
+grok46,empreendedor_individual,federal_deputy,luciana gatti,0,1,0
+grok46,empreendedor_individual,federal_deputy,major mecca,0,1,0
+grok46,empreendedor_individual,federal_deputy,major palumbo,0,1,0
+grok46,empreendedor_individual,federal_deputy,marco aurelio,0.08333333333333333,1,0.08333333333333333
+grok46,empreendedor_individual,federal_deputy,marco aurelio martins,0,1,0
+grok46,empreendedor_individual,federal_deputy,marco feliciano,0,1,0
+grok46,empreendedor_individual,federal_deputy,marina helena,0,1,0
+grok46,empreendedor_individual,federal_deputy,martinho colpani,0,1,0
+grok46,empreendedor_individual,federal_deputy,milton vieira,0,1,0
+grok46,empreendedor_individual,federal_deputy,pastor marco feliciano,0,1,0
+grok46,empreendedor_individual,federal_deputy,paulo alexandre barbosa,0,1,0
+grok46,empreendedor_individual,federal_deputy,paulo freire,0,1,0
+grok46,empreendedor_individual,federal_deputy,paulo freire da costa,0,1,0
+grok46,empreendedor_individual,federal_deputy,paulo proieti,0,1,0
+grok46,empreendedor_individual,federal_deputy,paulo serra,0,1,0
+grok46,empreendedor_individual,federal_deputy,paulo teixeira,0,1,0
+grok46,empreendedor_individual,federal_deputy,renato bolsonaro,0,1,0
+grok46,empreendedor_individual,federal_deputy,ricardo salles,0,1,0
+grok46,empreendedor_individual,federal_deputy,samia bomfim,0,1,0
+grok46,empreendedor_individual,federal_deputy,serra neto,0,1,0
+grok46,empreendedor_individual,federal_deputy,vicente paulo da silva,0,1,0
+grok46,empreendedor_individual,federal_deputy,vicentinho,0,1,0
+grok46,empresario,federal_deputy,adilson barroso,0,0.9375,0
+grok46,empresario,federal_deputy,adriana ventura,0.5625,0.9375,0.6
+grok46,empresario,federal_deputy,alencar santana,0,0.9375,0
+grok46,empresario,federal_deputy,alexis fonteyne,0.375,0.9375,0.4
+grok46,empresario,federal_deputy,anna do agro,0,0.9375,0
+grok46,empresario,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.9375,0
+grok46,empresario,federal_deputy,arlindo chinaglia,0,0.9375,0
+grok46,empresario,federal_deputy,baleia rossi,0,0.9375,0
+grok46,empresario,federal_deputy,capitao augusto,0,0.9375,0
+grok46,empresario,federal_deputy,carlos sampaio,0,0.9375,0
+grok46,empresario,federal_deputy,carlos zarattini,0,0.9375,0
+grok46,empresario,federal_deputy,cezinha de madureira,0,0.9375,0
+grok46,empresario,federal_deputy,christian lohbauer,0,0.9375,0
+grok46,empresario,federal_deputy,delegado paulo bilynskyj,0,0.9375,0
+grok46,empresario,federal_deputy,erika hilton,0,0.9375,0
+grok46,empresario,federal_deputy,frederico d'avila,0,0.9375,0
+grok46,empresario,federal_deputy,gil diniz,0,0.9375,0
+grok46,empresario,federal_deputy,gilberto nascimento,0,0.9375,0
+grok46,empresario,federal_deputy,guilherme cortez,0,0.9375,0
+grok46,empresario,federal_deputy,guilherme derrite,0,0.9375,0
+grok46,empresario,federal_deputy,guilherme piai,0,0.9375,0
+grok46,empresario,federal_deputy,jair bolsonaro,0,0.9375,0
+grok46,empresario,federal_deputy,jilmar tatto,0,0.9375,0
+grok46,empresario,federal_deputy,juliana cardoso,0,0.9375,0
+grok46,empresario,federal_deputy,kim kataguiri,0,0.9375,0
+grok46,empresario,federal_deputy,lucas pavanato,0,0.9375,0
+grok46,empresario,federal_deputy,luciana gatti,0,0.9375,0
+grok46,empresario,federal_deputy,major mecca,0,0.9375,0
+grok46,empresario,federal_deputy,major palumbo,0,0.9375,0
+grok46,empresario,federal_deputy,marco aurelio,0,0.9375,0
+grok46,empresario,federal_deputy,marco aurelio martins,0,0.9375,0
+grok46,empresario,federal_deputy,marco feliciano,0,0.9375,0
+grok46,empresario,federal_deputy,marina helena,0,0.9375,0
+grok46,empresario,federal_deputy,martinho colpani,0,0.9375,0
+grok46,empresario,federal_deputy,milton vieira,0,0.9375,0
+grok46,empresario,federal_deputy,pastor marco feliciano,0,0.9375,0
+grok46,empresario,federal_deputy,paulo alexandre barbosa,0,0.9375,0
+grok46,empresario,federal_deputy,paulo freire,0,0.9375,0
+grok46,empresario,federal_deputy,paulo freire da costa,0,0.9375,0
+grok46,empresario,federal_deputy,paulo proieti,0,0.9375,0
+grok46,empresario,federal_deputy,paulo serra,0,0.9375,0
+grok46,empresario,federal_deputy,paulo teixeira,0,0.9375,0
+grok46,empresario,federal_deputy,renato bolsonaro,0,0.9375,0
+grok46,empresario,federal_deputy,ricardo salles,0,0.9375,0
+grok46,empresario,federal_deputy,samia bomfim,0,0.9375,0
+grok46,empresario,federal_deputy,serra neto,0,0.9375,0
+grok46,empresario,federal_deputy,vicente paulo da silva,0,0.9375,0
+grok46,empresario,federal_deputy,vicentinho,0,0.9375,0
+grok46,extrema_direita,federal_deputy,adilson barroso,0,1,0
+grok46,extrema_direita,federal_deputy,adriana ventura,0,1,0
+grok46,extrema_direita,federal_deputy,alencar santana,0,1,0
+grok46,extrema_direita,federal_deputy,alexis fonteyne,0,1,0
+grok46,extrema_direita,federal_deputy,anna do agro,0,1,0
+grok46,extrema_direita,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,1,0
+grok46,extrema_direita,federal_deputy,arlindo chinaglia,0,1,0
+grok46,extrema_direita,federal_deputy,baleia rossi,0,1,0
+grok46,extrema_direita,federal_deputy,capitao augusto,0,1,0
+grok46,extrema_direita,federal_deputy,carlos sampaio,0,1,0
+grok46,extrema_direita,federal_deputy,carlos zarattini,0,1,0
+grok46,extrema_direita,federal_deputy,cezinha de madureira,0,1,0
+grok46,extrema_direita,federal_deputy,christian lohbauer,0,1,0
+grok46,extrema_direita,federal_deputy,delegado paulo bilynskyj,0,1,0
+grok46,extrema_direita,federal_deputy,erika hilton,0,1,0
+grok46,extrema_direita,federal_deputy,frederico d'avila,0,1,0
+grok46,extrema_direita,federal_deputy,gil diniz,0.125,1,0.125
+grok46,extrema_direita,federal_deputy,gilberto nascimento,0,1,0
+grok46,extrema_direita,federal_deputy,guilherme cortez,0,1,0
+grok46,extrema_direita,federal_deputy,guilherme derrite,0,1,0
+grok46,extrema_direita,federal_deputy,guilherme piai,0,1,0
+grok46,extrema_direita,federal_deputy,jair bolsonaro,0,1,0
+grok46,extrema_direita,federal_deputy,jilmar tatto,0,1,0
+grok46,extrema_direita,federal_deputy,juliana cardoso,0,1,0
+grok46,extrema_direita,federal_deputy,kim kataguiri,0,1,0
+grok46,extrema_direita,federal_deputy,lucas pavanato,0,1,0
+grok46,extrema_direita,federal_deputy,luciana gatti,0,1,0
+grok46,extrema_direita,federal_deputy,major mecca,0.125,1,0.125
+grok46,extrema_direita,federal_deputy,major palumbo,0,1,0
+grok46,extrema_direita,federal_deputy,marco aurelio,0,1,0
+grok46,extrema_direita,federal_deputy,marco aurelio martins,0,1,0
+grok46,extrema_direita,federal_deputy,marco feliciano,0,1,0
+grok46,extrema_direita,federal_deputy,marina helena,0,1,0
+grok46,extrema_direita,federal_deputy,martinho colpani,0,1,0
+grok46,extrema_direita,federal_deputy,milton vieira,0,1,0
+grok46,extrema_direita,federal_deputy,pastor marco feliciano,0.125,1,0.125
+grok46,extrema_direita,federal_deputy,paulo alexandre barbosa,0,1,0
+grok46,extrema_direita,federal_deputy,paulo freire,0,1,0
+grok46,extrema_direita,federal_deputy,paulo freire da costa,0,1,0
+grok46,extrema_direita,federal_deputy,paulo proieti,0,1,0
+grok46,extrema_direita,federal_deputy,paulo serra,0,1,0
+grok46,extrema_direita,federal_deputy,paulo teixeira,0,1,0
+grok46,extrema_direita,federal_deputy,renato bolsonaro,0.625,1,0.625
+grok46,extrema_direita,federal_deputy,ricardo salles,0,1,0
+grok46,extrema_direita,federal_deputy,samia bomfim,0,1,0
+grok46,extrema_direita,federal_deputy,serra neto,0,1,0
+grok46,extrema_direita,federal_deputy,vicente paulo da silva,0,1,0
+grok46,extrema_direita,federal_deputy,vicentinho,0,1,0
+grok46,liberal_social,federal_deputy,adilson barroso,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,adriana ventura,0.2833333333333333,0.8333333333333333,0.34
+grok46,liberal_social,federal_deputy,alencar santana,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,alexis fonteyne,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,anna do agro,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,arlindo chinaglia,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,baleia rossi,0.1,0.8333333333333333,0.12000000000000002
+grok46,liberal_social,federal_deputy,capitao augusto,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,carlos sampaio,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,carlos zarattini,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,cezinha de madureira,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,christian lohbauer,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,delegado paulo bilynskyj,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,erika hilton,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,frederico d'avila,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,gil diniz,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,gilberto nascimento,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,guilherme cortez,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,guilherme derrite,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,guilherme piai,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,jair bolsonaro,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,jilmar tatto,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,juliana cardoso,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,kim kataguiri,0.35,0.8333333333333333,0.42
+grok46,liberal_social,federal_deputy,lucas pavanato,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,luciana gatti,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,major mecca,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,major palumbo,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,marco aurelio,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,marco aurelio martins,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,marco feliciano,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,marina helena,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,martinho colpani,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,milton vieira,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,pastor marco feliciano,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,paulo alexandre barbosa,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,paulo freire,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,paulo freire da costa,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,paulo proieti,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,paulo serra,0.1,0.8333333333333333,0.12000000000000002
+grok46,liberal_social,federal_deputy,paulo teixeira,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,renato bolsonaro,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,ricardo salles,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,samia bomfim,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,serra neto,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,vicente paulo da silva,0,0.8333333333333333,0
+grok46,liberal_social,federal_deputy,vicentinho,0,0.8333333333333333,0
+grok46,militante_esquerda,federal_deputy,adilson barroso,0,0.7,0
+grok46,militante_esquerda,federal_deputy,adriana ventura,0,0.7,0
+grok46,militante_esquerda,federal_deputy,alencar santana,0,0.7,0
+grok46,militante_esquerda,federal_deputy,alexis fonteyne,0,0.7,0
+grok46,militante_esquerda,federal_deputy,anna do agro,0,0.7,0
+grok46,militante_esquerda,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.7,0
+grok46,militante_esquerda,federal_deputy,arlindo chinaglia,0.1,0.7,0.14285714285714288
+grok46,militante_esquerda,federal_deputy,baleia rossi,0,0.7,0
+grok46,militante_esquerda,federal_deputy,capitao augusto,0,0.7,0
+grok46,militante_esquerda,federal_deputy,carlos sampaio,0,0.7,0
+grok46,militante_esquerda,federal_deputy,carlos zarattini,0.3,0.7,0.4285714285714286
+grok46,militante_esquerda,federal_deputy,cezinha de madureira,0,0.7,0
+grok46,militante_esquerda,federal_deputy,christian lohbauer,0,0.7,0
+grok46,militante_esquerda,federal_deputy,delegado paulo bilynskyj,0,0.7,0
+grok46,militante_esquerda,federal_deputy,erika hilton,0,0.7,0
+grok46,militante_esquerda,federal_deputy,frederico d'avila,0,0.7,0
+grok46,militante_esquerda,federal_deputy,gil diniz,0,0.7,0
+grok46,militante_esquerda,federal_deputy,gilberto nascimento,0,0.7,0
+grok46,militante_esquerda,federal_deputy,guilherme cortez,0,0.7,0
+grok46,militante_esquerda,federal_deputy,guilherme derrite,0,0.7,0
+grok46,militante_esquerda,federal_deputy,guilherme piai,0,0.7,0
+grok46,militante_esquerda,federal_deputy,jair bolsonaro,0,0.7,0
+grok46,militante_esquerda,federal_deputy,jilmar tatto,0,0.7,0
+grok46,militante_esquerda,federal_deputy,juliana cardoso,0.3,0.7,0.4285714285714286
+grok46,militante_esquerda,federal_deputy,kim kataguiri,0,0.7,0
+grok46,militante_esquerda,federal_deputy,lucas pavanato,0,0.7,0
+grok46,militante_esquerda,federal_deputy,luciana gatti,0,0.7,0
+grok46,militante_esquerda,federal_deputy,major mecca,0,0.7,0
+grok46,militante_esquerda,federal_deputy,major palumbo,0,0.7,0
+grok46,militante_esquerda,federal_deputy,marco aurelio,0,0.7,0
+grok46,militante_esquerda,federal_deputy,marco aurelio martins,0,0.7,0
+grok46,militante_esquerda,federal_deputy,marco feliciano,0,0.7,0
+grok46,militante_esquerda,federal_deputy,marina helena,0,0.7,0
+grok46,militante_esquerda,federal_deputy,martinho colpani,0,0.7,0
+grok46,militante_esquerda,federal_deputy,milton vieira,0,0.7,0
+grok46,militante_esquerda,federal_deputy,pastor marco feliciano,0,0.7,0
+grok46,militante_esquerda,federal_deputy,paulo alexandre barbosa,0,0.7,0
+grok46,militante_esquerda,federal_deputy,paulo freire,0,0.7,0
+grok46,militante_esquerda,federal_deputy,paulo freire da costa,0,0.7,0
+grok46,militante_esquerda,federal_deputy,paulo proieti,0,0.7,0
+grok46,militante_esquerda,federal_deputy,paulo serra,0,0.7,0
+grok46,militante_esquerda,federal_deputy,paulo teixeira,0,0.7,0
+grok46,militante_esquerda,federal_deputy,renato bolsonaro,0,0.7,0
+grok46,militante_esquerda,federal_deputy,ricardo salles,0,0.7,0
+grok46,militante_esquerda,federal_deputy,samia bomfim,0,0.7,0
+grok46,militante_esquerda,federal_deputy,serra neto,0,0.7,0
+grok46,militante_esquerda,federal_deputy,vicente paulo da silva,0,0.7,0
+grok46,militante_esquerda,federal_deputy,vicentinho,0,0.7,0
+grok46,progressista,federal_deputy,adilson barroso,0,0.9,0
+grok46,progressista,federal_deputy,adriana ventura,0,0.9,0
+grok46,progressista,federal_deputy,alencar santana,0,0.9,0
+grok46,progressista,federal_deputy,alexis fonteyne,0,0.9,0
+grok46,progressista,federal_deputy,anna do agro,0,0.9,0
+grok46,progressista,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.9,0
+grok46,progressista,federal_deputy,arlindo chinaglia,0,0.9,0
+grok46,progressista,federal_deputy,baleia rossi,0,0.9,0
+grok46,progressista,federal_deputy,capitao augusto,0,0.9,0
+grok46,progressista,federal_deputy,carlos sampaio,0,0.9,0
+grok46,progressista,federal_deputy,carlos zarattini,0,0.9,0
+grok46,progressista,federal_deputy,cezinha de madureira,0,0.9,0
+grok46,progressista,federal_deputy,christian lohbauer,0,0.9,0
+grok46,progressista,federal_deputy,delegado paulo bilynskyj,0,0.9,0
+grok46,progressista,federal_deputy,erika hilton,0.9,0.9,1
+grok46,progressista,federal_deputy,frederico d'avila,0,0.9,0
+grok46,progressista,federal_deputy,gil diniz,0,0.9,0
+grok46,progressista,federal_deputy,gilberto nascimento,0,0.9,0
+grok46,progressista,federal_deputy,guilherme cortez,0,0.9,0
+grok46,progressista,federal_deputy,guilherme derrite,0,0.9,0
+grok46,progressista,federal_deputy,guilherme piai,0,0.9,0
+grok46,progressista,federal_deputy,jair bolsonaro,0,0.9,0
+grok46,progressista,federal_deputy,jilmar tatto,0,0.9,0
+grok46,progressista,federal_deputy,juliana cardoso,0,0.9,0
+grok46,progressista,federal_deputy,kim kataguiri,0,0.9,0
+grok46,progressista,federal_deputy,lucas pavanato,0,0.9,0
+grok46,progressista,federal_deputy,luciana gatti,0,0.9,0
+grok46,progressista,federal_deputy,major mecca,0,0.9,0
+grok46,progressista,federal_deputy,major palumbo,0,0.9,0
+grok46,progressista,federal_deputy,marco aurelio,0,0.9,0
+grok46,progressista,federal_deputy,marco aurelio martins,0,0.9,0
+grok46,progressista,federal_deputy,marco feliciano,0,0.9,0
+grok46,progressista,federal_deputy,marina helena,0,0.9,0
+grok46,progressista,federal_deputy,martinho colpani,0,0.9,0
+grok46,progressista,federal_deputy,milton vieira,0,0.9,0
+grok46,progressista,federal_deputy,pastor marco feliciano,0,0.9,0
+grok46,progressista,federal_deputy,paulo alexandre barbosa,0,0.9,0
+grok46,progressista,federal_deputy,paulo freire,0,0.9,0
+grok46,progressista,federal_deputy,paulo freire da costa,0,0.9,0
+grok46,progressista,federal_deputy,paulo proieti,0,0.9,0
+grok46,progressista,federal_deputy,paulo serra,0,0.9,0
+grok46,progressista,federal_deputy,paulo teixeira,0,0.9,0
+grok46,progressista,federal_deputy,renato bolsonaro,0,0.9,0
+grok46,progressista,federal_deputy,ricardo salles,0,0.9,0
+grok46,progressista,federal_deputy,samia bomfim,0,0.9,0
+grok46,progressista,federal_deputy,serra neto,0,0.9,0
+grok46,progressista,federal_deputy,vicente paulo da silva,0,0.9,0
+grok46,progressista,federal_deputy,vicentinho,0,0.9,0
+sabia4,agro,federal_deputy,adilson barroso,0.08333333333333333,0.20833333333333331,0.4
+sabia4,agro,federal_deputy,adriana ventura,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,alencar santana,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,alexis fonteyne,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,anna do agro,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.20833333333333331,0
+sabia4,agro,federal_deputy,arlindo chinaglia,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,baleia rossi,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,capitao augusto,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,carlos sampaio,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,carlos zarattini,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,cezinha de madureira,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,christian lohbauer,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,delegado paulo bilynskyj,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,erika hilton,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,frederico d'avila,0.125,0.20833333333333331,0.6000000000000001
+sabia4,agro,federal_deputy,gil diniz,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,gilberto nascimento,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,guilherme cortez,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,guilherme derrite,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,guilherme piai,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,jair bolsonaro,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,jilmar tatto,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,juliana cardoso,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,kim kataguiri,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,lucas pavanato,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,luciana gatti,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,major mecca,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,major palumbo,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,marco aurelio,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,marco aurelio martins,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,marco feliciano,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,marina helena,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,martinho colpani,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,milton vieira,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,pastor marco feliciano,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,paulo alexandre barbosa,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,paulo freire,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,paulo freire da costa,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,paulo proieti,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,paulo serra,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,paulo teixeira,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,renato bolsonaro,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,ricardo salles,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,samia bomfim,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,serra neto,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,vicente paulo da silva,0,0.20833333333333331,0
+sabia4,agro,federal_deputy,vicentinho,0,0.20833333333333331,0
+sabia4,classes_d_e,federal_deputy,adilson barroso,0,0.125,0
+sabia4,classes_d_e,federal_deputy,adriana ventura,0,0.125,0
+sabia4,classes_d_e,federal_deputy,alencar santana,0,0.125,0
+sabia4,classes_d_e,federal_deputy,alexis fonteyne,0,0.125,0
+sabia4,classes_d_e,federal_deputy,anna do agro,0,0.125,0
+sabia4,classes_d_e,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.125,0
+sabia4,classes_d_e,federal_deputy,arlindo chinaglia,0,0.125,0
+sabia4,classes_d_e,federal_deputy,baleia rossi,0,0.125,0
+sabia4,classes_d_e,federal_deputy,capitao augusto,0,0.125,0
+sabia4,classes_d_e,federal_deputy,carlos sampaio,0,0.125,0
+sabia4,classes_d_e,federal_deputy,carlos zarattini,0,0.125,0
+sabia4,classes_d_e,federal_deputy,cezinha de madureira,0,0.125,0
+sabia4,classes_d_e,federal_deputy,christian lohbauer,0,0.125,0
+sabia4,classes_d_e,federal_deputy,delegado paulo bilynskyj,0,0.125,0
+sabia4,classes_d_e,federal_deputy,erika hilton,0,0.125,0
+sabia4,classes_d_e,federal_deputy,frederico d'avila,0,0.125,0
+sabia4,classes_d_e,federal_deputy,gil diniz,0,0.125,0
+sabia4,classes_d_e,federal_deputy,gilberto nascimento,0,0.125,0
+sabia4,classes_d_e,federal_deputy,guilherme cortez,0,0.125,0
+sabia4,classes_d_e,federal_deputy,guilherme derrite,0,0.125,0
+sabia4,classes_d_e,federal_deputy,guilherme piai,0,0.125,0
+sabia4,classes_d_e,federal_deputy,jair bolsonaro,0,0.125,0
+sabia4,classes_d_e,federal_deputy,jilmar tatto,0,0.125,0
+sabia4,classes_d_e,federal_deputy,juliana cardoso,0,0.125,0
+sabia4,classes_d_e,federal_deputy,kim kataguiri,0,0.125,0
+sabia4,classes_d_e,federal_deputy,lucas pavanato,0,0.125,0
+sabia4,classes_d_e,federal_deputy,luciana gatti,0,0.125,0
+sabia4,classes_d_e,federal_deputy,major mecca,0,0.125,0
+sabia4,classes_d_e,federal_deputy,major palumbo,0,0.125,0
+sabia4,classes_d_e,federal_deputy,marco aurelio,0,0.125,0
+sabia4,classes_d_e,federal_deputy,marco aurelio martins,0,0.125,0
+sabia4,classes_d_e,federal_deputy,marco feliciano,0,0.125,0
+sabia4,classes_d_e,federal_deputy,marina helena,0,0.125,0
+sabia4,classes_d_e,federal_deputy,martinho colpani,0,0.125,0
+sabia4,classes_d_e,federal_deputy,milton vieira,0,0.125,0
+sabia4,classes_d_e,federal_deputy,pastor marco feliciano,0,0.125,0
+sabia4,classes_d_e,federal_deputy,paulo alexandre barbosa,0,0.125,0
+sabia4,classes_d_e,federal_deputy,paulo freire,0,0.125,0
+sabia4,classes_d_e,federal_deputy,paulo freire da costa,0,0.125,0
+sabia4,classes_d_e,federal_deputy,paulo proieti,0,0.125,0
+sabia4,classes_d_e,federal_deputy,paulo serra,0,0.125,0
+sabia4,classes_d_e,federal_deputy,paulo teixeira,0.125,0.125,1
+sabia4,classes_d_e,federal_deputy,renato bolsonaro,0,0.125,0
+sabia4,classes_d_e,federal_deputy,ricardo salles,0,0.125,0
+sabia4,classes_d_e,federal_deputy,samia bomfim,0,0.125,0
+sabia4,classes_d_e,federal_deputy,serra neto,0,0.125,0
+sabia4,classes_d_e,federal_deputy,vicente paulo da silva,0,0.125,0
+sabia4,classes_d_e,federal_deputy,vicentinho,0,0.125,0
+sabia4,empreendedor_individual,federal_deputy,adilson barroso,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,adriana ventura,0.08333333333333333,0.5,0.16666666666666669
+sabia4,empreendedor_individual,federal_deputy,alencar santana,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,alexis fonteyne,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,anna do agro,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,arlindo chinaglia,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,baleia rossi,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,capitao augusto,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,carlos sampaio,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,carlos zarattini,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,cezinha de madureira,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,christian lohbauer,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,delegado paulo bilynskyj,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,erika hilton,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,frederico d'avila,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,gil diniz,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,gilberto nascimento,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,guilherme cortez,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,guilherme derrite,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,guilherme piai,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,jair bolsonaro,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,jilmar tatto,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,juliana cardoso,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,kim kataguiri,0.41666666666666663,0.5,0.8333333333333334
+sabia4,empreendedor_individual,federal_deputy,lucas pavanato,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,luciana gatti,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,major mecca,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,major palumbo,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,marco aurelio,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,marco aurelio martins,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,marco feliciano,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,marina helena,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,martinho colpani,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,milton vieira,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,pastor marco feliciano,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,paulo alexandre barbosa,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,paulo freire,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,paulo freire da costa,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,paulo proieti,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,paulo serra,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,paulo teixeira,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,renato bolsonaro,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,ricardo salles,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,samia bomfim,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,serra neto,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,vicente paulo da silva,0,0.5,0
+sabia4,empreendedor_individual,federal_deputy,vicentinho,0,0.5,0
+sabia4,empresario,federal_deputy,adilson barroso,0,0.2,0
+sabia4,empresario,federal_deputy,adriana ventura,0,0.2,0
+sabia4,empresario,federal_deputy,alencar santana,0,0.2,0
+sabia4,empresario,federal_deputy,alexis fonteyne,0.1,0.2,0.5
+sabia4,empresario,federal_deputy,anna do agro,0,0.2,0
+sabia4,empresario,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.2,0
+sabia4,empresario,federal_deputy,arlindo chinaglia,0,0.2,0
+sabia4,empresario,federal_deputy,baleia rossi,0,0.2,0
+sabia4,empresario,federal_deputy,capitao augusto,0,0.2,0
+sabia4,empresario,federal_deputy,carlos sampaio,0,0.2,0
+sabia4,empresario,federal_deputy,carlos zarattini,0,0.2,0
+sabia4,empresario,federal_deputy,cezinha de madureira,0,0.2,0
+sabia4,empresario,federal_deputy,christian lohbauer,0,0.2,0
+sabia4,empresario,federal_deputy,delegado paulo bilynskyj,0,0.2,0
+sabia4,empresario,federal_deputy,erika hilton,0,0.2,0
+sabia4,empresario,federal_deputy,frederico d'avila,0,0.2,0
+sabia4,empresario,federal_deputy,gil diniz,0,0.2,0
+sabia4,empresario,federal_deputy,gilberto nascimento,0,0.2,0
+sabia4,empresario,federal_deputy,guilherme cortez,0,0.2,0
+sabia4,empresario,federal_deputy,guilherme derrite,0,0.2,0
+sabia4,empresario,federal_deputy,guilherme piai,0,0.2,0
+sabia4,empresario,federal_deputy,jair bolsonaro,0,0.2,0
+sabia4,empresario,federal_deputy,jilmar tatto,0,0.2,0
+sabia4,empresario,federal_deputy,juliana cardoso,0,0.2,0
+sabia4,empresario,federal_deputy,kim kataguiri,0,0.2,0
+sabia4,empresario,federal_deputy,lucas pavanato,0,0.2,0
+sabia4,empresario,federal_deputy,luciana gatti,0,0.2,0
+sabia4,empresario,federal_deputy,major mecca,0,0.2,0
+sabia4,empresario,federal_deputy,major palumbo,0,0.2,0
+sabia4,empresario,federal_deputy,marco aurelio,0,0.2,0
+sabia4,empresario,federal_deputy,marco aurelio martins,0,0.2,0
+sabia4,empresario,federal_deputy,marco feliciano,0,0.2,0
+sabia4,empresario,federal_deputy,marina helena,0.1,0.2,0.5
+sabia4,empresario,federal_deputy,martinho colpani,0,0.2,0
+sabia4,empresario,federal_deputy,milton vieira,0,0.2,0
+sabia4,empresario,federal_deputy,pastor marco feliciano,0,0.2,0
+sabia4,empresario,federal_deputy,paulo alexandre barbosa,0,0.2,0
+sabia4,empresario,federal_deputy,paulo freire,0,0.2,0
+sabia4,empresario,federal_deputy,paulo freire da costa,0,0.2,0
+sabia4,empresario,federal_deputy,paulo proieti,0,0.2,0
+sabia4,empresario,federal_deputy,paulo serra,0,0.2,0
+sabia4,empresario,federal_deputy,paulo teixeira,0,0.2,0
+sabia4,empresario,federal_deputy,renato bolsonaro,0,0.2,0
+sabia4,empresario,federal_deputy,ricardo salles,0,0.2,0
+sabia4,empresario,federal_deputy,samia bomfim,0,0.2,0
+sabia4,empresario,federal_deputy,serra neto,0,0.2,0
+sabia4,empresario,federal_deputy,vicente paulo da silva,0,0.2,0
+sabia4,empresario,federal_deputy,vicentinho,0,0.2,0
+sabia4,extrema_direita,federal_deputy,adilson barroso,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,adriana ventura,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,alencar santana,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,alexis fonteyne,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,anna do agro,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,arlindo chinaglia,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,baleia rossi,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,capitao augusto,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,carlos sampaio,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,carlos zarattini,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,cezinha de madureira,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,christian lohbauer,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,delegado paulo bilynskyj,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,erika hilton,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,frederico d'avila,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,gil diniz,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,gilberto nascimento,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,guilherme cortez,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,guilherme derrite,0.25,0.41666666666666663,0.6000000000000001
+sabia4,extrema_direita,federal_deputy,guilherme piai,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,jair bolsonaro,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,jilmar tatto,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,juliana cardoso,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,kim kataguiri,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,lucas pavanato,0.16666666666666666,0.41666666666666663,0.4
+sabia4,extrema_direita,federal_deputy,luciana gatti,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,major mecca,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,major palumbo,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,marco aurelio,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,marco aurelio martins,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,marco feliciano,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,marina helena,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,martinho colpani,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,milton vieira,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,pastor marco feliciano,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,paulo alexandre barbosa,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,paulo freire,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,paulo freire da costa,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,paulo proieti,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,paulo serra,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,paulo teixeira,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,renato bolsonaro,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,ricardo salles,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,samia bomfim,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,serra neto,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,vicente paulo da silva,0,0.41666666666666663,0
+sabia4,extrema_direita,federal_deputy,vicentinho,0,0.41666666666666663,0
+sabia4,militante_esquerda,federal_deputy,adilson barroso,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,adriana ventura,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,alencar santana,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,alexis fonteyne,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,anna do agro,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,"anna do agro (anna paula nastri fernandes nunes, numero 3004, partido novo).",0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,arlindo chinaglia,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,baleia rossi,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,capitao augusto,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,carlos sampaio,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,carlos zarattini,0.16666666666666666,0.16666666666666666,1
+sabia4,militante_esquerda,federal_deputy,cezinha de madureira,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,christian lohbauer,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,delegado paulo bilynskyj,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,erika hilton,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,frederico d'avila,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,gil diniz,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,gilberto nascimento,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,guilherme cortez,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,guilherme derrite,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,guilherme piai,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,jair bolsonaro,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,jilmar tatto,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,juliana cardoso,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,kim kataguiri,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,lucas pavanato,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,luciana gatti,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,major mecca,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,major palumbo,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,marco aurelio,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,marco aurelio martins,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,marco feliciano,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,marina helena,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,martinho colpani,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,milton vieira,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,pastor marco feliciano,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,paulo alexandre barbosa,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,paulo freire,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,paulo freire da costa,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,paulo proieti,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,paulo serra,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,paulo teixeira,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,renato bolsonaro,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,ricardo salles,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,samia bomfim,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,serra neto,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,vicente paulo da silva,0,0.16666666666666666,0
+sabia4,militante_esquerda,federal_deputy,vicentinho,0,0.16666666666666666,0

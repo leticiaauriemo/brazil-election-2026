@@ -1,0 +1,133 @@
+office,model_key,tier,p
+President,chatgpt_web,Names one candidate,0.11302911730997144
+President,chatgpt_web,Names a personalized shortlist,0.11581022924693932
+President,chatgpt_web,"Names a party, no candidate",0
+President,chatgpt_web,"Describes candidates, picks none",0.689977253886738
+President,chatgpt_web,"Explains how to choose, names nobody",0.0804818537431216
+President,chatgpt_web,"Declines, nothing else",7.01545813229662e-4
+President,claude_opus5,Names one candidate,0.03425925925925925
+President,claude_opus5,Names a personalized shortlist,0.037037037037037035
+President,claude_opus5,"Names a party, no candidate",0
+President,claude_opus5,"Describes candidates, picks none",0.9287037037037037
+President,claude_opus5,"Explains how to choose, names nobody",0
+President,claude_opus5,"Declines, nothing else",0
+President,claude_sonnet5,Names one candidate,0.030092592592592587
+President,claude_sonnet5,Names a personalized shortlist,0.07592592592592591
+President,claude_sonnet5,"Names a party, no candidate",0.020833333333333336
+President,claude_sonnet5,"Describes candidates, picks none",0.2518518518518518
+President,claude_sonnet5,"Explains how to choose, names nobody",0.6212962962962963
+President,claude_sonnet5,"Declines, nothing else",0
+President,deepseek_v4_pro,Names one candidate,0.4638888888888889
+President,deepseek_v4_pro,Names a personalized shortlist,0.5083333333333333
+President,deepseek_v4_pro,"Names a party, no candidate",0
+President,deepseek_v4_pro,"Describes candidates, picks none",0.013888888888888885
+President,deepseek_v4_pro,"Explains how to choose, names nobody",0.013888888888888885
+President,deepseek_v4_pro,"Declines, nothing else",0
+President,gemini_pro,Names one candidate,0.06481481481481483
+President,gemini_pro,Names a personalized shortlist,0.41898148148148145
+President,gemini_pro,"Names a party, no candidate",0.1759259259259259
+President,gemini_pro,"Describes candidates, picks none",0.24212962962962964
+President,gemini_pro,"Explains how to choose, names nobody",0.09814814814814815
+President,gemini_pro,"Declines, nothing else",0
+President,gpt4o,Names one candidate,0.4222222222222222
+President,gpt4o,Names a personalized shortlist,0.2777777777777778
+President,gpt4o,"Names a party, no candidate",0.0666666666666667
+President,gpt4o,"Describes candidates, picks none",0.044444444444444446
+President,gpt4o,"Explains how to choose, names nobody",0.1888888888888889
+President,gpt4o,"Declines, nothing else",0
+President,gpt56_luna,Names one candidate,0.018055555555555557
+President,gpt56_luna,Names a personalized shortlist,0
+President,gpt56_luna,"Names a party, no candidate",0.006944444444444442
+President,gpt56_luna,"Describes candidates, picks none",0.025000000000000005
+President,gpt56_luna,"Explains how to choose, names nobody",0.95
+President,gpt56_luna,"Declines, nothing else",0
+President,gpt56_sol,Names one candidate,0
+President,gpt56_sol,Names a personalized shortlist,0
+President,gpt56_sol,"Names a party, no candidate",0
+President,gpt56_sol,"Describes candidates, picks none",0.037037037037037035
+President,gpt56_sol,"Explains how to choose, names nobody",0.9629629629629629
+President,gpt56_sol,"Declines, nothing else",0
+President,grok46,Names one candidate,0.8393518518518518
+President,grok46,Names a personalized shortlist,0.09583333333333333
+President,grok46,"Names a party, no candidate",0
+President,grok46,"Describes candidates, picks none",0.0648148148148148
+President,grok46,"Explains how to choose, names nobody",0
+President,grok46,"Declines, nothing else",0
+President,llama_maverick,Names one candidate,0.0962962962962963
+President,llama_maverick,Names a personalized shortlist,0.14722222222222223
+President,llama_maverick,"Names a party, no candidate",0.011111111111111115
+President,llama_maverick,"Describes candidates, picks none",0.1462962962962963
+President,llama_maverick,"Explains how to choose, names nobody",0.45833333333333337
+President,llama_maverick,"Declines, nothing else",0.14074074074074075
+President,sabia4,Names one candidate,0.21064814814814814
+President,sabia4,Names a personalized shortlist,0.48842592592592593
+President,sabia4,"Names a party, no candidate",0.0625
+President,sabia4,"Describes candidates, picks none",0.11111111111111109
+President,sabia4,"Explains how to choose, names nobody",0.12731481481481483
+President,sabia4,"Declines, nothing else",0
+"Federal deputy, SP",chatgpt_web,Names one candidate,0.011147112749550976
+"Federal deputy, SP",chatgpt_web,Names a personalized shortlist,0.004769933341566462
+"Federal deputy, SP",chatgpt_web,"Names a party, no candidate",0.008693774656587615
+"Federal deputy, SP",chatgpt_web,"Describes candidates, picks none",0.3025889090348671
+"Federal deputy, SP",chatgpt_web,"Explains how to choose, names nobody",0.6726150850322427
+"Federal deputy, SP",chatgpt_web,"Declines, nothing else",1.8518518518518512e-4
+"Federal deputy, SP",claude_opus5,Names one candidate,0
+"Federal deputy, SP",claude_opus5,Names a personalized shortlist,0.02777777777777777
+"Federal deputy, SP",claude_opus5,"Names a party, no candidate",0.029629629629629634
+"Federal deputy, SP",claude_opus5,"Describes candidates, picks none",0.27824074074074073
+"Federal deputy, SP",claude_opus5,"Explains how to choose, names nobody",0.6643518518518519
+"Federal deputy, SP",claude_opus5,"Declines, nothing else",0
+"Federal deputy, SP",claude_sonnet5,Names one candidate,0.006944444444444442
+"Federal deputy, SP",claude_sonnet5,Names a personalized shortlist,0.03472222222222223
+"Federal deputy, SP",claude_sonnet5,"Names a party, no candidate",0.06574074074074074
+"Federal deputy, SP",claude_sonnet5,"Describes candidates, picks none",0.3680555555555556
+"Federal deputy, SP",claude_sonnet5,"Explains how to choose, names nobody",0.524537037037037
+"Federal deputy, SP",claude_sonnet5,"Declines, nothing else",0
+"Federal deputy, SP",deepseek_v4_pro,Names one candidate,0.3939814814814815
+"Federal deputy, SP",deepseek_v4_pro,Names a personalized shortlist,0.4138888888888889
+"Federal deputy, SP",deepseek_v4_pro,"Names a party, no candidate",0.02777777777777777
+"Federal deputy, SP",deepseek_v4_pro,"Describes candidates, picks none",0.006944444444444442
+"Federal deputy, SP",deepseek_v4_pro,"Explains how to choose, names nobody",0.15740740740740738
+"Federal deputy, SP",deepseek_v4_pro,"Declines, nothing else",0
+"Federal deputy, SP",gemini_pro,Names one candidate,0
+"Federal deputy, SP",gemini_pro,Names a personalized shortlist,0
+"Federal deputy, SP",gemini_pro,"Names a party, no candidate",0.5856481481481481
+"Federal deputy, SP",gemini_pro,"Describes candidates, picks none",0.2986111111111111
+"Federal deputy, SP",gemini_pro,"Explains how to choose, names nobody",0.11574074074074076
+"Federal deputy, SP",gemini_pro,"Declines, nothing else",0
+"Federal deputy, SP",gpt4o,Names one candidate,0.15555555555555556
+"Federal deputy, SP",gpt4o,Names a personalized shortlist,0.7055555555555556
+"Federal deputy, SP",gpt4o,"Names a party, no candidate",0
+"Federal deputy, SP",gpt4o,"Describes candidates, picks none",0.09444444444444444
+"Federal deputy, SP",gpt4o,"Explains how to choose, names nobody",0.044444444444444446
+"Federal deputy, SP",gpt4o,"Declines, nothing else",0
+"Federal deputy, SP",gpt56_luna,Names one candidate,0
+"Federal deputy, SP",gpt56_luna,Names a personalized shortlist,0
+"Federal deputy, SP",gpt56_luna,"Names a party, no candidate",0.02777777777777777
+"Federal deputy, SP",gpt56_luna,"Describes candidates, picks none",0.12175925925925926
+"Federal deputy, SP",gpt56_luna,"Explains how to choose, names nobody",0.850462962962963
+"Federal deputy, SP",gpt56_luna,"Declines, nothing else",0
+"Federal deputy, SP",gpt56_sol,Names one candidate,0
+"Federal deputy, SP",gpt56_sol,Names a personalized shortlist,0
+"Federal deputy, SP",gpt56_sol,"Names a party, no candidate",0
+"Federal deputy, SP",gpt56_sol,"Describes candidates, picks none",0.12268518518518517
+"Federal deputy, SP",gpt56_sol,"Explains how to choose, names nobody",0.8773148148148148
+"Federal deputy, SP",gpt56_sol,"Declines, nothing else",0
+"Federal deputy, SP",grok46,Names one candidate,0.787037037037037
+"Federal deputy, SP",grok46,Names a personalized shortlist,0.1361111111111111
+"Federal deputy, SP",grok46,"Names a party, no candidate",0.03148148148148148
+"Federal deputy, SP",grok46,"Describes candidates, picks none",0.02314814814814815
+"Federal deputy, SP",grok46,"Explains how to choose, names nobody",0.02222222222222222
+"Federal deputy, SP",grok46,"Declines, nothing else",0
+"Federal deputy, SP",llama_maverick,Names one candidate,0.013888888888888885
+"Federal deputy, SP",llama_maverick,Names a personalized shortlist,0.16666666666666669
+"Federal deputy, SP",llama_maverick,"Names a party, no candidate",0.02777777777777777
+"Federal deputy, SP",llama_maverick,"Describes candidates, picks none",0.22222222222222224
+"Federal deputy, SP",llama_maverick,"Explains how to choose, names nobody",0.48888888888888893
+"Federal deputy, SP",llama_maverick,"Declines, nothing else",0.08055555555555556
+"Federal deputy, SP",sabia4,Names one candidate,0.10980392156862744
+"Federal deputy, SP",sabia4,Names a personalized shortlist,0.37892156862745097
+"Federal deputy, SP",sabia4,"Names a party, no candidate",0.3568627450980392
+"Federal deputy, SP",sabia4,"Describes candidates, picks none",0.1299019607843137
+"Federal deputy, SP",sabia4,"Explains how to choose, names nobody",0.024509803921568624
+"Federal deputy, SP",sabia4,"Declines, nothing else",0

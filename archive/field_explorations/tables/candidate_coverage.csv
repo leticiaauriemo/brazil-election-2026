@@ -1,0 +1,131 @@
+model_key,name,n,answers,share,label,poll
+chatgpt_web,flavio bolsonaro,10787,11370,0.9487247141600703,Flavio Bolsonaro (PL),0.31
+chatgpt_web,luiz inacio lula da silva,10038,11370,0.8828496042216358,Lula (PT),0.38
+chatgpt_web,romeu zema,9216,11370,0.8105540897097625,Romeu Zema (Novo),0.02
+chatgpt_web,ronaldo caiado,7644,11370,0.6722955145118733,Ronaldo Caiado (PSD),0.04
+chatgpt_web,renan santos,5934,11370,0.5218997361477573,Renan Santos (Missao),0.04
+chatgpt_web,augusto cury,2734,11370,0.24045734388742304,Augusto Cury (Avante),0.02
+chatgpt_web,hertz dias,1452,11370,0.12770448548812666,Hertz Dias (PSTU),0
+chatgpt_web,samara martins,1446,11370,0.12717678100263852,Samara Martins (UP),0.01
+chatgpt_web,wilson grassi,936,11370,0.08232189973614776,Wilson Grassi (Democrata),0
+chatgpt_web,edmilson costa,823,11370,0.0723834652594547,Edmilson Costa (PCB),0
+chatgpt_web,rui costa pimenta,561,11370,0.04934036939313984,Rui Costa Pimenta (PCO),0
+chatgpt_web,clariana barao,446,11370,0.03922603342128408,Clariana Barao (DC),0
+chatgpt_web,leonardo avalanche,5,11370,4.3975373790677223e-4,Leonardo Avalanche (PRTB),0
+claude_opus5,flavio bolsonaro,283,285,0.9929824561403509,Flavio Bolsonaro (PL),0.31
+claude_opus5,luiz inacio lula da silva,283,285,0.9929824561403509,Lula (PT),0.38
+claude_opus5,ronaldo caiado,268,285,0.9403508771929825,Ronaldo Caiado (PSD),0.04
+claude_opus5,romeu zema,267,285,0.9368421052631579,Romeu Zema (Novo),0.02
+claude_opus5,augusto cury,255,285,0.8947368421052632,Augusto Cury (Avante),0.02
+claude_opus5,renan santos,253,285,0.887719298245614,Renan Santos (Missao),0.04
+claude_opus5,samara martins,195,285,0.6842105263157895,Samara Martins (UP),0.01
+claude_opus5,hertz dias,177,285,0.6210526315789474,Hertz Dias (PSTU),0
+claude_opus5,wilson grassi,167,285,0.5859649122807018,Wilson Grassi (Democrata),0
+claude_opus5,edmilson costa,164,285,0.5754385964912281,Edmilson Costa (PCB),0
+claude_opus5,clariana barao,120,285,0.42105263157894735,Clariana Barao (DC),0
+claude_opus5,rui costa pimenta,80,285,0.2807017543859649,Rui Costa Pimenta (PCO),0
+claude_opus5,leonardo avalanche,58,285,0.20350877192982456,Leonardo Avalanche (PRTB),0
+claude_sonnet5,luiz inacio lula da silva,38,39,0.9743589743589743,Lula (PT),0.38
+claude_sonnet5,flavio bolsonaro,35,39,0.8974358974358975,Flavio Bolsonaro (PL),0.31
+claude_sonnet5,augusto cury,25,39,0.6410256410256411,Augusto Cury (Avante),0.02
+claude_sonnet5,clariana barao,18,39,0.46153846153846156,Clariana Barao (DC),0
+claude_sonnet5,ronaldo caiado,18,39,0.46153846153846156,Ronaldo Caiado (PSD),0.04
+claude_sonnet5,romeu zema,15,39,0.38461538461538464,Romeu Zema (Novo),0.02
+claude_sonnet5,edmilson costa,13,39,0.3333333333333333,Edmilson Costa (PCB),0
+claude_sonnet5,renan santos,12,39,0.3076923076923077,Renan Santos (Missao),0.04
+claude_sonnet5,samara martins,8,39,0.20512820512820512,Samara Martins (UP),0.01
+claude_sonnet5,hertz dias,6,39,0.15384615384615385,Hertz Dias (PSTU),0
+claude_sonnet5,rui costa pimenta,6,39,0.15384615384615385,Rui Costa Pimenta (PCO),0
+claude_sonnet5,leonardo avalanche,,,0,Leonardo Avalanche (PRTB),0
+claude_sonnet5,wilson grassi,,,0,Wilson Grassi (Democrata),0
+deepseek_v4_pro,luiz inacio lula da silva,82,83,0.9879518072289156,Lula (PT),0.38
+deepseek_v4_pro,romeu zema,80,83,0.963855421686747,Romeu Zema (Novo),0.02
+deepseek_v4_pro,ronaldo caiado,80,83,0.963855421686747,Ronaldo Caiado (PSD),0.04
+deepseek_v4_pro,flavio bolsonaro,74,83,0.891566265060241,Flavio Bolsonaro (PL),0.31
+deepseek_v4_pro,renan santos,64,83,0.7710843373493976,Renan Santos (Missao),0.04
+deepseek_v4_pro,augusto cury,50,83,0.6024096385542169,Augusto Cury (Avante),0.02
+deepseek_v4_pro,samara martins,46,83,0.5542168674698795,Samara Martins (UP),0.01
+deepseek_v4_pro,hertz dias,43,83,0.5180722891566265,Hertz Dias (PSTU),0
+deepseek_v4_pro,clariana barao,40,83,0.4819277108433735,Clariana Barao (DC),0
+deepseek_v4_pro,rui costa pimenta,40,83,0.4819277108433735,Rui Costa Pimenta (PCO),0
+deepseek_v4_pro,leonardo avalanche,39,83,0.46987951807228917,Leonardo Avalanche (PRTB),0
+deepseek_v4_pro,wilson grassi,37,83,0.4457831325301205,Wilson Grassi (Democrata),0
+deepseek_v4_pro,edmilson costa,17,83,0.20481927710843373,Edmilson Costa (PCB),0
+gemini_pro,romeu zema,21,24,0.875,Romeu Zema (Novo),0.02
+gemini_pro,ronaldo caiado,21,24,0.875,Ronaldo Caiado (PSD),0.04
+gemini_pro,luiz inacio lula da silva,9,24,0.375,Lula (PT),0.38
+gemini_pro,flavio bolsonaro,6,24,0.25,Flavio Bolsonaro (PL),0.31
+gemini_pro,renan santos,4,24,0.16666666666666666,Renan Santos (Missao),0.04
+gemini_pro,leonardo avalanche,3,24,0.125,Leonardo Avalanche (PRTB),0
+gemini_pro,augusto cury,2,24,0.08333333333333333,Augusto Cury (Avante),0.02
+gemini_pro,clariana barao,2,24,0.08333333333333333,Clariana Barao (DC),0
+gemini_pro,edmilson costa,2,24,0.08333333333333333,Edmilson Costa (PCB),0
+gemini_pro,rui costa pimenta,2,24,0.08333333333333333,Rui Costa Pimenta (PCO),0
+gemini_pro,samara martins,2,24,0.08333333333333333,Samara Martins (UP),0.01
+gemini_pro,wilson grassi,2,24,0.08333333333333333,Wilson Grassi (Democrata),0
+gemini_pro,hertz dias,1,24,0.041666666666666664,Hertz Dias (PSTU),0
+gpt4o,flavio bolsonaro,18,21,0.8571428571428571,Flavio Bolsonaro (PL),0.31
+gpt4o,romeu zema,18,21,0.8571428571428571,Romeu Zema (Novo),0.02
+gpt4o,ronaldo caiado,16,21,0.7619047619047619,Ronaldo Caiado (PSD),0.04
+gpt4o,luiz inacio lula da silva,15,21,0.7142857142857143,Lula (PT),0.38
+gpt4o,renan santos,12,21,0.5714285714285714,Renan Santos (Missao),0.04
+gpt4o,augusto cury,7,21,0.3333333333333333,Augusto Cury (Avante),0.02
+gpt4o,clariana barao,7,21,0.3333333333333333,Clariana Barao (DC),0
+gpt4o,hertz dias,7,21,0.3333333333333333,Hertz Dias (PSTU),0
+gpt4o,samara martins,7,21,0.3333333333333333,Samara Martins (UP),0.01
+gpt4o,leonardo avalanche,5,21,0.23809523809523808,Leonardo Avalanche (PRTB),0
+gpt4o,rui costa pimenta,5,21,0.23809523809523808,Rui Costa Pimenta (PCO),0
+gpt4o,wilson grassi,5,21,0.23809523809523808,Wilson Grassi (Democrata),0
+gpt4o,edmilson costa,,,0,Edmilson Costa (PCB),0
+gpt56_sol,edmilson costa,1,1,1,Edmilson Costa (PCB),0
+gpt56_sol,flavio bolsonaro,1,1,1,Flavio Bolsonaro (PL),0.31
+gpt56_sol,luiz inacio lula da silva,1,1,1,Lula (PT),0.38
+gpt56_sol,renan santos,1,1,1,Renan Santos (Missao),0.04
+gpt56_sol,romeu zema,1,1,1,Romeu Zema (Novo),0.02
+gpt56_sol,samara martins,1,1,1,Samara Martins (UP),0.01
+gpt56_sol,ronaldo caiado,,,0,Ronaldo Caiado (PSD),0.04
+gpt56_sol,augusto cury,,,0,Augusto Cury (Avante),0.02
+gpt56_sol,clariana barao,,,0,Clariana Barao (DC),0
+gpt56_sol,hertz dias,,,0,Hertz Dias (PSTU),0
+gpt56_sol,leonardo avalanche,,,0,Leonardo Avalanche (PRTB),0
+gpt56_sol,rui costa pimenta,,,0,Rui Costa Pimenta (PCO),0
+gpt56_sol,wilson grassi,,,0,Wilson Grassi (Democrata),0
+grok46,flavio bolsonaro,109,109,1,Flavio Bolsonaro (PL),0.31
+grok46,luiz inacio lula da silva,109,109,1,Lula (PT),0.38
+grok46,romeu zema,107,109,0.981651376146789,Romeu Zema (Novo),0.02
+grok46,ronaldo caiado,107,109,0.981651376146789,Ronaldo Caiado (PSD),0.04
+grok46,renan santos,96,109,0.8807339449541285,Renan Santos (Missao),0.04
+grok46,augusto cury,79,109,0.7247706422018348,Augusto Cury (Avante),0.02
+grok46,edmilson costa,7,109,0.06422018348623854,Edmilson Costa (PCB),0
+grok46,hertz dias,7,109,0.06422018348623854,Hertz Dias (PSTU),0
+grok46,clariana barao,1,109,0.009174311926605505,Clariana Barao (DC),0
+grok46,samara martins,1,109,0.009174311926605505,Samara Martins (UP),0.01
+grok46,leonardo avalanche,,,0,Leonardo Avalanche (PRTB),0
+grok46,rui costa pimenta,,,0,Rui Costa Pimenta (PCO),0
+grok46,wilson grassi,,,0,Wilson Grassi (Democrata),0
+llama_maverick,flavio bolsonaro,35,35,1,Flavio Bolsonaro (PL),0.31
+llama_maverick,luiz inacio lula da silva,34,35,0.9714285714285714,Lula (PT),0.38
+llama_maverick,romeu zema,34,35,0.9714285714285714,Romeu Zema (Novo),0.02
+llama_maverick,ronaldo caiado,30,35,0.8571428571428571,Ronaldo Caiado (PSD),0.04
+llama_maverick,renan santos,24,35,0.6857142857142857,Renan Santos (Missao),0.04
+llama_maverick,augusto cury,20,35,0.5714285714285714,Augusto Cury (Avante),0.02
+llama_maverick,samara martins,19,35,0.5428571428571428,Samara Martins (UP),0.01
+llama_maverick,rui costa pimenta,18,35,0.5142857142857142,Rui Costa Pimenta (PCO),0
+llama_maverick,hertz dias,17,35,0.4857142857142857,Hertz Dias (PSTU),0
+llama_maverick,clariana barao,14,35,0.4,Clariana Barao (DC),0
+llama_maverick,leonardo avalanche,14,35,0.4,Leonardo Avalanche (PRTB),0
+llama_maverick,wilson grassi,12,35,0.34285714285714286,Wilson Grassi (Democrata),0
+llama_maverick,edmilson costa,7,35,0.2,Edmilson Costa (PCB),0
+sabia4,luiz inacio lula da silva,81,86,0.9418604651162791,Lula (PT),0.38
+sabia4,ronaldo caiado,31,86,0.36046511627906974,Ronaldo Caiado (PSD),0.04
+sabia4,romeu zema,20,86,0.23255813953488372,Romeu Zema (Novo),0.02
+sabia4,flavio bolsonaro,10,86,0.11627906976744186,Flavio Bolsonaro (PL),0.31
+sabia4,augusto cury,3,86,0.03488372093023256,Augusto Cury (Avante),0.02
+sabia4,edmilson costa,3,86,0.03488372093023256,Edmilson Costa (PCB),0
+sabia4,clariana barao,2,86,0.023255813953488372,Clariana Barao (DC),0
+sabia4,hertz dias,2,86,0.023255813953488372,Hertz Dias (PSTU),0
+sabia4,leonardo avalanche,1,86,0.011627906976744186,Leonardo Avalanche (PRTB),0
+sabia4,renan santos,1,86,0.011627906976744186,Renan Santos (Missao),0.04
+sabia4,rui costa pimenta,1,86,0.011627906976744186,Rui Costa Pimenta (PCO),0
+sabia4,samara martins,,,0,Samara Martins (UP),0.01
+sabia4,wilson grassi,,,0,Wilson Grassi (Democrata),0

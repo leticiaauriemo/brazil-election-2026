@@ -1,0 +1,13 @@
+name,value
+wording_difference_pp,3.04717571255908
+wording_difference_min_pp,-5.514705882352939
+wording_difference_max_pp,21.158854166666668
+woman_difference_pp,-2.303662852405029
+woman_difference_se_pp,0.808131040803855
+regex_agreement_share,0.9581474315947408
+regex_kappa,0.3709577556199199
+unlabelled_share,0.016150178205514173
+web_lead_share_president,0.9886685552407932
+web_lead_share_deputy,0.68
+web_single_picks_president,706
+web_single_picks_deputy,75

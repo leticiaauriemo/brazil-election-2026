@@ -1,7 +1,7 @@
 side,domain,source_type,links,share
-Left profiles,tse.jus.br,"Official (TSE, Congress, government)",2279,0.2351666494685791
-Right profiles,tse.jus.br,"Official (TSE, Congress, government)",2045,0.20297766749379653
-Centre profiles,tse.jus.br,"Official (TSE, Congress, government)",1194,0.1799005574807895
+Left profiles,tse.jus.br,"Official (TSE, Congress, government)",2281,0.23537302651945105
+Right profiles,tse.jus.br,"Official (TSE, Congress, government)",2049,0.20337468982630272
+Centre profiles,tse.jus.br,"Official (TSE, Congress, government)",1195,0.18005122796444176
 Right profiles,divulgacandcontas.tse.jus.br,"Official (TSE, Congress, government)",561,0.05568238213399504
 Left profiles,divulgacandcontas.tse.jus.br,"Official (TSE, Congress, government)",420,0.04333918068310804
 Right profiles,dadosabertos.tse.jus.br,"Official (TSE, Congress, government)",422,0.04188585607940447
@@ -64,6 +64,3 @@ Centre profiles,static.poder360.com.br,Press and news,18,0.0027120687057405456
 Left profiles,congressoemfoco.com.br,Press and news,21,0.002166959034155402
 Left profiles,static.poder360.com.br,Press and news,12,0.0012382623052316583
 Right profiles,sbtnews.sbt.com.br,Press and news,5,4.962779156327543e-4
-Right profiles,tse.jus.br,TSE pages about the AI rule,4,3.970223325062035e-4
-Left profiles,tse.jus.br,TSE pages about the AI rule,2,2.0637705087194304e-4
-Centre profiles,tse.jus.br,TSE pages about the AI rule,1,1.5067048365225252e-4

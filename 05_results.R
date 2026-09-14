@@ -514,7 +514,9 @@ write_table(citations %>%
   ungroup(), "web_cited_domains")
 # Which outlets feed the answer depends on the voter's side. Every domain with at least
 # 80 links across all profiles, as a share of the side's links.
+# By domain the rule pages are a sliver of tse.jus.br, so the domain keeps its own class.
 domains <- citations %>%
+  mutate(source_type = classify_domain(domain)) %>%
   count(side, domain, source_type, name = "links") %>%
   group_by(side) %>%
   mutate(share = links / sum(links)) %>%

@@ -188,12 +188,12 @@ bench <- read_table("benchmark_comparison") %>%
   ) %>%
   mutate(series = factor(
     recode(series,
-      benchmark = "Poll or election result",
+      benchmark = "Genial/Quaest poll, 10-13 August 2026",
       models_equal = "AI recommendations, models weighted equally",
       advice_weighted = "AI recommendations, models weighted by how often they name one"
     ),
     c(
-      "Poll or election result",
+      "Genial/Quaest poll, 10-13 August 2026",
       "AI recommendations, models weighted equally",
       "AI recommendations, models weighted by how often they name one"
     )

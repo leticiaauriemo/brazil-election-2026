@@ -1,10 +1,7 @@
 # Raw inputs and heavy intermediates stay local; see README.
 data/
 output/derived/
-archive/data/
-archive/output/
-archive/round_2026-08-14/results/
-archive/current_full_2026-09-12/output/derived/
+archive/
 *.zip
 # housekeeping
 .env

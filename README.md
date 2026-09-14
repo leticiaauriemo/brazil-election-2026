@@ -21,7 +21,6 @@ inputs under `data/` as described in `appendix/appendix.pdf` and run `./run.sh` 
 | `reference/` | Coding sample identifiers, codebook, name aliases, benchmarks, population shares |
 | `output/tables/`, `output/figures/` | Results, committed |
 | `appendix/` | The appendix to the post: prompts, profiles, models, coding rules, computation |
-| `archive/` | Earlier pipeline, explorations and drafts, kept for reference; its data and outputs are gitignored |
 
 Definitions in one line: *advice* is an answer that settles on one candidate; *any personalized steering* also counts
 shortlists, party-only recommendations and steering away; rates average collection days within a prompt, prompts

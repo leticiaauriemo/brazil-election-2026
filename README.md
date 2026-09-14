@@ -6,7 +6,7 @@ by Ranqia). Six R scripts take the raw model answers to the figures in the post.
 
 **The raw data are not in this repository.** `data/` (the API responses, Ranqia's ChatGPT-web export and the
 GPT-5 mini labels, about 1.5 GB) is gitignored, and so is `output/derived/responses_web.parquet`, the cleaned text
-of the 947,190 ChatGPT-web captures, which is Ranqia's to share. The other derived files are committed (about
+of the 947,190 ChatGPT-web captures. The other derived files are committed (about
 40 MB): the labelled coding sample with its outcomes (`sample.parquet`), the people and parties each answer
 recommends (`entities.parquet`), the API answers, and the web captures' metadata, links, search queries and
 rule-page retrievals. From those, `05_results.R` and `06_figures.R` reproduce every table and figure; only the

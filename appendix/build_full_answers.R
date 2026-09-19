@@ -37,7 +37,8 @@ answers <- bind_rows(
   read_parquet(derived("responses_api"), col_select = c("source", "response_id", "body", "question", "answer")),
   read_parquet(derived("responses_web"), col_select = c("source", "response_id", "body", "question", "answer"))
 ) %>%
-  inner_join(quoted, by = c("source", "response_id"))
+  inner_join(quoted, by = c("source", "response_id")) %>%
+  arrange(match(response_id, quoted$response_id))
 stopifnot(nrow(answers) == nrow(quoted))
 
 # Plain text for LaTeX: drop markdown marks, the interface's source chips ("F Folha de

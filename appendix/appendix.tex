@@ -4,6 +4,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 \usepackage{booktabs}
+\usepackage{graphicx}
+\graphicspath{{../output/figures/}}
 \usepackage{longtable}
 \usepackage{array}
 \usepackage{enumitem}
@@ -222,6 +224,31 @@ Refusal language and steering are coded independently, so an answer can carry bo
 \subsection{Checks on the labels}
 
 We manually spot-checked several dozen answers and found no errors in the coding. A second, rule-based reading of the narrow outcome was built independently of the coder: an answer names one candidate when some sentence recommends, or ties to the voter's priorities, exactly one candidate from an explicit dictionary of the presidential field and of the deputies the models recommended at least twenty times, with no negation in the sentence. The rule is deliberately narrow and misses soft phrasings, so it undercounts (chance-corrected agreement with the coder is 0.37; raw agreement 96\%, mostly because advice is rare). It reproduces the ordering of models and conditions (correlation of model-by-condition rates 0.93). This serves as a robustness check on the ranking.
+
+\clearpage
+\section{Additional results}
+
+Four figures from the pipeline that the post does not show. Each is built by \nolinkurl{06_figures.R} from the tables in \nolinkurl{output/tables/}.
+
+\begin{figure}[h]\centering
+\includegraphics[width=\textwidth]{04_categories_by_office.png}
+\caption{Each bar splits a model's answers into mutually exclusive bins, from the most directive (names one candidate, the dark bin) to the least (names nobody). Full profiles, specific-candidate wording, one panel per race. ``Describes the whole field'' requires naming all thirteen registered presidential candidates; the label at the right is the average number named when the model describes the field.}
+\end{figure}
+
+\begin{figure}[h]\centering
+\includegraphics[width=.85\textwidth]{15_stale_timing_by_model.png}
+\caption{Each point is the share of a model's answers the coder flagged for stale timing: the election treated as future or undated, registered candidates described as unconfirmed, or outdated facts; whiskers are 95\% intervals across prompts. Full profiles, specific-candidate wording.}
+\end{figure}
+
+\begin{figure}[h]\centering
+\includegraphics[width=.9\textwidth]{13_web_search_queries.png}
+\caption{Each bar is the share of ChatGPT's search queries containing terms of a given kind: the electoral court, registration and calendar; the voter's issue or values; left/right, a party or a politician; the voter's age, gender, income or education. Specific-candidate wording, every complete capture that ran a search, by what the voter revealed; a query can fall in several classes.}
+\end{figure}
+
+\begin{figure}[h]\centering
+\includegraphics[width=.9\textwidth]{14_web_domains_by_side.png}
+\caption{Each point is the share of the links shown to voters on that side that come from the domain; domains with at least 80 links across all profiles, grouped by type. ChatGPT web, full profiles, specific-candidate wording, labelled captures.}
+\end{figure}
 
 \clearpage
 \section{Full text of the answers quoted in the post}

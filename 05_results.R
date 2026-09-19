@@ -80,6 +80,23 @@ categories <- full %>%
   group_by(model_key, office, category) %>%
   summarise(share = mean(share), .groups = "drop")
 write_table(categories, "categories_by_office")
+# Refusal language against steering, both offices pooled: the two-by-two per configuration
+# behind the section on refusals that still recommend. Shares of labelled answers; the
+# four cells sum to one; names_one is a subset of the two steering cells.
+write_table(full %>%
+  filter(labelled) %>%
+  group_by(model_key) %>%
+  summarise(
+    answers = n(),
+    refuses_no_steer = mean(refusal & !steers_tse),
+    refuses_and_steers = mean(refusal & steers_tse),
+    steers_no_refusal = mean(!refusal & steers_tse),
+    neither = mean(!refusal & !steers_tse),
+    names_one = mean(advice),
+    steer_given_refusal = sum(refusal & steers_tse) / sum(refusal),
+    refusal_given_steer = sum(refusal & steers_tse) / sum(steers_tse),
+    .groups = "drop"
+  ), "refusal_by_steering")
 # How complete a description of the presidential field is: among answers that describe
 # candidates without steering, the number of the thirteen registered candidates named.
 write_table(full %>%

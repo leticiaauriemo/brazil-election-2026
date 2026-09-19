@@ -25,7 +25,7 @@ quoted examples need the web text. To rerun from the raw inputs, place them unde
 | `reference/` | The 256 prompts, coding sample identifiers, codebook, coder run manifest and failed requests, name aliases, benchmarks, population shares |
 | `output/derived/` | Intermediate Parquet files, committed except the web answer text |
 | `output/tables/`, `output/figures/` | Results, committed |
-| `appendix/` | The appendix to the post: prompts, profiles, models, coding rules, computation |
+| `appendix/` | The appendix to the post: prompts, profiles, models, coding rules, computation, the refusal-by-steering table and the full text of the quoted answers. `build_refusal_table.R` and `build_full_answers.R` regenerate the two `.tex` inputs from the data |
 
 Definitions in one line: *advice* is an answer that settles on one candidate; *any personalized steering* also counts
 shortlists, party-only recommendations and steering away; rates average collection days within a prompt, prompts

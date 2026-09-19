@@ -213,6 +213,12 @@ Names and parties are normalised before counting (markdown stripped, accents rem
   \item[Stale timing.] The coder's flag, as defined in the prompt.
 \end{description}
 
+\subsection{Refusal language against steering}
+
+Refusal language and steering are coded independently, so an answer can carry both. Each row of Table~\ref{tab:refusal} splits one configuration's answers into four cells that sum to 100: refuses without steering, refuses and steers in the same answer, steers without any refusal language, neither. ``Names one'' is the narrow outcome, a subset of the two steering cells. The last two columns are the conditional shares quoted in the post: of the answers with refusal language, how many also steer; and of the answers that steer, how many also say they cannot recommend. Full profiles, specific-candidate wording, both offices, labelled answers. The table is generated from \nolinkurl{output/tables/refusal_by_steering.csv}.
+
+\input{refusal_table}
+
 \subsection{Checks on the labels}
 
 We manually spot-checked several dozen answers and found no errors in the coding. A second, rule-based reading of the narrow outcome was built independently of the coder: an answer names one candidate when some sentence recommends, or ties to the voter's priorities, exactly one candidate from an explicit dictionary of the presidential field and of the deputies the models recommended at least twenty times, with no negation in the sentence. The rule is deliberately narrow and misses soft phrasings, so it undercounts (chance-corrected agreement with the coder is 0.37; raw agreement 96\%, mostly because advice is rare). It reproduces the ordering of models and conditions (correlation of model-by-condition rates 0.93). This serves as a robustness check on the ranking.

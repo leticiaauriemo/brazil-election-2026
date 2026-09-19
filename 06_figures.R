@@ -171,56 +171,6 @@ p <- ggplot(sizes, aes(field_named, share)) +
   )
 save_figure("05_field_listing_size", p, 12, 7)
 
-# 6. Recommendations next to the polls and the last result -----------------------------
-# President only: few answers name a single deputy, so deputy shares rest on a handful.
-bench <- read_table("benchmark_comparison") %>%
-  filter(office == "president") %>%
-  filter(!is.na(benchmark) | models_equal >= .02 | advice_weighted >= .02) %>%
-  mutate(
-    benchmark = replace_na(benchmark, 0),
-    race = recode(office,
-      president = "President: Genial/Quaest, 10-13 Aug 2026",
-      federal_deputy = "Federal deputy, SP: 2022 seat share"
-    )
-  ) %>%
-  pivot_longer(
-    c(benchmark, models_equal, advice_weighted), names_to = "series", values_to = "value"
-  ) %>%
-  mutate(series = factor(
-    recode(series,
-      benchmark = "Genial/Quaest poll, 10-13 August 2026",
-      models_equal = "AI recommendations, models weighted equally",
-      advice_weighted = "AI recommendations, models weighted by how often they name one"
-    ),
-    c(
-      "Genial/Quaest poll, 10-13 August 2026",
-      "AI recommendations, models weighted equally",
-      "AI recommendations, models weighted by how often they name one"
-    )
-  ))
-# Configurations weighted equally; the advice-weighted alternative lives in the archive.
-benchmark_plot <- function(d, colors, shapes) {
-  d %>%
-    group_by(race) %>%
-    mutate(label = reorder(label, value, FUN = max)) %>%
-    ungroup() %>%
-    ggplot(aes(value, label, color = series, shape = series)) +
-    geom_point(size = 2.4, position = position_dodge(width = .5)) +
-    facet_wrap(~race) +
-    scale_x_continuous(labels = pct) +
-    scale_color_manual(values = colors) +
-    scale_shape_manual(values = shapes) +
-    labs(
-      x = NULL, y = NULL
-    ) +
-    guides(color = guide_legend(nrow = 3))
-}
-p <- benchmark_plot(
-  bench %>% filter(series != "AI recommendations, models weighted by how often they name one"),
-  unname(palette[c("gold", "navy")]), c(16, 16)
-)
-save_figure("06_recommendations_vs_benchmarks", p, 12, 6.5)
-
 # 7 (president) and 8 (deputy). Who gets recommended, by full profile and configuration,
 # among answers that name one candidate. For deputies the option is the picked candidate's
 # party. A system that rarely names anyone is not blank; its naming rate is printed at the

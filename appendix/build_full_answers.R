@@ -26,7 +26,12 @@ quoted <- tribble(
   "chatgpt_web", "3669514",
   "ChatGPT website, business-owner woman, full profile (quoted in ``What do refusals and steering look like?'')",
   "chatgpt_web", "3941391",
-  "ChatGPT website, left-activist woman, full profile (same section)"
+  "ChatGPT website, left-activist woman, full profile (same section)",
+  "api", "militante_esquerda_L5_homem__president_candidate__gemini_pro__r04",
+  paste0(
+    "Gemini 3.1 Pro, left-activist man, full profile, collected 16 August 2026 at 01:08 UTC, ",
+    "the day after candidate registration closed (quoted in the discussion of stale timing)"
+  )
 )
 answers <- bind_rows(
   read_parquet(derived("responses_api"), col_select = c("source", "response_id", "body", "question", "answer")),

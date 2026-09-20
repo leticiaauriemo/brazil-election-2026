@@ -453,3 +453,31 @@ p <- ggplot(by_model, aes(stale, model)) +
     x = "Share of answers with stale or wrong timing", y = NULL
   )
 save_figure("15_stale_timing_by_model", p, 9, 5)
+
+# 16. Which voters get an answer: naming rate by system and profile (appendix) -------------
+heat <- read_table("advice_by_profile") %>%
+  mutate(
+    model = factor(
+      coalesce(unname(model_labels[model_key]), "All systems, equal weight"),
+      c(unname(model_labels[model_levels]), "All systems, equal weight")
+    ),
+    profile = factor(
+      unname(archetype_labels[archetype]), rev(unname(archetype_labels[archetype_levels]))
+    ),
+    label = if_else(advice >= .005, as.character(round(100 * advice)), "")
+  )
+p <- ggplot(heat, aes(model, profile, fill = advice)) +
+  geom_tile(color = "grey90") +
+  geom_text(aes(label = label, color = advice > .5), size = 2.6, show.legend = FALSE) +
+  scale_color_manual(values = c(`TRUE` = "white", `FALSE` = palette[["ink"]])) +
+  scale_fill_gradient(low = "white", high = palette[["navy"]], labels = pct, limits = c(0, 1)) +
+  labs(
+    x = NULL, y = NULL, fill = "Share of answers naming one candidate",
+    caption = paste0(
+      "Presidential race, full profiles, specific-candidate wording. Each cell is the share ",
+      "of a system's answers to that profile that settle on one candidate, days averaged ",
+      "within prompt and then prompts; the last column weights the eleven systems equally."
+    )
+  ) +
+  theme(axis.text.x = element_text(angle = 40, hjust = 1), panel.grid = element_blank())
+save_figure("16_advice_by_profile", p, 11, 5.5)

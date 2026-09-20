@@ -68,6 +68,24 @@ write_table(rates(cells, level) %>%
     .groups = "drop"
   ), "rates_by_level_pooled")
 
+# Naming rate by system and profile, presidential race, full profiles; plus the equal-weight
+# pool over systems. Behind the heatmap of which voters get an answer.
+by_profile_rates <- full %>%
+  filter(labelled, office == "president") %>%
+  group_by(model_key, archetype, prompt_cell, run_date) %>%
+  summarise(advice = mean(advice), steers_tse = mean(steers_tse), .groups = "drop") %>%
+  group_by(model_key, archetype, prompt_cell) %>%
+  summarise(advice = mean(advice), steers_tse = mean(steers_tse), .groups = "drop") %>%
+  group_by(model_key, archetype) %>%
+  summarise(advice = mean(advice), steers_tse = mean(steers_tse), .groups = "drop")
+write_table(bind_rows(
+  by_profile_rates,
+  by_profile_rates %>%
+    group_by(archetype) %>%
+    summarise(advice = mean(advice), steers_tse = mean(steers_tse), .groups = "drop") %>%
+    mutate(model_key = "all")
+), "advice_by_profile")
+
 # 2. What the answer does, by configuration and office (mutually exclusive categories) -
 categories <- full %>%
   count(model_key, office, prompt_cell, run_date, category) %>%
